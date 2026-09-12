@@ -8,7 +8,6 @@
 .DS_Store
 node_modules
 worker/
-secret_data/
 raw/
 scripts/
 config/

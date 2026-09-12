@@ -1,1 +1,0 @@
-每次版本更新搬遷文本後run python scripts/build_i18n.py --strings tw=scripts/lang/tw.strings cn=scripts/lang/cn.strings en=scripts/lang/en.strings
