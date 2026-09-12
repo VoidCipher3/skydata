@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sky 每日任務追蹤</title>
-    <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》每日任務追蹤站，每天15:00 GMT+8自動更新今日／明日任務與蠟燭資訊，支援繁體中文、简体中文、English，並提供歷史紀錄查詢。">
-    <meta property="og:title" content="Sky 每日任務追蹤">
-    <meta property="og:description" content="每天15:00 GMT+8自動更新的《光·遇》每日任務、蠟燭資訊與歷史紀錄查詢。">
+    <title>Sky 工具站</title>
+    <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》社群工具集合：每日任務追蹤、禮包與商店資訊，支援繁體中文、简体中文、English。">
+    <meta property="og:title" content="Sky 工具站">
+    <meta property="og:description" content="非官方《光·遇》社群工具：每日任務、禮包、商店資訊。">
     <meta property="og:type" content="website">
     <style>
         :root {
@@ -28,439 +28,148 @@
             align-items: center;
             min-height: 100vh;
         }
-        .status { font-size: 0.85rem; color: #f52f0c; }
+        .container { width: 100%; max-width: 1000px; }
 
-        /* 容器變寬以容納橫向排列 */
-        .container { width: 100%; max-width: 1200px; }
-
-        /* 介紹區塊 */
         .intro-card {
-            background: var(--card-bg); border-radius: 16px; padding: 18px 22px; margin-bottom: 20px;
+            background: var(--card-bg); border-radius: 16px; padding: 22px 24px; margin-bottom: 20px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--btn-active);
-            width: 100%; box-sizing: border-box;
+            box-sizing: border-box;
         }
-        .intro-card h1 { font-size: 1.15rem; margin: 0 0 8px 0; color: var(--btn-active); }
-        .intro-card p { margin: 0 0 6px 0; font-size: 0.9rem; line-height: 1.5; }
-        .intro-card p:last-child { margin-bottom: 0; }
-        .intro-meta { font-size: 0.8rem; color: #7f8c8d; }
-        .intro-meta a { color: var(--btn-active); }
+        .intro-card h1 { font-size: 1.4rem; margin: 0 0 8px 0; color: var(--btn-active); }
+        .intro-card p { margin: 0; font-size: 0.95rem; line-height: 1.5; }
 
-        .top-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
-        .lang-switch { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
-        .lang-btn {
-            background: white; border: 2px solid var(--primary); color: var(--primary);
-            padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
-        }
-        .lang-btn.active { background: var(--primary); color: white; }
-
-        .refresh-btn {
-            background: white; border: 2px solid #e67e22; color: #e67e22;
-            padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
-        }
-        .refresh-btn:hover { background: #e67e22; color: white; }
-        .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
-
-        /* 卡片包裝器 (Flex Row) */
-        .cards-wrapper {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap; /* 手機自動換行 */
-            align-items: flex-start;
-        }
-
-        /* 卡片樣式調整為彈性寬度 */
-        .card {
-            background: var(--card-bg); border-radius: 16px; padding: 20px; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--primary);
-            flex: 1 1 300px; /* 寬度彈性，最小300px */
-            min-width: 280px;
-        }
-        .card.tomorrow { border-left-color: var(--accent); }
-        .card.history { border-left-color: #95a5a6; }
-        
-        h2 { margin-top: 0; font-size: 1.2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 5px;}
-        .date-badge { font-size: 0.8rem; background: #f0f3f4; padding: 4px 8px; border-radius: 12px; color: #7f8c8d; }
-        
-        ul { list-style: none; padding: 0; margin: 0; }
-        li { padding: 10px 0; border-bottom: 1px solid #f0f3f4; display: flex; align-items: center; flex-wrap: wrap; }
-        li::before { content: "✦"; color: var(--primary); margin-right: 10px; }
-        .tomorrow li::before { color: var(--accent); }
-        .history li::before { color: #95a5a6; }
-
-        /* 蠟燭與圖片樣式 */
-        .candle-header { font-size: 0.9em; color: #e67e22; font-weight: bold; margin-bottom: 5px; margin-top: 15px; }
-        .candle-list { color: #d35400; }
-        .candle-list li::before { content: "🔥"; color: #e67e22; }
-        .candle-img {
-            width: 100%; max-width: 100%; height: auto;
-            border-radius: 8px; margin-top: 5px; display: block; border: 1px solid #eee;
-        }
-        
-        /* 異常警告 */
-        .abnormal-alert {
-            background-color: #ffe6e6; color: #c0392b; padding: 10px;
-            border-radius: 8px; margin-bottom: 15px; border: 1px solid #e74c3c;
-            display: none; font-size: 0.9rem; width: 100%; box-sizing: border-box;
-        }
-        
-        .history-controls { display: flex; gap: 10px; margin-bottom: 15px; }
-        input[type="date"] { padding: 8px; border-radius: 8px; border: 1px solid #ccc; flex-grow: 1; }
-        button.search-btn { padding: 8px 15px; background: #95a5a6; color: white; border: none; border-radius: 8px; cursor: pointer; white-space: nowrap;}
-        
-        .footer { text-align:center; color:#ff0000; font-size:0.8rem; margin-top:20px; width: 100%; }
+        .top-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
         .nav, .lang-switch { display: flex; gap: 10px; flex-wrap: wrap; }
-
         .nav a, .lang-btn {
-        background: #fff; border: 2px solid var(--primary); color: var(--primary);
-        padding: 8px 16px; border-radius: 20px; cursor: pointer;
-        font-weight: bold; font-size: .9rem; text-decoration: none;
-        transition: background .2s, color .2s;
+            background: #fff; border: 2px solid var(--primary); color: var(--primary);
+            padding: 8px 16px; border-radius: 20px; cursor: pointer;
+            font-weight: bold; font-size: .9rem; text-decoration: none;
+            transition: background .2s, color .2s;
         }
         .nav a:hover, .lang-btn:hover { background: var(--primary); color: #fff; }
         .nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: #fff; }
+
+        .hub-grid {
+            display: flex; gap: 20px; flex-wrap: wrap; align-items: stretch;
+        }
+        .hub-card {
+            display: flex; flex-direction: column;
+            background: var(--card-bg); border-radius: 16px; padding: 22px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--primary);
+            flex: 1 1 260px; min-width: 240px;
+            text-decoration: none; color: var(--text);
+            transition: transform .15s, box-shadow .15s;
+        }
+        .hub-card:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,0.1); }
+        .hub-card.iap { border-left-color: var(--accent); }
+        .hub-card.shop { border-left-color: #95a5a6; }
+        .hub-icon { font-size: 2rem; margin-bottom: 10px; }
+        .hub-name { font-size: 1.15rem; font-weight: bold; margin-bottom: 8px; color: var(--btn-active); }
+        .hub-card.iap .hub-name { color: #c9990f; }
+        .hub-card.shop .hub-name { color: #7f8c8d; }
+        .hub-desc { font-size: 0.9rem; line-height: 1.5; }
+
+        .footer { text-align: center; color: #7f8c8d; font-size: 0.8rem; margin-top: 28px; }
     </style>
 </head>
 <body>
-
     <div class="container">
-        <div id="abnormal-msg" class="abnormal-alert">
-            ⚠️ 檢測到數據異常：前端預測與後端 API 不符，請等待修復。<br>
-            <span id="abnormal-detail" style="font-size: 0.8em; font-weight: normal;"></span>
-        </div>
-
         <div class="intro-card">
-            <h1 class="lbl-intro-title">Sky 每日任務追蹤</h1>
-            <p class="lbl-intro-body">這是一個非官方的《Sky: Children of the Light（光‧遇）》每日任務小工具，每天15:00 GMT+8自動抓取今日／明日任務與蠟燭資訊，並保存歷史紀錄供查詢。資料為社群整理，如與遊戲內容有落差請以遊戲公告為準。</p>
-            <p class="intro-meta">Powered by GitHub Actions + Cloudflare Worker · <a href="https://github.com/voidcipher3/skydata" target="_blank" rel="noopener">GitHub</a></p>
+            <h1 data-i18n="title">Sky 工具站</h1>
+            <p data-i18n="tagline">《Sky: Children of the Light（光‧遇）》非官方社群工具集合。</p>
         </div>
 
         <div class="top-actions">
             <nav class="nav">
-                <a href="index.html" aria-current="page"  data-i18n="navQuest">每日任務</a>
+                <a href="index.html" aria-current="page" data-i18n="navHome">首頁</a>
+                <a href="quest.html" data-i18n="navQuest">每日任務</a>
                 <a href="iap.html" data-i18n="navIap">禮包</a>
                 <a href="shop.html" data-i18n="navShop">商店</a>
             </nav>
             <div class="lang-switch">
-                <button class="lang-btn active" onclick="setLang('tw')">繁體</button>
-                <button class="lang-btn" onclick="setLang('cn')">简体</button>
-                <button class="lang-btn" onclick="setLang('en')">English</button>
+                <button class="lang-btn" data-lang="tw">繁體</button>
+                <button class="lang-btn" data-lang="cn">简体</button>
+                <button class="lang-btn" data-lang="en">English</button>
             </div>
-            <button class="refresh-btn lbl-refresh" onclick="manualRefresh()">🔄 手動刷新</button>
         </div>
-        
-        <div id="loading" style="text-align: center;">Loading...</div>
 
-        <div id="content" style="display: none;">
-            <div class="cards-wrapper">
-                
-                <div class="card">
-                    <h2><span class="lbl-today">今日任務</span> <span class="date-badge" id="date-today"></span></h2>
-                    <ul id="list-today"></ul>
-                    <hr style="border: 0; border-top: 1px dashed #ddd; margin: 15px 0;">
-                    <div class="candle-header">🔥 蠟燭 / Candles</div>
-                    <ul id="candles-today" class="candle-list"></ul>
-                </div>
-
-                <div class="card tomorrow">
-                    <h2><span class="lbl-tmr">明日預告</span> <span class="date-badge" id="date-tmr"></span></h2>
-                    <ul id="list-tmr"></ul>
-                    <hr style="border: 0; border-top: 1px dashed #ddd; margin: 15px 0;">
-                    <div class="candle-header">🔥 蠟燭 / Candles</div>
-                    <ul id="candles-tmr" class="candle-list"></ul>
-                </div>
-
-                <div class="card history">
-                    <h2><span class="lbl-history">歷史查詢</span></h2>
-                    <div class="history-controls">
-                        <input type="date" id="history-picker">
-                        <button class="search-btn" onclick="searchHistory()">GO</button>
-                    </div>
-                    <div id="history-result" style="display:none;">
-                        <span class="date-badge" id="date-history" style="display:block; margin-bottom:10px;"></span>
-                        <ul id="list-history"></ul>
-                    </div>
-                    <div id="history-error" style="color: #e74c3c; display:none; font-size: 0.9rem;"></div>
-                </div>
-
-            </div> <div class="footer">Updated: <span id="update-time"></span></div>
+        <div class="hub-grid">
+            <a class="hub-card quest" href="quest.html">
+                <div class="hub-icon">📅</div>
+                <div class="hub-name" data-i18n="questName">每日任務</div>
+                <div class="hub-desc" data-i18n="questDesc">今日／明日任務與蠟燭資訊，附歷史查詢。</div>
+            </a>
+            <a class="hub-card iap" href="iap.html">
+                <div class="hub-icon">🎁</div>
+                <div class="hub-name" data-i18n="iapName">禮包</div>
+                <div class="hub-desc" data-i18n="iapDesc">當期與常駐禮包的內容、定價與上架狀態。</div>
+            </a>
+            <a class="hub-card shop" href="shop.html">
+                <div class="hub-icon">🛒</div>
+                <div class="hub-name" data-i18n="shopName">商店</div>
+                <div class="hub-desc" data-i18n="shopDesc">魔法商店等 generic 商店的商品、幣別與重置時刻。</div>
+            </a>
         </div>
+
+        <div class="footer" data-i18n="footer">非官方社群工具，如與遊戲內容有落差請以遊戲公告為準。</div>
     </div>
 
     <script>
-        let fullData = null;
-        let currentLang = localStorage.getItem('sky_lang') || 'tw';
-
-        // 部署 worker 後把網址貼在這裡，例如 "https://skyquest.<subdomain>.workers.dev"
-        // 空字串代表手動刷新功能還沒上線，按鈕會提示尚未啟用。
-        const REFRESH_ENDPOINT = "https://skyquest.adam105195.workers.dev/";
-
-        // --- 設定輪替參數 (請修改這個日期為你知道的某一天) ---
-        // 這裡追蹤的是「每日大蠟燭」的 5 國度輪替，跟季蠟（季節蠟燭）是兩套獨立機制，不要混用。
-        // 確認資料：遊戲日 2026-07-22 15:00 ~ 2026-07-23 15:00 (GMT+8) 大蠟燭在「雨林 (Forest)」
-        // （同一天季蠟在雲野，但季蠟不影響這個輪替判斷）
-        // 遊戲每日重置時間是 15:00 (GMT+8)，所以錨點時間對齊 15:00，不是 00:00。
-        const ROTATION_START_DATE = new Date("2026-07-23T15:00:00+08:00");
-        const ROTATION_REALMS = ['Forest', 'Valley', 'Wasteland', 'Vault', 'Prairie'];
-        
-        // 地圖名稱對照表
-        const REALM_MAP_CN_TO_KEY = {
-            "雲野": "Prairie", "云野": "Prairie", "Prairie": "Prairie",
-            "雨林": "Forest", "雨林": "Forest", "Forest": "Forest",
-            "霞谷": "Valley", "霞谷": "Valley", "Valley": "Valley",
-            "暮土": "Wasteland", "暮土": "Wasteland", "Wasteland": "Wasteland",
-            "禁閣": "Vault", "禁阁": "Vault", "Vault": "Vault",
-            "晨島": "Isle", "晨岛": "Isle", "Isle": "Isle"
+        // 純靜態文案，全部走 textContent —— 沒有任何遠端資料進 DOM，天生無資料型 XSS。
+        const I18N = {
+            tw: {
+                title: 'Sky 工具站',
+                tagline: '《Sky: Children of the Light（光‧遇）》非官方社群工具集合。',
+                navHome: '首頁', navQuest: '每日任務', navIap: '禮包', navShop: '商店',
+                questName: '每日任務', questDesc: '今日／明日任務與蠟燭資訊，附歷史查詢。',
+                iapName: '禮包', iapDesc: '當期與常駐禮包的內容、定價與上架狀態。',
+                shopName: '商店', shopDesc: '魔法商店等 generic 商店的商品、幣別與重置時刻。',
+                footer: '非官方社群工具，如與遊戲內容有落差請以遊戲公告為準。'
+            },
+            cn: {
+                title: 'Sky 工具站',
+                tagline: '《Sky: Children of the Light（光·遇）》非官方社区工具合集。',
+                navHome: '首页', navQuest: '每日任务', navIap: '礼包', navShop: '商店',
+                questName: '每日任务', questDesc: '今日／明日任务与蜡烛资讯，附历史查询。',
+                iapName: '礼包', iapDesc: '当期与常驻礼包的内容、定价与上架状态。',
+                shopName: '商店', shopDesc: '魔法商店等 generic 商店的商品、币种与重置时刻。',
+                footer: '非官方社区工具，如与游戏内容有出入请以游戏公告为准。'
+            },
+            en: {
+                title: 'Sky Tools',
+                tagline: 'Unofficial community tools for Sky: Children of the Light.',
+                navHome: 'Home', navQuest: 'Daily quests', navIap: 'Bundles', navShop: 'Shops',
+                questName: 'Daily quests', questDesc: "Today / tomorrow quests & candles, with a searchable history.",
+                iapName: 'Bundles', iapDesc: 'Contents, pricing and availability of current & permanent bundles.',
+                shopName: 'Shops', shopDesc: 'Generic shop items, currencies and reset times.',
+                footer: 'Unofficial community tools — treat in-game announcements as the source of truth.'
+            }
         };
 
-        // 初始化
-        document.getElementById('history-picker').valueAsDate = new Date(); 
-
-        // 讀取資料
-        fetch('data.json?t=' + new Date().getTime())
-            .then(res => res.json())
-            .then(data => {
-                fullData = data;
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('content').style.display = 'block';
-                document.getElementById('update-time').innerText = data.updated_at;
-                
-                checkAbnormal(data); // 執行異常檢查
-                setLang(currentLang);
-            })
-            .catch(err => document.getElementById('loading').innerText = "Load Failed");
-
-        // --- 圖片路徑邏輯 ---
-        function getCandleImageHtml(candleText) {
-            let folder = "";
-            let filename = "";
-            let realm = "";
-            
-            for (const [name, key] of Object.entries(REALM_MAP_CN_TO_KEY)) {
-                if (candleText.includes(name)) { realm = key; break; }
-            }
-            if (!realm) return ""; 
-
-            if (candleText.includes("大蠟") || candleText.includes("大蜡") || candleText.includes("Treasure")) {
-                folder = "image/candle";
-                const match = candleText.match(/\((\d+)\)/);
-                const idx = match ? match[1] : "1";
-                filename = `${realm}_${idx}.png`; 
-            } else if (candleText.includes("季蠟") || candleText.includes("季蜡") || candleText.includes("Season")) {
-                folder = "image/season_candle";
-                
-                const matchGroup = candleText.match(/([a-zA-Z])組/) || candleText.match(/Season\s+([a-zA-Z])/i); 
-                const group = matchGroup ? matchGroup[1].toLowerCase() : "a"; // 預設 a
-                const matchIndex = candleText.match(/-(\d+)/);
-                const idx = matchIndex ? matchIndex[1] : "1"; // 預設 1
-
-                // e.g.: prairie_a_1.png
-                filename = `${realm}_${group}_${idx}.png`;  
-            }
-
-            if (folder && filename) {
-                return `<img src="${folder}/${filename}" class="candle-img" onerror="this.style.display='none'">`;
-            }
-            return "";
-        }
-
-        // --- 異常檢測 ---
-        function checkAbnormal(data) {
-            try {
-                if(!data.tw) return;
-                // date_today 本身就是用伺服器 GMT-7 午夜（= GMT+8 15:00）換算出來的遊戲日日期，
-                // 所以這裡要對齊用 T15:00:00+08:00，才會跟 ROTATION_START_DATE 的錨點時間一致。
-                const todayDate = new Date(data.tw.date_today + "T15:00:00+08:00");
-                const diffDays = Math.floor((todayDate - ROTATION_START_DATE) / (1000 * 60 * 60 * 24));
-                const predictedRealm = ROTATION_REALMS[diffDays % 5];
-                
-                const realCandles = data.tw.candles_today;
-                let apiRealmKey = "";
-
-                if (realCandles && realCandles.length > 0) {
-                    for (const [name, key] of Object.entries(REALM_MAP_CN_TO_KEY)) {
-                        if (realCandles[0].includes(name)) { apiRealmKey = key; break; }
-                    }
-                }
-
-                if (apiRealmKey && apiRealmKey !== predictedRealm) {
-                    const msg = document.getElementById('abnormal-msg');
-                    const detail = document.getElementById('abnormal-detail');
-                    msg.style.display = 'block';
-                    detail.innerText = `預測輪替: ${predictedRealm}, API 回傳: ${apiRealmKey}`;
-                }
-            } catch (e) { console.log("Check skip:", e); }
-        }
-
-        // --- 手動刷新（密碼強制更新） ---
-        async function manualRefresh() {
-            if (!REFRESH_ENDPOINT) {
-                alert("手動刷新功能尚未啟用，敬請期待。\nManual refresh isn't live yet.");
-                return;
-            }
-
-            const password = prompt("請輸入刷新密碼 / Enter refresh password:");
-            if (password === null || password === "") return;
-
-            const btn = document.querySelector('.refresh-btn');
-            const originalText = btn.innerText;
-            btn.disabled = true;
-            btn.innerText = "刷新中...";
-
-            try {
-                const res = await fetch(REFRESH_ENDPOINT, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ password }),
-                });
-                const result = await res.json().catch(() => ({}));
-
-                if (res.ok && result.ok) {
-                    alert("已觸發更新，稍後重新整理頁面查看最新資料。\nUpdate triggered, refresh the page shortly.");
-                } else if (res.status === 401) {
-                    alert("密碼錯誤 / Wrong password");
-                } else if (res.status === 429) {
-                    alert(`太快了，請 ${result.retry_after || '幾十'} 秒後再試 / Too soon, try again later.`);
-                } else {
-                    alert("刷新失敗，請稍後再試 / Refresh failed, please try again later.");
-                }
-            } catch (e) {
-                alert("連線失敗 / Network error.");
-            } finally {
-                btn.disabled = false;
-                btn.innerText = originalText;
-            }
-        }
-
         function setLang(lang) {
-            currentLang = lang;
-            localStorage.setItem('sky_lang', lang);
-            
-            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-            const map = {'tw':'繁體', 'cn':'简体', 'en':'English'};
-            const btn = Array.from(document.querySelectorAll('.lang-btn')).find(b => b.innerText.includes(map[lang]));
-            if(btn) btn.classList.add('active');
+            if (!I18N[lang]) lang = 'tw';
+            const dict = I18N[lang];
+            try { localStorage.setItem('sky_lang', lang); } catch (e) { /* 無痕模式 */ }
 
-            const labels = {
-                'tw': { today: '今日任務', tmr: '明日預告', history: '歷史查詢', search: '查詢', candles: '🔥 蠟燭 / Candles',
-                         introTitle: 'Sky 每日任務追蹤', introBody: '這是一個非官方的《Sky: Children of the Light（光‧遇）》每日任務小工具，每天15:00 GMT+8自動抓取今日／明日任務與蠟燭資訊，並保存歷史紀錄供查詢。資料為社群整理，如與遊戲內容有落差請以遊戲內為準。',
-                         refresh: '🔄 手動刷新' },
-                'cn': { today: '今日任务', tmr: '明日预告', history: '历史查询', search: '查询', candles: '🔥 蜡烛 / Candles',
-                         introTitle: 'Sky 每日任务追踪', introBody: '这是一个非官方的《Sky: Children of the Light（光‧遇）》每日任务小工具，每天15:00 GMT+8自动抓取今日／明日任务与蜡烛资讯，并保存历史记录供查询。数据为社区整理，如与游戏内容有出入请以游戏公告为准。',
-                         refresh: '🔄 手动刷新' },
-                'en': { today: 'Today', tmr: 'Tomorrow', history: 'History', search: 'Search', candles: '🔥 Candles',
-                         introTitle: 'Sky Daily Quest Tracker', introBody: 'An unofficial daily quest tracker for Sky: Children of the Light. Today/tomorrow quests and candle info refresh automatically everyday 0:00 GMT-7, with a searchable history archive. Community-maintained data — treat in-game announcements as the source of truth.',
-                         refresh: '🔄 Refresh' }
-            };
-            document.querySelector('.lbl-today').innerText = labels[lang].today;
-            document.querySelector('.lbl-tmr').innerText = labels[lang].tmr;
-            document.querySelector('.lbl-history').innerText = labels[lang].history;
-            document.querySelector('.search-btn').innerText = labels[lang].search;
-            document.querySelectorAll('.candle-header').forEach(el => el.innerText = labels[lang].candles);
-            document.querySelector('.lbl-intro-title').innerText = labels[lang].introTitle;
-            document.querySelector('.lbl-intro-body').innerText = labels[lang].introBody;
-            document.querySelector('.lbl-refresh').innerText = labels[lang].refresh;
+            document.documentElement.lang = lang === 'en' ? 'en' : (lang === 'cn' ? 'zh-Hans' : 'zh-Hant');
+            document.title = dict.title;
 
-            if(fullData) {
-                const d = fullData[lang];
-                document.getElementById('date-today').innerText = d.date_today;
-                document.getElementById('date-tmr').innerText = d.date_tomorrow;
-                
-                fillList('list-today', d.quests_today, false);
-                fillList('list-tmr', d.quests_tomorrow, false);
-                // 蠟燭帶圖片
-                fillList('candles-today', d.candles_today, true);
-                fillList('candles-tmr', d.candles_tomorrow, true);
-            }
-            
-            if(document.getElementById('history-result').style.display === 'block') {
-                searchHistory(); 
-            }
-        }
-
-        // fillList
-        function fillList(ulId, items, isCandle) {
-            const ul = document.getElementById(ulId);
-            ul.innerHTML = '';
-            if (!items || items.length === 0) return;
-            items.forEach(text => {
-                const li = document.createElement('li');
-                let html = `<span>${text}</span>`;
-                if(isCandle) html += getCandleImageHtml(text);
-                li.innerHTML = html;
-                ul.appendChild(li);
+            document.querySelectorAll('[data-i18n]').forEach(function (n) {
+                const key = n.getAttribute('data-i18n');
+                if (dict[key] !== undefined) n.textContent = dict[key];   // 只用 textContent
+            });
+            document.querySelectorAll('.lang-btn').forEach(function (btn) {
+                btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
             });
         }
 
-        function searchHistory() {
-            const dateInput = document.getElementById('history-picker').value;
-            if(!dateInput) return;
+        document.querySelectorAll('.lang-btn').forEach(function (btn) {
+            btn.addEventListener('click', function () { setLang(btn.getAttribute('data-lang')); });
+        });
 
-            const [year, month, day] = dateInput.split('-');
-            const jsonPath = `archive/${year}-${month}.json`;
-            
-            const resultDiv = document.getElementById('history-result');
-            const listUl = document.getElementById('list-history');
-            const errorDiv = document.getElementById('history-error');
-
-            resultDiv.style.display = 'none';
-            if(errorDiv) errorDiv.style.display = 'none';
-            listUl.innerHTML = 'Loading...';
-
-            fetch(jsonPath)
-                .then(res => {
-                    if(!res.ok) throw new Error("No record / 無此紀錄");
-                    return res.json();
-                })
-                .then(historyData => {
-                    const dayData = historyData[dateInput];
-                    
-                    if(dayData) {
-                        resultDiv.style.display = 'block';
-                        document.getElementById('date-history').innerText = dateInput;
-                        listUl.innerHTML = '';
-                        
-                        // 任務
-                        const quests = dayData[currentLang] || dayData['en'] || []; 
-                        quests.forEach(q => {
-                            const li = document.createElement('li');
-                            li.innerText = q;
-                            listUl.appendChild(li);
-                        });
-
-                        // 蠟燭 (含圖片)
-                        const candleKey = `candles_${currentLang}`;
-                        const candles = dayData[candleKey] || dayData['candles_en'] || [];
-
-                        if (candles.length > 0) {
-                            const hr = document.createElement('hr');
-                            hr.style.cssText = "border: 0; border-top: 1px dashed #ddd; margin: 10px 0;";
-                            listUl.appendChild(hr);
-
-                            const header = document.createElement('div');
-                            header.className = 'candle-header';
-                            const labels = {'tw':'🔥 蠟燭','cn':'🔥 蜡烛','en':'🔥 Candles'};
-                            header.innerText = labels[currentLang] || labels['tw'];
-                            listUl.appendChild(header);
-
-                            candles.forEach(c => {
-                                const li = document.createElement('li');
-                                li.className = 'candle-list';
-                                li.style.flexDirection = 'column';
-                                li.style.alignItems = 'flex-start';
-                                li.innerHTML = `<span>${c}</span>` + getCandleImageHtml(c);
-                                listUl.appendChild(li);
-                            });
-                        }
-                    } else { throw new Error("Date not found / 該日無資料"); }
-                })
-                .catch(err => {
-                    if(errorDiv) {
-                        errorDiv.style.display = 'block';
-                        errorDiv.innerText = err.message;
-                    }
-                    listUl.innerHTML = '';
-                });
-        }
+        let initial = 'tw';
+        try { initial = localStorage.getItem('sky_lang') || 'tw'; } catch (e) { initial = 'tw'; }
+        setLang(initial);
     </script>
 </body>
 </html>

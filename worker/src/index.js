@@ -1,5 +1,12 @@
 const THROTTLE_SECONDS = 180;
 
+// --- IP rate limit（針對「密碼錯誤」次數，非成功觸發）---
+// 窗內累計失敗次數，達上限就擋。存在現成的 REFRESH_KV，不用開新資源。
+// 注意：KV 是最終一致，瞬間高併發可能有幾次 race 漏過去 —— 對「觸發重建」這種
+// 低風險端點夠用；要滴水不漏改用 Durable Objects 或原生 Rate Limiting binding。
+const RL_WINDOW_SECONDS = 600;   // 計數窗長度（也是達標後的封鎖時間）
+const RL_MAX_FAILURES = 5;       // 窗內允許的密碼錯誤次數
+
 function cors() {
   return {
     "Access-Control-Allow-Origin": "*",
@@ -28,6 +35,42 @@ function timingSafeEqual(a, b) {
     result |= a.charCodeAt(i) ^ b.charCodeAt(i);
   }
   return result === 0;
+}
+
+// --- rate limit helpers ---
+// 讀目前失敗計數。KV/IP 任何一個拿不到就放行（fail-open）——
+// 這是刻意的：rate limit 是防濫用的加分項，不該因為它自己壞掉就讓整個刷新功能掛掉。
+async function rlGet(env, ip) {
+  if (!env?.REFRESH_KV || !ip) return 0;
+  try {
+    const raw = await env.REFRESH_KV.get(`rl:${ip}`);
+    return raw ? Number(raw) : 0;
+  } catch (e) {
+    console.log("RL read error:", e);
+    return 0;
+  }
+}
+
+// 失敗一次就 +1，並把 TTL 刷新成整個窗（→「最後一次失敗後再鎖 N 分鐘」）。
+async function rlBump(env, ip, current) {
+  if (!env?.REFRESH_KV || !ip) return;
+  try {
+    await env.REFRESH_KV.put(`rl:${ip}`, String(current + 1), {
+      expirationTtl: RL_WINDOW_SECONDS,
+    });
+  } catch (e) {
+    console.log("RL write error:", e);
+  }
+}
+
+// 密碼對了就清掉計數，避免使用者自己 typo 幾次後被鎖。
+async function rlClear(env, ip) {
+  if (!env?.REFRESH_KV || !ip) return;
+  try {
+    await env.REFRESH_KV.delete(`rl:${ip}`);
+  } catch (e) {
+    console.log("RL clear error:", e);
+  }
 }
 
 // 觸發 GitHub Actions 的 workflow_dispatch，並做 KV 節流。
@@ -106,6 +149,15 @@ export default {
     }
 
     // =====================
+    // rate limit：先看這個 IP 在窗內錯了幾次，達標直接擋，連密碼比對都不做。
+    // =====================
+    const ip = request.headers.get("cf-connecting-ip") || "";
+    const failures = await rlGet(env, ip);
+    if (failures >= RL_MAX_FAILURES) {
+      return json({ ok: false, error: "rate_limited", retry_after: RL_WINDOW_SECONDS }, 429);
+    }
+
+    // =====================
     // parse body
     // =====================
     let body;
@@ -119,8 +171,13 @@ export default {
     const expected = String(env?.REFRESH_PASSWORD || "");
 
     if (!timingSafeEqual(password, expected)) {
+      // 密碼錯 → 計數 +1（TTL 刷新成整個窗）
+      await rlBump(env, ip, failures);
       return json({ ok: false, error: "wrong_password" }, 401);
     }
+
+    // 密碼對 → 清掉這個 IP 的失敗計數
+    await rlClear(env, ip);
 
     // =====================
     // 觸發 GitHub Actions（含節流），跟 Cron Trigger 共用同一套邏輯
