@@ -359,5 +359,43 @@
             "Valley of Triumph Treasure Candle-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-09-12": {
+        "tw": [
+            "和朋友牽手",
+            "在霞谷城堡捕捉四散的光",
+            "重溫倒立運動員在霞谷的記憶",
+            "點亮 20 根蠟燭"
+        ],
+        "candles_tw": [
+            "霞谷季蠟b組-2",
+            "霞谷季蠟b組-1",
+            "暮土大蠟燭-3",
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "和朋友牵手",
+            "在霞谷城堡捕捉四散的光",
+            "在霞谷重温倒立运动员的记忆",
+            "点亮 20 根蜡烛"
+        ],
+        "candles_cn": [
+            "霞谷季蜡b组-2",
+            "霞谷季蜡b组-1",
+            "暮土大蜡烛-3",
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Hold a friend's hand",
+            "Catch the wandering lights in The Citadel",
+            "Relive Handstanding Thrillseeker's memory from Valley of Triumph",
+            "Light 20 candles"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:b-2",
+            "Valley of Triumph Season Candle group:b-1",
+            "Golden Wasteland Treasure Candle-3",
+            "Golden Wasteland Treasure Candle-1"
+        ]
     }
 }
