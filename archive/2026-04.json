@@ -1,0 +1,891 @@
+{
+    "2026-04-01": {
+        "tw": [
+            "前往暮土的墓園找到篝火",
+            "重溫不捨家長在暮土的記憶",
+            "面對冥龍",
+            "更換你的褲子"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1",
+            "暮土季蠟a組-1"
+        ],
+        "cn": [
+            "前往暮土的墓园找到篝火",
+            "在暮土重温不舍家长的记忆",
+            "面对冥龙",
+            "更换你的裤子"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1",
+            "暮土季蜡a组-1"
+        ],
+        "en": [
+            "Visit the bonfire at the Wasteland's Graveyard",
+            "Relive Pleaful Parent's memory from Golden Wasteland",
+            "Face the Dark Dragon",
+            "Change your pants"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1",
+            "Gloden Wasteland Season Candle group:a-1"
+        ]
+    },
+    "2026-04-02": {
+        "tw": [
+            "bloom_harvesting",
+            "用燭光凝聚成一根蠟燭",
+            "收集 30 道燭光",
+            "欣賞一下禁閣小樹苗"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-1",
+            "雲野大蠟燭-1"
+        ],
+        "cn": [
+            "bloom_harvesting",
+            "用烛光凝聚成一根蜡烛",
+            "收集 30 道烛光",
+            "坐赏禁阁小树苗"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-1",
+            "云野大蜡烛-1"
+        ],
+        "en": [
+            "bloom_harvesting",
+            "Forge a candle",
+            "Collect 30 pieces of light",
+            "Admire the sapling in the Vault of Knowledge for a short while"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-1",
+            "Daylight Prairie Treasure Candle-1"
+        ]
+    },
+    "2026-04-03": {
+        "tw": [
+            "重溫水母語者在雲野的記憶",
+            "透過水母重新恢復能量",
+            "重溫熱血運動員在雲野的記憶",
+            "拜訪聖域群島上遭受汙染的間歇泉"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "在云野重温水母语者的记忆",
+            "用水母重新恢复能量",
+            "在云野重温热血运动员的记忆",
+            "拜访圣域群岛上遭受污染的间歇泉"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Relive Jelly Whisperer's memory from Daylight Prairie",
+            "Recharge your light from a jellyfish",
+            "Relive Rallying Thrillseeker's memory from Daylight Prairie",
+            "Visit the polluted geyser in Sanctuary Islands"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-1"
+        ]
+    },
+    "2026-04-04": {
+        "tw": [
+            "抓住雨林之光",
+            "淨化 10 處黑暗腐植",
+            "對其他玩家使用表情",
+            "在雨林小溪上方冥想"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1"
+        ],
+        "cn": [
+            "抓住雨林之光",
+            "净化 10 处黑暗腐植",
+            "对玩家使用表情",
+            "在雨林小溪上方冥想"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Hidden Forest",
+            "Melt 10 darkness",
+            "Use expressions with players",
+            "Meditate above the Forest Brook"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1"
+        ]
+    },
+    "2026-04-05": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "重溫拋球雜耍在霞谷的記憶",
+            "拜訪圓夢村的溫泉",
+            "幫忙把吉他找回來"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "在霞谷重温抛球杂耍的记忆",
+            "拜访园梦村的温泉",
+            "找到并带回吉他"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Relive Troupe Juggler's memory from Valley of Triumph",
+            "Visit the Hotspring in the Village of Dreams",
+            "Find and retrieve the guitar"
+        ],
+        "candles_en": [
+            "Gloden Wasteland Treasure Candle-1"
+        ]
+    },
+    "2026-04-06": {
+        "tw": [
+            "抱起一隻暗蟹",
+            "呼喚 5 位不同的玩家",
+            "與笨拙的水手長欣賞共享空間",
+            "在寶礁中欣賞一下彩虹"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2"
+        ],
+        "cn": [
+            "抱起一只暗蟹",
+            "呼唤5位不同玩家",
+            "与笨拙水手一起欣赏共享空间",
+            "在宝藏暗礁欣赏一下彩虹"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2"
+        ],
+        "en": [
+            "Pick up a Crab",
+            "Call to 5 different players",
+            "Admire Shared Spaces with Bumbling Boatswain",
+            "Admire the rainbow in Treasure Reef for a short while"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2"
+        ]
+    },
+    "2026-04-07": {
+        "tw": [
+            "點亮一位陌生玩家",
+            "重溫祈禱聖徒在禁閣的記憶",
+            "重溫沉思編導在禁閣的記憶",
+            "向一位玩家鞠躬"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-2"
+        ],
+        "cn": [
+            "交一个新朋友",
+            "在禁阁重温祈祷圣徒的记忆",
+            "在禁阁重温沉思编导的记忆",
+            "向一位玩家鞠躬"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-2"
+        ],
+        "en": [
+            "Make a new acquaintance",
+            "Relive Praying Acolyte's memory from Vault of Knowledge",
+            "Relive Thoughtful Director's memory from Vault of Knowledge",
+            "Bow at a player"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-2"
+        ]
+    },
+    "2026-04-08": {
+        "tw": [
+            "收集 30 道燭光",
+            "重溫一位雲野先靈的記憶",
+            "在浮石鳥巢旁冥想",
+            "在浮石鳥巢捕捉四散的光"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-2"
+        ],
+        "cn": [
+            "收集 30 道烛光",
+            "在云野中重温一位先灵的记忆",
+            "在浮石鸟巢旁冥想",
+            "在浮石鸟巢周围捕捉四散的光"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-2"
+        ],
+        "en": [
+            "Collect 30 pieces of light",
+            "Relive a Spirit's memories in Daylight Prairie",
+            "Meditate by the Bird Nest",
+            "Catch the wandering lights around the Bird Nest"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-2"
+        ]
+    },
+    "2026-04-09": {
+        "tw": [
+            "和朋友擊掌",
+            "欣賞一下雨林小樹苗",
+            "在雨林庭院外冥想",
+            "重溫管事小隊長在雨林的記憶"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-2"
+        ],
+        "cn": [
+            "和朋友击掌",
+            "坐赏雨林小树苗",
+            "在雨林庭院外冥想",
+            "在雨林重温管事小队长的记忆"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-2"
+        ],
+        "en": [
+            "High-Five a friend",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Meditate outside the Forest Courtyard",
+            "Relive Scolding Student's memory from Hidden Forest"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-2"
+        ]
+    },
+    "2026-04-10": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "在隱士山谷欣賞一下彩虹",
+            "在隱士山谷山頂捕捉四散的光",
+            "幫忙把吉他找回來"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-2"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "在隐士山谷欣赏一下彩虹",
+            "在隐士山谷顶上捕捉四散的光",
+            "找到并带回吉他"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-2"
+        ],
+        "en": [
+            "Forge a candle",
+            "Admire the rainbow in Hermit Valley for a short while",
+            "Catch the wandering lights atop Hermit Valley",
+            "Find and retrieve the guitar"
+        ],
+        "candles_en": [
+            "Gloden Wasteland Treasure Candle-2"
+        ]
+    },
+    "2026-04-11": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "面對冥龍",
+            "在戰場冥想",
+            "重溫望遠哨兵在暮土的記憶"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "面对冥龙",
+            "在战场冥想",
+            "在暮土重温望远哨兵的记忆"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Face the Dark Dragon",
+            "Meditate on the Battlefield",
+            "Relive Lookout Scout's memory from Golden Wasteland"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1"
+        ]
+    },
+    "2026-04-12": {
+        "tw": [
+            "呼喚 5 位不同的玩家",
+            "點亮 20 根蠟燭",
+            "重溫拳禮武僧在禁閣的記憶",
+            "找到禁閣的彩虹蠟燭"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-3"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "点亮 20 根蜡烛",
+            "在禁阁重温拳礼武僧的记忆",
+            "在禁阁找到彩虹蜡烛"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-3"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Light 20 candles",
+            "Relive Greeting Shaman's memory from Vault of Knowledge",
+            "Find the candles at the end of the rainbow in the Vault of Knowledge"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-3"
+        ]
+    },
+    "2026-04-13": {
+        "tw": [
+            "在蝴蝶原野與眾多蝴蝶一同飛翔",
+            "對其他玩家使用表情",
+            "找到雲野的彩虹蠟燭",
+            "前往雲野山洞找到舒適的藏身處"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-3"
+        ],
+        "cn": [
+            "在蝴蝶原野与众多蝴蝶一同飞翔",
+            "对玩家使用表情",
+            "在云野找到彩虹蜡烛",
+            "前往云野山洞找到舒适的藏身处"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-3"
+        ],
+        "en": [
+            "Fly with many butterflies in Butterfly Fields",
+            "Use expressions with players",
+            "Find the candles at the end of the rainbow in Daylight Prairie",
+            "Visit the cozy hideout in Prairie Caves"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-3"
+        ]
+    },
+    "2026-04-14": {
+        "tw": [
+            "收集 30 道燭光",
+            "找到雨林的彩虹蠟燭",
+            "在雨林的樹林高處整理歸屬季的先祖團聚長桌",
+            "收集 橙色光芒"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1"
+        ],
+        "cn": [
+            "收集 30 道烛光",
+            "在雨林找到彩虹蜡烛",
+            "在雨林的树林高处整理归属季的先祖团聚长桌",
+            "收集 橙色光芒"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1"
+        ],
+        "en": [
+            "Collect 30 pieces of light",
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Tidy up the Ancestor's Table of Belonging in Hidden Forest's elevated clearing",
+            "Collect Orange Light"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1"
+        ]
+    },
+    "2026-04-16": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "抓住暮土之光",
+            "找到暮土的彩虹蠟燭",
+            "重溫讚許壁畫家在暮土的記憶"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "抓住暮土之光",
+            "在暮土找到彩虹蜡烛",
+            "在暮土重温赞许壁画家的记忆"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2"
+        ],
+        "en": [
+            "Forge a candle",
+            "Catch the light in Golden Wasteland",
+            "Find the candles at the end of the rainbow in the Golden Wasteland",
+            "Relive Nodding Muralist's memory from Golden Wasteland"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2"
+        ]
+    },
+    "2026-04-17": {
+        "tw": [
+            "和朋友擁抱",
+            "淨化 10 處黑暗腐植",
+            "在知識庫避難所捕捉四散的光",
+            "重溫一位禁閣先靈的記憶"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雲野大蠟燭-1"
+        ],
+        "cn": [
+            "和朋友拥抱",
+            "净化 10 处黑暗腐植",
+            "在禁阁的知识库避难所捕捉四散的光",
+            "在禁阁中重温一位先灵的记忆"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "云野大蜡烛-1"
+        ],
+        "en": [
+            "Hug a friend",
+            "Melt 10 darkness",
+            "Catch the wandering lights in the Vault's Repository",
+            "Relive a Spirit's memories in Vault of Knowledge"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Daylight Prairie Treasure Candle-1"
+        ]
+    },
+    "2026-04-18": {
+        "tw": [
+            "抓住雲野之光",
+            "點亮 20 根蠟燭",
+            "收集 綠色光芒",
+            "乘坐光鰩"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-2",
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "抓住云野之光",
+            "点亮 20 根蜡烛",
+            "收集 绿色光芒",
+            "乘着光鳐兜风"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-2",
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Daylight Prairie",
+            "Light 20 candles",
+            "Collect Green Light",
+            "Ride with a Manta"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-1"
+        ]
+    },
+    "2026-04-19": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "在雨林小溪捕捉四散的光",
+            "重溫正步冒險家在雨林的記憶",
+            "透過光菇重新恢復能量"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-2",
+            "雨林季蠟a組-2"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "在雨林小溪捕捉四散的光",
+            "在雨林重温正步冒险家的记忆",
+            "用光菇重新恢复能量"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-2",
+            "雨林季蜡a组-2"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Catch the wandering lights in the Forest Brook",
+            "Relive Marching Adventurer's memory from Hidden Forest",
+            "Recharge your light from a light bloom"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-2",
+            "Hidden Forest Season Candle group:a-2"
+        ]
+    },
+    "2026-04-20": {
+        "tw": [
+            "和朋友牽手",
+            "收集 30 道燭光",
+            "在霞谷城堡捕捉四散的光",
+            "找到霞谷的彩虹蠟燭"
+        ],
+        "candles_tw": [
+            "霞谷季蠟a組-2",
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "和朋友牵手",
+            "收集 30 道烛光",
+            "在霞谷城堡捕捉四散的光",
+            "在霞谷找到彩虹蜡烛"
+        ],
+        "candles_cn": [
+            "霞谷季蜡a组-2",
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Hold a friend's hand",
+            "Collect 30 pieces of light",
+            "Catch the wandering lights in The Citadel",
+            "Find the candles at the end of the rainbow in the Valley of Triumph"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:a-2",
+            "Gloden Wasteland Treasure Candle-1"
+        ]
+    },
+    "2026-04-21": {
+        "tw": [
+            "重溫一位暮土先靈的記憶",
+            "欣賞一下暮土小樹苗",
+            "點亮一位陌生玩家",
+            "收集 紅色光芒 "
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1",
+            "暮土季蠟a組-1"
+        ],
+        "cn": [
+            "在暮土中重温一位先灵的记忆",
+            "坐赏暮土小树苗",
+            "交一个新朋友",
+            "收集 红色光芒 "
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1",
+            "暮土季蜡a组-1"
+        ],
+        "en": [
+            "Relive a Spirit's memories in Golden Wasteland",
+            "Admire the sapling in Golden Wasteland for a short while",
+            "Make a new acquaintance",
+            "Collect Red Light "
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1",
+            "Gloden Wasteland Season Candle group:a-1"
+        ]
+    },
+    "2026-04-22": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "抓住禁閣之光",
+            "重溫靜光學者在禁閣的記憶",
+            "對其他玩家使用表情"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-2",
+            "禁閣季蠟a組-1"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "抓住禁阁之光",
+            "在禁阁重温静光学者的记忆",
+            "对玩家使用表情"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-2",
+            "禁阁季蜡a组-1"
+        ],
+        "en": [
+            "Forge a candle",
+            "Catch the light in the Vault of Knowledge",
+            "Relive Shushing Light Scholar's memory from Vault of Knowledge",
+            "Use expressions with players"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-2",
+            "Vault of Knowledge Season Candle group:a-1"
+        ]
+    },
+    "2026-04-23": {
+        "tw": [
+            "重溫一位先靈的記憶",
+            "向一位玩家鞠躬",
+            "在聖域群島乘坐一隻大光鰩",
+            "拜訪聖域群島上遭受汙染的間歇泉"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-2",
+            "雲野季蠟a組-1"
+        ],
+        "cn": [
+            "重温一位先灵的记忆",
+            "向一位玩家鞠躬",
+            "在圣域群岛乘坐一只大光鳐",
+            "拜访圣域群岛上遭受污染的间歇泉"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-2",
+            "云野季蜡a组-1"
+        ],
+        "en": [
+            "Relive a Spirit's memories",
+            "Bow at a player",
+            "Ride a giant manta in Sanctuary Islands",
+            "Visit the polluted geyser in Sanctuary Islands"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-2",
+            "Daylight Prairie Season Candle group:a-1"
+        ]
+    },
+    "2026-04-24": {
+        "tw": [
+            "抓住雨林之光",
+            "重溫隨性拓荒者在雨林的記憶",
+            "拯救一隻被黑暗腐植困住的光鰩",
+            "將羞澀勘探者帶到躲雨處"
+        ],
+        "candles_tw": [
+            "雨林季蠟a組-1",
+            "霞谷大蠟燭-1"
+        ],
+        "cn": [
+            "抓住雨林之光",
+            "在雨林重温随性拓荒者的记忆",
+            "拯救一只被黑暗腐植困住的光鳐",
+            "将羞涩勘探者带到躲避处"
+        ],
+        "candles_cn": [
+            "雨林季蜡a组-1",
+            "霞谷大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Hidden Forest",
+            "Relive Laidback Pioneer's memory from Hidden Forest",
+            "Rescue a manta from darkness",
+            "Bring Blushing Prospector to shelter"
+        ],
+        "candles_en": [
+            "Hidden Forest Season Candle group:a-1",
+            "Valley of Triumph Treasure Candle-1"
+        ]
+    },
+    "2026-04-25": {
+        "tw": [
+            "欣賞一下霞谷小樹苗",
+            "收集藍色光芒 ",
+            "重溫一位霞谷先靈的記憶",
+            "在俯瞰冰封湖的位置冥想"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-2",
+            "霞谷季蠟a組-1"
+        ],
+        "cn": [
+            "坐赏霞谷小树苗",
+            "收集蓝色光芒 ",
+            "在霞谷中重温一位先灵的记忆",
+            "在俯瞰冰封湖的位置冥想"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-2",
+            "霞谷季蜡a组-1"
+        ],
+        "en": [
+            "Admire the sapling in Valley of Triumph for a short while",
+            "Collect Blue Light ",
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Meditate overlooking the Frozen Lake"
+        ],
+        "candles_en": [
+            "Gloden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:a-1"
+        ]
+    },
+    "2026-04-26": {
+        "tw": [
+            "收集 30 道燭光",
+            "在寶礁中欣賞一下彩虹",
+            "在寶礁海底捕捉四散的光",
+            "抱起一隻暗蟹"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2",
+            "暮土季蠟a組-2"
+        ],
+        "cn": [
+            "收集 30 道烛光",
+            "在宝藏暗礁欣赏一下彩虹",
+            "在宝礁海底捕捉四散的光",
+            "抱起一只暗蟹"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2",
+            "暮土季蜡a组-2"
+        ],
+        "en": [
+            "Collect 30 pieces of light",
+            "Admire the rainbow in Treasure Reef for a short while",
+            "Catch the wandering lights under the sea in Treasure Reef",
+            "Pick up a Crab"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2",
+            "Gloden Wasteland Season Candle group:a-2"
+        ]
+    },
+    "2026-04-27": {
+        "tw": [
+            "點亮一位陌生玩家",
+            "重溫祈禱聖徒在禁閣的記憶",
+            "重溫禮貌學者在禁閣的記憶",
+            "在禁閣第二層冥想"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雲野大蠟燭-3"
+        ],
+        "cn": [
+            "交一个新朋友",
+            "在禁阁重温祈祷圣徒的记忆",
+            "在禁阁重温礼貌学者的记忆",
+            "在禁阁第二层冥想"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "云野大蜡烛-3"
+        ],
+        "en": [
+            "Make a new acquaintance",
+            "Relive Praying Acolyte's memory from Vault of Knowledge",
+            "Relive Polite Scholar's memory from Vault of Knowledge",
+            "Meditate on the second floor of the Vault"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Daylight Prairie Treasure Candle-3"
+        ]
+    },
+    "2026-04-28": {
+        "tw": [
+            "呼喚 5 位不同的玩家",
+            "重溫辛勞碼頭工在雲野的記憶",
+            "在雲野村莊捕捉四散的光",
+            "用燭光凝聚成一根蠟燭"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-2",
+            "雨林大蠟燭-3"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "在云野重温辛劳码头工的记忆",
+            "在云野村庄中捕捉四散的光",
+            "用烛光凝聚成一根蜡烛"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-2",
+            "雨林大蜡烛-3"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Relive Exhausted Dock Worker's memory from Daylight Prairie",
+            "Catch the wandering lights in Prairie Village",
+            "Forge a candle"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-3"
+        ]
+    },
+    "2026-04-29": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "欣賞一下雨林小樹苗",
+            "和朋友牽手",
+            "將發抖開拓者帶到躲雨處"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-2",
+            "雨林季蠟a組-2"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "坐赏雨林小树苗",
+            "和朋友牵手",
+            "将发抖开拓者带到躲避处"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-2",
+            "雨林季蜡a组-2"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Hold a friend's hand",
+            "Bring Shivering Trailblazer to shelter"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-2",
+            "Hidden Forest Season Candle group:a-2"
+        ]
+    },
+    "2026-04-30": {
+        "tw": [
+            "和朋友擊掌",
+            "抓住霞谷之光",
+            "對其他玩家使用表情",
+            "重溫倒立運動員在霞谷的記憶"
+        ],
+        "candles_tw": [
+            "霞谷季蠟a組-2",
+            "暮土大蠟燭-3"
+        ],
+        "cn": [
+            "和朋友击掌",
+            "抓住霞谷之光",
+            "对玩家使用表情",
+            "在霞谷重温倒立运动员的记忆"
+        ],
+        "candles_cn": [
+            "霞谷季蜡a组-2",
+            "暮土大蜡烛-3"
+        ],
+        "en": [
+            "High-Five a friend",
+            "Catch the light in Valley of Triumph",
+            "Use expressions with players",
+            "Relive Handstanding Thrillseeker's memory from Valley of Triumph"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:a-2",
+            "Gloden Wasteland Treasure Candle-3"
+        ]
+    }
+}

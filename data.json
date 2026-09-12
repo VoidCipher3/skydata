@@ -1,0 +1,75 @@
+{
+    "updated_at": "2026-09-12 11:34:23 (GMT+8)",
+    "tw": {
+        "title": "繁體中文",
+        "date_today": "2026-09-11",
+        "date_tomorrow": "2026-09-12",
+        "quests_today": [
+            "向一位玩家鞠躬",
+            "欣賞一下雨林小樹苗",
+            "透過光菇重新恢復能量",
+            "重溫一位雨林先靈的記憶"
+        ],
+        "quests_tomorrow": [
+            "和朋友牽手",
+            "在霞谷城堡捕捉四散的光",
+            "重溫倒立運動員在霞谷的記憶",
+            "點亮 20 根蠟燭"
+        ],
+        "candles_today": [
+            "雨林季蠟b組-2",
+            "雨林季蠟b組-1",
+            "霞谷大蠟燭-1",
+            "霞谷大蠟燭-2"
+        ],
+        "candles_tomorrow": []
+    },
+    "cn": {
+        "title": "简体中文",
+        "date_today": "2026-09-11",
+        "date_tomorrow": "2026-09-12",
+        "quests_today": [
+            "向一位玩家鞠躬",
+            "坐赏雨林小树苗",
+            "用光菇重新恢复能量",
+            "在雨林中重温一位先灵的记忆"
+        ],
+        "quests_tomorrow": [
+            "和朋友牵手",
+            "在霞谷城堡捕捉四散的光",
+            "在霞谷重温倒立运动员的记忆",
+            "点亮 20 根蜡烛"
+        ],
+        "candles_today": [
+            "雨林季蜡b组-2",
+            "雨林季蜡b组-1",
+            "霞谷大蜡烛-1",
+            "霞谷大蜡烛-2"
+        ],
+        "candles_tomorrow": []
+    },
+    "en": {
+        "title": "English",
+        "date_today": "2026-09-11",
+        "date_tomorrow": "2026-09-12",
+        "quests_today": [
+            "Bow at a player",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Recharge your light from a light bloom",
+            "Relive a Spirit's memories in Hidden Forest"
+        ],
+        "quests_tomorrow": [
+            "Hold a friend's hand",
+            "Catch the wandering lights in The Citadel",
+            "Relive Handstanding Thrillseeker's memory from Valley of Triumph",
+            "Light 20 candles"
+        ],
+        "candles_today": [
+            "Hidden Forest Season Candle group:b-2",
+            "Hidden Forest Season Candle group:b-1",
+            "Valley of Triumph Treasure Candle-1",
+            "Valley of Triumph Treasure Candle-2"
+        ],
+        "candles_tomorrow": []
+    }
+}

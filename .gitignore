@@ -1,0 +1,9 @@
+# 憑證與原始抓取結果，一律不進版控
+.env
+secret_data/
+raw/
+
+# 工具產物
+worker/.wrangler/
+__pycache__/
+*.pyc

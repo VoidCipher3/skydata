@@ -1,0 +1,14 @@
+# Worker 是 [assets] directory = "../"，serve 的是 repo 根目錄。
+# 任何不該對外的東西都要列在這裡，否則部署後直接可以用網址抓到。
+.env
+.env.*
+.git
+.gitignore
+.github/
+.DS_Store
+node_modules
+worker/
+secret_data/
+raw/
+scripts/
+config/

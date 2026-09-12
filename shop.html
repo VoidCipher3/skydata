@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>商店一覽 · Sky 每日任務追蹤</title>
+<meta name="description" content="非官方《Sky: Children of the Light（光·遇）》商店清單，涵蓋魔法、道具、染料、家具與小屋，含價格、限購次數與上架狀態。">
+<meta property="og:title" content="Sky 商店一覽">
+<meta property="og:description" content="《光·遇》各商店商品價格、限購次數與上架狀態查詢。">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/shop.css">
+</head>
+<body>
+<div class="container">
+
+  <div class="intro-card">
+    <h1 data-i18n="shopTitle">商店一覽</h1>
+    <p data-i18n="shopIntro"></p>
+    <p class="intro-meta">Powered by GitHub Actions + Cloudflare Worker ·
+      <a href="https://github.com/voidcipher3/skyquest" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </div>
+
+  <div class="top-actions">
+    <nav class="nav">
+      <a href="index.html" data-i18n="navQuest">每日任務</a>
+      <a href="iap.html" data-i18n="navIap">禮包</a>
+      <a href="shop.html" aria-current="page" data-i18n="navShop">商店</a>
+    </nav>
+    <div class="lang-switch">
+      <button class="lang-btn" type="button" data-lang="tw">繁體</button>
+      <button class="lang-btn" type="button" data-lang="cn">简体</button>
+      <button class="lang-btn" type="button" data-lang="en">English</button>
+    </div>
+  </div>
+
+  <div id="stale" class="stale" hidden></div>
+  <div id="loading" data-i18n="loading">載入中…</div>
+
+  <div id="content" hidden>
+    <div class="controls">
+      <label class="field">
+        <span data-i18n="search">搜尋名稱或代號</span>
+        <input id="f-q" type="search" data-i18n-ph="search">
+      </label>
+      <label class="field">
+        <span data-i18n="filterEvent">活動</span>
+        <select id="f-event"></select>
+      </label>
+      <label class="field">
+        <span data-i18n="filterStatus">狀態</span>
+        <select id="f-status"></select>
+      </label>
+      <label class="field">
+        <span data-i18n="filterCurrency">幣別</span>
+        <select id="f-currency"></select>
+      </label>
+      <label class="field">
+        <span data-i18n="filterShop">商店</span>
+        <select id="f-shop"></select>
+      </label>
+      <label class="field">
+        <span data-i18n="filterType">類別</span>
+        <select id="f-type"></select>
+      </label>
+      <label class="field">
+        <span data-i18n="sortBy">排序</span>
+        <select id="f-sort">
+          <option value="default" data-i18n="sortDefault">預設</option>
+          <option value="priceAsc" data-i18n="sortPriceAsc">價格低到高</option>
+          <option value="priceDesc" data-i18n="sortPriceDesc">價格高到低</option>
+          <option value="nameAsc" data-i18n="sortNameAsc">名稱</option>
+        </select>
+      </label>
+      <label class="check">
+        <input id="f-free" type="checkbox">
+        <span data-i18n="hideFree">隱藏免費項目</span>
+      </label>
+    </div>
+
+    <div class="status-row">
+      <span id="count"></span>
+      <span id="sort-note" class="sort-note"></span>
+      <span id="updated"></span>
+    </div>
+
+    <div id="list" class="list"></div>
+    <p class="footer" data-i18n="footerSource"></p>
+  </div>
+
+</div>
+
+<script src="assets/shop.js"></script>
+<script>
+  SkyShop.init({ kind: 'shop', dataUrl: 'data/shop.json' });
+</script>
+</body>
+</html>

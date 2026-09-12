@@ -1,0 +1,100 @@
+{
+ "_comment": "tier -> 各幣別金額。USD 依 skyinfo 既有假設等於 tier 值；TWD/CNY 請從 skyinfo 的 TIER_TWD / TIER_CNY 表填入（null 代表未填，前端退回只顯示 Tier N）。",
+ "default": "USD",
+ "currencies": {
+  "USD": {
+   "symbol": "$",
+   "decimals": 2
+  },
+  "TWD": {
+   "symbol": "NT$",
+   "decimals": 0
+  },
+  "CNY": {
+   "symbol": "¥",
+   "decimals": 0
+  }
+ },
+ "tiers": {
+  "1": {
+   "USD": 1,
+   "TWD": 30,
+   "CNY": 6
+  },
+  "2": {
+   "USD": 2,
+   "TWD": 60,
+   "CNY": 12
+  },
+  "3": {
+   "USD": 3,
+   "TWD": 90,
+   "CNY": 18
+  },
+  "4": {
+   "USD": 4,
+   "TWD": 120,
+   "CNY": 24
+  },
+  "5": {
+   "USD": 5,
+   "TWD": 150,
+   "CNY": 30
+  },
+  "6": {
+   "USD": 6,
+   "TWD": 180,
+   "CNY": 36
+  },
+  "7": {
+   "USD": 7,
+   "TWD": 210,
+   "CNY": 42
+  },
+  "10": {
+   "USD": 10,
+   "TWD": 300,
+   "CNY": 60
+  },
+  "12": {
+   "USD": 12,
+   "TWD": 360,
+   "CNY": 72
+  },
+  "15": {
+   "USD": 15,
+   "TWD": 450,
+   "CNY": 90
+  },
+  "18": {
+   "USD": 18,
+   "TWD": 540,
+   "CNY": 108
+  },
+  "20": {
+   "USD": 20,
+   "TWD": 600,
+   "CNY": 120
+  },
+  "25": {
+   "USD": 25,
+   "TWD": 750,
+   "CNY": 150
+  },
+  "30": {
+   "USD": 30,
+   "TWD": 900,
+   "CNY": 180
+  },
+  "50": {
+   "USD": 50,
+   "TWD": 1500,
+   "CNY": 300
+  },
+  "100": {
+   "USD": 100,
+   "TWD": 3000,
+   "CNY": 600
+  }
+ }
+}

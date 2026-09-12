@@ -1,0 +1,177 @@
+/* 沿用 index.html 既有的視覺語彙（淺藍底、白卡、16px 圓角、左側色條），
+   讓商店頁看起來是同一個站的一部分，而不是外掛上去的另一個網站。 */
+
+:root {
+  --primary: #5dade2;
+  --accent: #f1c40f;
+  --bg: #ebf5fb;
+  --card-bg: #ffffff;
+  --text: #34495e;
+  --muted: #7f8c8d;
+  --btn-active: #2e86c1;
+  --line: #e8eef2;
+  --active: #27ae60;
+  --upcoming: #e67e22;
+  --idle: #95a5a6;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.container { width: 100%; max-width: 1200px; margin: 0 auto; }
+
+/* --- 頁首 --- */
+
+.intro-card {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 18px 22px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .05);
+  border-left: 6px solid var(--btn-active);
+}
+.intro-card h1 { font-size: 1.15rem; margin: 0 0 8px; color: var(--btn-active); }
+.intro-card p { margin: 0 0 6px; font-size: .9rem; }
+.intro-card p:last-child { margin-bottom: 0; }
+.intro-meta { font-size: .8rem; color: var(--muted); }
+.intro-meta a { color: var(--btn-active); }
+
+.top-actions {
+  display: flex; justify-content: center; align-items: center;
+  flex-wrap: wrap; gap: 10px; margin-bottom: 16px;
+}
+.nav, .lang-switch { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.nav a, .lang-btn {
+  background: #fff; border: 2px solid var(--primary); color: var(--primary);
+  padding: 8px 16px; border-radius: 20px; cursor: pointer;
+  font-weight: bold; font-size: .9rem; text-decoration: none;
+  transition: background .2s, color .2s;
+}
+.nav a:hover, .lang-btn:hover { background: var(--primary); color: #fff; }
+.nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: #fff; }
+.refresh-btn {
+            background: white; border: 2px solid #e67e22; color: #e67e22;
+            padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
+        }
+.refresh-btn:hover { background: #e67e22; color: white; }
+.refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* --- 過期橫幅 --- */
+
+.stale {
+  border-radius: 12px; padding: 12px 16px; margin-bottom: 16px;
+  font-size: .9rem; border: 1px solid;
+}
+.stale-warn { background: #fff8e1; color: #8a6d00; border-color: #f1c40f; }
+.stale-severe { background: #ffe6e6; color: #c0392b; border-color: #e74c3c; }
+
+/* --- 篩選列 --- */
+
+.controls {
+  background: var(--card-bg); border-radius: 16px; padding: 16px 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .05); margin-bottom: 16px;
+  display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: flex-end;
+}
+.field { display: flex; flex-direction: column; gap: 4px; flex: 1 1 150px; min-width: 140px; }
+.field > span { font-size: .78rem; color: var(--muted); }
+.field select, .field input[type="search"] {
+  padding: 8px 10px; border: 1px solid #cfd8dd; border-radius: 8px;
+  font: inherit; font-size: .88rem; background: #fff; color: var(--text);
+}
+.field select:focus-visible, .field input:focus-visible,
+.nav a:focus-visible, .lang-btn:focus-visible {
+  outline: 3px solid var(--btn-active); outline-offset: 2px;
+}
+.check { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; font-size: .88rem; }
+.status-row {
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 8px; margin-bottom: 12px;
+  font-size: .85rem; color: var(--muted);
+}
+.sort-note { color: var(--upcoming); }
+
+/* --- 項目卡 --- */
+
+.list {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+.item {
+  background: var(--card-bg); border-radius: 16px; padding: 16px 18px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, .05);
+  border-left: 6px solid var(--idle);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.item:has(.chip-active) { border-left-color: var(--active); }
+.item:has(.chip-upcoming) { border-left-color: var(--upcoming); }
+.item:has(.chip-permanent) { border-left-color: var(--primary); }
+
+.item-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.item-name { margin: 0; font-size: 1rem; font-weight: 600; word-break: break-word; }
+.item-desc { margin: 0; font-size: .85rem; color: var(--muted); }
+
+.chip {
+  flex: 0 0 auto; font-size: .72rem; padding: 3px 9px;
+  border-radius: 12px; white-space: nowrap; color: #fff;
+}
+.chip-active { background: var(--active); }
+.chip-upcoming { background: var(--upcoming); }
+.chip-permanent { background: var(--primary); }
+.chip-unscheduled { background: var(--idle); cursor: help; }
+
+.price { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.price-main { font-size: 1.25rem; font-weight: 700; color: var(--btn-active); }
+.price-main.free { color: var(--active); font-size: 1rem; }
+.price-sub { font-size: .8rem; color: var(--muted); }
+.tag {
+  font-size: .72rem; padding: 2px 8px; border-radius: 10px;
+  background: #f0f3f4; color: var(--muted);
+}
+.limit { font-size: .82rem; color: var(--text); }
+
+/* --- 資產（圖片或原文） --- */
+
+.assets { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.assets-label { font-size: .78rem; color: var(--muted); flex: 0 0 auto; }
+.assets-strip { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.asset-img {
+  width: 44px; height: 44px; object-fit: contain;
+  background: #f6f9fb; border: 1px solid var(--line); border-radius: 8px;
+}
+/* 沒有圖片時顯示原始資產名 —— 不放破圖，也不留空白。 */
+.asset-text {
+  font-size: .74rem; padding: 3px 8px; border-radius: 8px;
+  background: #f6f9fb; border: 1px solid var(--line);
+  color: var(--muted); word-break: break-all;
+}
+
+/* --- 時間 --- */
+
+.timing { display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; font-size: .8rem; }
+.countdown { font-weight: 600; color: var(--btn-active); }
+.cycle { color: var(--text); }
+/* 倒數用的是裝置時鐘，所以永遠並排顯示絕對時刻供對照。 */
+.abs { color: var(--muted); }
+
+.meta { font-size: .75rem; color: var(--muted); word-break: break-all; }
+
+.empty { grid-column: 1 / -1; text-align: center; color: var(--muted); padding: 40px 0; }
+.footer { text-align: center; color: var(--muted); font-size: .8rem; margin-top: 24px; }
+
+@media (max-width: 560px) {
+  body { padding: 12px; }
+  .list { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

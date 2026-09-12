@@ -1,0 +1,27 @@
+name = "skyquest"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+
+# run_worker_first = true 代表「每一個 request 都先進到 index.js」，
+# 讓 index.js 自己決定要處理 POST 還是把 GET 轉交給 ASSETS 去伺服靜態檔案。
+[assets]
+directory = "../"
+binding = "ASSETS"
+run_worker_first = true
+
+# 非機密設定，可以直接寫在這裡：
+[vars]
+GH_OWNER = "voidcipher3"
+GH_REPO = "skyquest"
+GH_WORKFLOW_FILE = "daily_quest.yml"     # .github/workflows/ 底下的檔名
+GH_REF = "main"                          # 要觸發的分支
+
+[[kv_namespaces]]
+binding = "REFRESH_KV"
+id = "f6e1e79b163d42a7a1beaea3d3d2389a"
+
+# 每天 15:00 準時觸發一次 GitHub Actions（比 GitHub 自己的 schedule: cron 準時）。
+# 對應 src/index.js 的 scheduled() handler。
+
+[triggers]
+crons = ['0 7 * * *']

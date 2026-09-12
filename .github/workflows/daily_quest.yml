@@ -1,0 +1,109 @@
+name: Fetch Sky Daily Quest & deploy
+on:
+  workflow_dispatch: {}
+
+concurrency:
+  group: skyquest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-Quest-logic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install dependencies
+        run: pip install requests
+
+      # --- 抓取 -------------------------------------------------------------
+      # 抓取程式在 repo 裡（scripts/fetch_raw.py），只有憑證走 secret。
+      # 端點網址、418 重試、失敗分級都不是機密，卻是會反覆改的部分 ——
+      # 放在 secret 裡等於放棄版本控制，只為了藏一個 dict。
+      #
+      # raw/ 只活在 runner 的磁碟上，.gitignore 與 .assetsignore 都擋著，
+      # job 結束就消失，不會進 repo 也不會被 Worker 對外服務。
+      - name: Fetch raw
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 8
+          max_attempts: 3
+          retry_wait_seconds: 20
+          command: "python scripts/fetch_raw.py"
+        env:
+          B: ${{ secrets.B }}
+          LOGIN_BODY: ${{ secrets.LOGIN_BODY }}
+          LOGIN_HEADERS: ${{ secrets.LOGIN_HEADERS }}
+
+      # -f 不能省。沒有它，HTTP 錯誤頁會被當成正常內容寫進 manifest.json，
+      # build_shop.py 接著會安靜地宣告「所有圖片都不存在」——
+      # 站還是跑得動，只是全部變文字，而且沒有任何錯誤訊息。
+      - name: Fetch image manifest
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 3
+          max_attempts: 3
+          retry_wait_seconds: 15
+          command: "curl -fsS --max-time 60 -o raw/manifest.json https://skyinfoweb.pages.dev/image/manifest.json"
+
+      # --- 轉換 -------------------------------------------------------------
+      # 這兩步不包 retry：純本機運算，失敗是程式問題不是網路問題，
+      # 重跑三次只會把錯誤蓋掉、還多花三倍時間。
+      # 任務文字改讀 repo 裡的 i18n/quests.{tw,cn,en}.json，
+      # 不再需要 QUEST_TW / QUEST_EN_1 / QUEST_EN_2 / QUEST_CN 四個 secret。
+      # 確認這步正常之後，去 Settings 把那四個刪掉。
+      - name: Build quest data
+        run: python scripts/build_quest.py
+
+      - name: Build shop data
+        run: python scripts/build_shop.py
+
+      # 上一步萬一寫出壞 JSON，寧可在這裡擋下來，
+      # 也不要 commit 一份會讓前端整頁載入失敗的檔案。
+      - name: Verify output
+        run: |
+          python - <<'PY'
+          import json, sys, time
+          for p in ("data.json", "data/iap.json", "data/shop.json", "data/events.json"):
+              with open(p, encoding="utf-8") as f:
+                  d = json.load(f)
+              print(f"{p}: OK")
+              meta = d.get("meta")
+              if meta:
+                  age = time.time() - meta["fetchedAt"]
+                  if age > 6 * 3600:
+                      sys.exit(f"{p} 的 fetchedAt 已經 {age/3600:.1f} 小時前，抓取可能沒成功")
+          PY
+
+      # --- 部署 -------------------------------------------------------------
+      # 只有 main 會部署。從分支跑測試時不該把測試內容推上正式站。
+      - name: Deploy Worker (site + API)
+        if: github.ref == 'refs/heads/main'
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          retry_wait_seconds: 20
+          command: cd worker && npx wrangler deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      # --- 提交 -------------------------------------------------------------
+      # data/ 是新增的，漏掉的話 Actions 會跑得很成功、網站永遠拿不到新資料。
+      # raw/ 不在這裡，也不需要 —— 它被 .gitignore 擋著。
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json archive/ data/
+          git commit -m "Update data & archive $(TZ='Asia/Taipei' date +%Y-%m-%d)" || exit 0
+          git push
