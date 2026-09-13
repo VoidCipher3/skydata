@@ -397,5 +397,43 @@
             "Golden Wasteland Treasure Candle-3",
             "Golden Wasteland Treasure Candle-1"
         ]
+    },
+    "2026-09-13": {
+        "tw": [
+            "對 5 位不同玩家發出叫聲",
+            "抱起一隻暗蟹",
+            "收集 紅色光芒",
+            "捕一條魚"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1",
+            "禁閣大蠟燭-2",
+            "暮土季蠟b組-1",
+            "暮土季蠟b組-2"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "抱起一只暗蟹",
+            "收集 红色光芒",
+            "捕捉一条鱼"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1",
+            "禁阁大蜡烛-2",
+            "暮土季蜡b组-1",
+            "暮土季蜡b组-2"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Pick up a Crab",
+            "Collect Red Light",
+            "Catch a fish"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1",
+            "Vault of Knowledge Treasure Candle-2",
+            "Golden Wasteland Season Candle group:b-1",
+            "Golden Wasteland Season Candle group:b-2"
+        ]
     }
 }
