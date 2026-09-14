@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-13 15:01:26 (GMT+8)",
+    "updated_at": "2026-09-14 15:01:13 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-13",
-        "date_tomorrow": "2026-09-14",
+        "date_today": "2026-09-14",
+        "date_tomorrow": "2026-09-15",
         "quests_today": [
-            "對 5 位不同玩家發出叫聲",
-            "抱起一隻暗蟹",
-            "收集 紅色光芒",
-            "捕一條魚"
-        ],
-        "quests_tomorrow": [
             "用燭光凝聚成一根蠟燭",
             "重溫祈禱聖徒在禁閣的記憶",
             "在禁閣第二層冥想",
             "向一位玩家揮手"
         ],
+        "quests_tomorrow": [
+            "收集 30 道燭光",
+            "抓住雲野之光",
+            "收集 綠色光芒",
+            "對其他玩家使用表情"
+        ],
         "candles_today": [
-            "禁閣大蠟燭-1",
-            "禁閣大蠟燭-2",
-            "暮土季蠟b組-1",
-            "暮土季蠟b組-2"
+            "禁閣季蠟b組-1",
+            "雲野大蠟燭-3",
+            "禁閣季蠟b組-2",
+            "雲野大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-13",
-        "date_tomorrow": "2026-09-14",
+        "date_today": "2026-09-14",
+        "date_tomorrow": "2026-09-15",
         "quests_today": [
-            "呼唤5位不同玩家",
-            "抱起一只暗蟹",
-            "收集 红色光芒",
-            "捕捉一条鱼"
-        ],
-        "quests_tomorrow": [
             "用烛光凝聚成一根蜡烛",
             "在禁阁重温祈祷圣徒的记忆",
             "在禁阁第二层冥想",
             "向一位玩家挥手"
         ],
+        "quests_tomorrow": [
+            "收集 30 道烛光",
+            "抓住云野之光",
+            "收集 绿色光芒",
+            "对玩家使用表情"
+        ],
         "candles_today": [
-            "禁阁大蜡烛-1",
-            "禁阁大蜡烛-2",
-            "暮土季蜡b组-1",
-            "暮土季蜡b组-2"
+            "禁阁季蜡b组-1",
+            "云野大蜡烛-3",
+            "禁阁季蜡b组-2",
+            "云野大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-13",
-        "date_tomorrow": "2026-09-14",
+        "date_today": "2026-09-14",
+        "date_tomorrow": "2026-09-15",
         "quests_today": [
-            "Call to 5 different players",
-            "Pick up a Crab",
-            "Collect Red Light",
-            "Catch a fish"
-        ],
-        "quests_tomorrow": [
             "Forge a candle",
             "Relive Praying Acolyte's memory from Vault of Knowledge",
             "Meditate on the second floor of the Vault",
             "Wave to a player"
         ],
+        "quests_tomorrow": [
+            "Collect 30 pieces of light",
+            "Catch the light in Daylight Prairie",
+            "Collect Green Light",
+            "Use expressions with players"
+        ],
         "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Vault of Knowledge Treasure Candle-2",
-            "Golden Wasteland Season Candle group:b-1",
-            "Golden Wasteland Season Candle group:b-2"
+            "Vault of Knowledge Season Candle group:b-1",
+            "Daylight Prairie Treasure Candle-3",
+            "Vault of Knowledge Season Candle group:b-2",
+            "Daylight Prairie Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }

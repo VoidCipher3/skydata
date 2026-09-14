@@ -435,5 +435,43 @@
             "Golden Wasteland Season Candle group:b-1",
             "Golden Wasteland Season Candle group:b-2"
         ]
+    },
+    "2026-09-14": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "重溫祈禱聖徒在禁閣的記憶",
+            "在禁閣第二層冥想",
+            "向一位玩家揮手"
+        ],
+        "candles_tw": [
+            "禁閣季蠟b組-1",
+            "雲野大蠟燭-3",
+            "禁閣季蠟b組-2",
+            "雲野大蠟燭-1"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "在禁阁重温祈祷圣徒的记忆",
+            "在禁阁第二层冥想",
+            "向一位玩家挥手"
+        ],
+        "candles_cn": [
+            "禁阁季蜡b组-1",
+            "云野大蜡烛-3",
+            "禁阁季蜡b组-2",
+            "云野大蜡烛-1"
+        ],
+        "en": [
+            "Forge a candle",
+            "Relive Praying Acolyte's memory from Vault of Knowledge",
+            "Meditate on the second floor of the Vault",
+            "Wave to a player"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:b-1",
+            "Daylight Prairie Treasure Candle-3",
+            "Vault of Knowledge Season Candle group:b-2",
+            "Daylight Prairie Treasure Candle-1"
+        ]
     }
 }
