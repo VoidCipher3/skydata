@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-14 15:01:13 (GMT+8)",
+    "updated_at": "2026-09-15 15:01:34 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-14",
-        "date_tomorrow": "2026-09-15",
+        "date_today": "2026-09-15",
+        "date_tomorrow": "2026-09-16",
         "quests_today": [
-            "用燭光凝聚成一根蠟燭",
-            "重溫祈禱聖徒在禁閣的記憶",
-            "在禁閣第二層冥想",
-            "向一位玩家揮手"
-        ],
-        "quests_tomorrow": [
             "收集 30 道燭光",
             "抓住雲野之光",
             "收集 綠色光芒",
             "對其他玩家使用表情"
         ],
+        "quests_tomorrow": [
+            "點亮一位陌生玩家",
+            "淨化 10 處黑暗腐植",
+            "拯救一隻被黑暗腐植困住的光鰩",
+            "在埋骨之地旁冥想"
+        ],
         "candles_today": [
-            "禁閣季蠟b組-1",
-            "雲野大蠟燭-3",
-            "禁閣季蠟b組-2",
-            "雲野大蠟燭-1"
+            "雨林大蠟燭-3",
+            "雲野季蠟b組-1",
+            "雲野季蠟b組-2",
+            "雨林大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-14",
-        "date_tomorrow": "2026-09-15",
+        "date_today": "2026-09-15",
+        "date_tomorrow": "2026-09-16",
         "quests_today": [
-            "用烛光凝聚成一根蜡烛",
-            "在禁阁重温祈祷圣徒的记忆",
-            "在禁阁第二层冥想",
-            "向一位玩家挥手"
-        ],
-        "quests_tomorrow": [
             "收集 30 道烛光",
             "抓住云野之光",
             "收集 绿色光芒",
             "对玩家使用表情"
         ],
+        "quests_tomorrow": [
+            "交一个新朋友",
+            "净化 10 处黑暗腐植",
+            "拯救一只被黑暗腐植困住的光鳐",
+            "在雨林的埋骨之地旁冥想"
+        ],
         "candles_today": [
-            "禁阁季蜡b组-1",
-            "云野大蜡烛-3",
-            "禁阁季蜡b组-2",
-            "云野大蜡烛-1"
+            "雨林大蜡烛-3",
+            "云野季蜡b组-1",
+            "云野季蜡b组-2",
+            "雨林大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-14",
-        "date_tomorrow": "2026-09-15",
+        "date_today": "2026-09-15",
+        "date_tomorrow": "2026-09-16",
         "quests_today": [
-            "Forge a candle",
-            "Relive Praying Acolyte's memory from Vault of Knowledge",
-            "Meditate on the second floor of the Vault",
-            "Wave to a player"
-        ],
-        "quests_tomorrow": [
             "Collect 30 pieces of light",
             "Catch the light in Daylight Prairie",
             "Collect Green Light",
             "Use expressions with players"
         ],
+        "quests_tomorrow": [
+            "Make a new acquaintance",
+            "Melt 10 darkness",
+            "Rescue a manta from darkness",
+            "Meditate by the Forest's Boneyard"
+        ],
         "candles_today": [
-            "Vault of Knowledge Season Candle group:b-1",
-            "Daylight Prairie Treasure Candle-3",
-            "Vault of Knowledge Season Candle group:b-2",
-            "Daylight Prairie Treasure Candle-1"
+            "Hidden Forest Treasure Candle-3",
+            "Daylight Prairie Season Candle group:b-1",
+            "Daylight Prairie Season Candle group:b-2",
+            "Hidden Forest Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }

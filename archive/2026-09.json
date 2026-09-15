@@ -473,5 +473,43 @@
             "Vault of Knowledge Season Candle group:b-2",
             "Daylight Prairie Treasure Candle-1"
         ]
+    },
+    "2026-09-15": {
+        "tw": [
+            "收集 30 道燭光",
+            "抓住雲野之光",
+            "收集 綠色光芒",
+            "對其他玩家使用表情"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-3",
+            "雲野季蠟b組-1",
+            "雲野季蠟b組-2",
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "收集 30 道烛光",
+            "抓住云野之光",
+            "收集 绿色光芒",
+            "对玩家使用表情"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-3",
+            "云野季蜡b组-1",
+            "云野季蜡b组-2",
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Collect 30 pieces of light",
+            "Catch the light in Daylight Prairie",
+            "Collect Green Light",
+            "Use expressions with players"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-3",
+            "Daylight Prairie Season Candle group:b-1",
+            "Daylight Prairie Season Candle group:b-2",
+            "Hidden Forest Treasure Candle-1"
+        ]
     }
 }
