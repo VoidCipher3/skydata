@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-15 15:01:34 (GMT+8)",
+    "updated_at": "2026-09-17 09:42:07 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-15",
-        "date_tomorrow": "2026-09-16",
+        "date_today": "2026-09-16",
+        "date_tomorrow": "2026-09-17",
         "quests_today": [
-            "收集 30 道燭光",
-            "抓住雲野之光",
-            "收集 綠色光芒",
-            "對其他玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "點亮一位陌生玩家",
             "淨化 10 處黑暗腐植",
             "拯救一隻被黑暗腐植困住的光鰩",
             "在埋骨之地旁冥想"
         ],
+        "quests_tomorrow": [
+            "重溫一位霞谷先靈的記憶",
+            "與熊抱雪人欣賞共享空間",
+            "在隱士山谷欣賞一下彩虹",
+            "在隱士山谷山頂捕捉四散的光"
+        ],
         "candles_today": [
-            "雨林大蠟燭-3",
-            "雲野季蠟b組-1",
-            "雲野季蠟b組-2",
-            "雨林大蠟燭-1"
+            "雨林季蠟b組-2",
+            "雨林季蠟b組-1",
+            "霞谷大蠟燭-1",
+            "霞谷大蠟燭-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-15",
-        "date_tomorrow": "2026-09-16",
+        "date_today": "2026-09-16",
+        "date_tomorrow": "2026-09-17",
         "quests_today": [
-            "收集 30 道烛光",
-            "抓住云野之光",
-            "收集 绿色光芒",
-            "对玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "交一个新朋友",
             "净化 10 处黑暗腐植",
             "拯救一只被黑暗腐植困住的光鳐",
             "在雨林的埋骨之地旁冥想"
         ],
+        "quests_tomorrow": [
+            "在霞谷中重温一位先灵的记忆",
+            "与熊抱雪人一起欣赏共享空间",
+            "在隐士山谷欣赏一下彩虹",
+            "在隐士山谷顶上捕捉四散的光"
+        ],
         "candles_today": [
-            "雨林大蜡烛-3",
-            "云野季蜡b组-1",
-            "云野季蜡b组-2",
-            "雨林大蜡烛-1"
+            "雨林季蜡b组-2",
+            "雨林季蜡b组-1",
+            "霞谷大蜡烛-1",
+            "霞谷大蜡烛-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-15",
-        "date_tomorrow": "2026-09-16",
+        "date_today": "2026-09-16",
+        "date_tomorrow": "2026-09-17",
         "quests_today": [
-            "Collect 30 pieces of light",
-            "Catch the light in Daylight Prairie",
-            "Collect Green Light",
-            "Use expressions with players"
-        ],
-        "quests_tomorrow": [
             "Make a new acquaintance",
             "Melt 10 darkness",
             "Rescue a manta from darkness",
             "Meditate by the Forest's Boneyard"
         ],
+        "quests_tomorrow": [
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Admire Shared Spaces with Bearhug Hermit",
+            "Admire the rainbow in Hermit Valley for a short while",
+            "Catch the wandering lights atop Hermit Valley"
+        ],
         "candles_today": [
-            "Hidden Forest Treasure Candle-3",
-            "Daylight Prairie Season Candle group:b-1",
-            "Daylight Prairie Season Candle group:b-2",
-            "Hidden Forest Treasure Candle-1"
+            "Hidden Forest Season Candle group:b-2",
+            "Hidden Forest Season Candle group:b-1",
+            "Valley of Triumph Treasure Candle-1",
+            "Valley of Triumph Treasure Candle-2"
         ],
         "candles_tomorrow": []
     }
