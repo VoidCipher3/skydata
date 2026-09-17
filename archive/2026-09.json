@@ -549,5 +549,43 @@
             "Valley of Triumph Treasure Candle-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-09-17": {
+        "tw": [
+            "重溫一位霞谷先靈的記憶",
+            "與熊抱雪人欣賞共享空間",
+            "在隱士山谷欣賞一下彩虹",
+            "在隱士山谷山頂捕捉四散的光"
+        ],
+        "candles_tw": [
+            "霞谷季蠟b組-2",
+            "暮土大蠟燭-2",
+            "霞谷季蠟b組-1",
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "在霞谷中重温一位先灵的记忆",
+            "与熊抱雪人一起欣赏共享空间",
+            "在隐士山谷欣赏一下彩虹",
+            "在隐士山谷顶上捕捉四散的光"
+        ],
+        "candles_cn": [
+            "霞谷季蜡b组-2",
+            "暮土大蜡烛-2",
+            "霞谷季蜡b组-1",
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Admire Shared Spaces with Bearhug Hermit",
+            "Admire the rainbow in Hermit Valley for a short while",
+            "Catch the wandering lights atop Hermit Valley"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:b-2",
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:b-1",
+            "Golden Wasteland Treasure Candle-1"
+        ]
     }
 }
