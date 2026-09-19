@@ -32,7 +32,7 @@ jobs:
           command: |
             set -euo pipefail
             python scripts/fetch_raw.py
-            for f in iaplist.json generic.json events.json; do
+            for f in quest_schedule.json event_schedule.json generic.json iaplist.json consumable_defs.json; do
               test -s "raw/$f" || { echo "raw/$f 缺失或為空"; exit 1; }
             done
         env:
