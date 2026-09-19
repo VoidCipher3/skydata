@@ -1,4 +1,4 @@
-# skyquest
+# skydata
 
 《Sky: Children of the Light》每日任務與商店資訊追蹤站，支援繁中／簡中／English。
 
