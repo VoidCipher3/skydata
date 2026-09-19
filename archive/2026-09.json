@@ -625,5 +625,43 @@
             "Golden Wasteland Season Candle group:b-1",
             "Golden Wasteland Season Candle group:b-2"
         ]
+    },
+    "2026-09-19": {
+        "tw": [
+            "欣賞一下禁閣小樹苗",
+            "重溫禮貌學者在禁閣的記憶",
+            "在禁閣上層捕捉四散的光",
+            "在禁閣神廟冥想"
+        ],
+        "candles_tw": [
+            "禁閣季蠟b組-1",
+            "雲野大蠟燭-2",
+            "禁閣季蠟b組-2",
+            "雲野大蠟燭-1"
+        ],
+        "cn": [
+            "坐赏禁阁小树苗",
+            "在禁阁重温礼貌学者的记忆",
+            "在禁阁上层捕捉四散的光",
+            "在禁阁神庙冥想"
+        ],
+        "candles_cn": [
+            "禁阁季蜡b组-1",
+            "云野大蜡烛-2",
+            "禁阁季蜡b组-2",
+            "云野大蜡烛-1"
+        ],
+        "en": [
+            "Admire the sapling in the Vault of Knowledge for a short while",
+            "Relive Polite Scholar's memory from Vault of Knowledge",
+            "Catch the wandering lights in the Upper Vault",
+            "Meditate at the Temple of the Vault"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:b-1",
+            "Daylight Prairie Treasure Candle-2",
+            "Vault of Knowledge Season Candle group:b-2",
+            "Daylight Prairie Treasure Candle-1"
+        ]
     }
 }
