@@ -29,7 +29,12 @@ jobs:
           timeout_minutes: 8
           max_attempts: 3
           retry_wait_seconds: 20
-          command: "python scripts/fetch_raw.py"
+          command: |
+            set -euo pipefail
+            python scripts/fetch_raw.py
+            for f in iaplist.json generic.json events.json; do
+              test -s "raw/$f" || { echo "raw/$f 缺失或為空"; exit 1; }
+            done
         env:
           B: ${{ secrets.B }}
           LOGIN_BODY: ${{ secrets.LOGIN_BODY }}
@@ -42,7 +47,7 @@ jobs:
           max_attempts: 3
           retry_wait_seconds: 15
           command: "curl -fsS --max-time 60 -o raw/manifest.json https://skyinfoweb.pages.dev/image/manifest.json"
-
+      
       # 任務文字改讀 repo 裡的 i18n/quests.{tw,cn,en}.json，不再需要 QUEST_TW / QUEST_EN_1 / QUEST_EN_2 / QUEST_CN 四個 secret。
       - name: Build quest data
         run: python scripts/build_quest.py
@@ -66,7 +71,6 @@ jobs:
                       sys.exit(f"{p} 的 fetchedAt 已經 {age/3600:.1f} 小時前，抓取可能沒成功")
           PY
 
-      # 只有 main 會部署。從分支跑測試時不該把測試內容推上正式站。
       - name: Deploy Worker (site + API)
         if: github.ref == 'refs/heads/main'
         uses: nick-fields/retry@v3
