@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-19 16:49:11 (GMT+8)",
+    "updated_at": "2026-09-20 15:01:29 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-19",
-        "date_tomorrow": "2026-09-20",
+        "date_today": "2026-09-20",
+        "date_tomorrow": "2026-09-21",
         "quests_today": [
-            "欣賞一下禁閣小樹苗",
-            "重溫禮貌學者在禁閣的記憶",
-            "在禁閣上層捕捉四散的光",
-            "在禁閣神廟冥想"
-        ],
-        "quests_tomorrow": [
             "重溫一位雲野先靈的記憶",
             "找到雲野的彩虹蠟燭",
             "在雲野村莊捕捉四散的光",
             "在雲野神廟外的錦鯉池旁冥想"
         ],
+        "quests_tomorrow": [
+            "抓住雨林之光",
+            "向一位玩家揮手",
+            "整理樹林高處的先祖團聚長桌",
+            "收集 30 道燭光"
+        ],
         "candles_today": [
-            "禁閣季蠟b組-1",
-            "雲野大蠟燭-2",
-            "禁閣季蠟b組-2",
-            "雲野大蠟燭-1"
+            "雨林大蠟燭-2",
+            "雲野季蠟b組-1",
+            "雲野季蠟b組-2",
+            "雨林大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-19",
-        "date_tomorrow": "2026-09-20",
+        "date_today": "2026-09-20",
+        "date_tomorrow": "2026-09-21",
         "quests_today": [
-            "坐赏禁阁小树苗",
-            "在禁阁重温礼貌学者的记忆",
-            "在禁阁上层捕捉四散的光",
-            "在禁阁神庙冥想"
-        ],
-        "quests_tomorrow": [
             "在云野中重温一位先灵的记忆",
             "在云野找到彩虹蜡烛",
             "在云野村庄中捕捉四散的光",
             "在云野神庙外的锦鲤池旁冥想"
         ],
+        "quests_tomorrow": [
+            "抓住雨林之光",
+            "向一位玩家挥手",
+            "整理树林高处的先祖团聚长桌",
+            "收集 30 道烛光"
+        ],
         "candles_today": [
-            "禁阁季蜡b组-1",
-            "云野大蜡烛-2",
-            "禁阁季蜡b组-2",
-            "云野大蜡烛-1"
+            "雨林大蜡烛-2",
+            "云野季蜡b组-1",
+            "云野季蜡b组-2",
+            "雨林大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-19",
-        "date_tomorrow": "2026-09-20",
+        "date_today": "2026-09-20",
+        "date_tomorrow": "2026-09-21",
         "quests_today": [
-            "Admire the sapling in the Vault of Knowledge for a short while",
-            "Relive Polite Scholar's memory from Vault of Knowledge",
-            "Catch the wandering lights in the Upper Vault",
-            "Meditate at the Temple of the Vault"
-        ],
-        "quests_tomorrow": [
             "Relive a Spirit's memories in Daylight Prairie",
             "Find the candles at the end of the rainbow in Daylight Prairie",
             "Catch the wandering lights in Prairie Village",
             "Meditate by the koi pond outside the Temple of the Prairie"
         ],
+        "quests_tomorrow": [
+            "Catch the light in Hidden Forest",
+            "Wave to a player",
+            "Tidy up the Ancestor's table in the Elevated Clearing",
+            "Collect 30 pieces of light"
+        ],
         "candles_today": [
-            "Vault of Knowledge Season Candle group:b-1",
-            "Daylight Prairie Treasure Candle-2",
-            "Vault of Knowledge Season Candle group:b-2",
-            "Daylight Prairie Treasure Candle-1"
+            "Hidden Forest Treasure Candle-2",
+            "Daylight Prairie Season Candle group:b-1",
+            "Daylight Prairie Season Candle group:b-2",
+            "Hidden Forest Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }
