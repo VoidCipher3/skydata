@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-20 15:01:29 (GMT+8)",
+    "updated_at": "2026-09-21 15:40:25 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-20",
-        "date_tomorrow": "2026-09-21",
+        "date_today": "2026-09-21",
+        "date_tomorrow": "2026-09-22",
         "quests_today": [
-            "重溫一位雲野先靈的記憶",
-            "找到雲野的彩虹蠟燭",
-            "在雲野村莊捕捉四散的光",
-            "在雲野神廟外的錦鯉池旁冥想"
-        ],
-        "quests_tomorrow": [
             "抓住雨林之光",
             "向一位玩家揮手",
             "整理樹林高處的先祖團聚長桌",
             "收集 30 道燭光"
         ],
+        "quests_tomorrow": [
+            "欣賞一下霞谷小樹苗",
+            "抓住霞谷之光",
+            "把禮物帶給健忘說書人",
+            "對其他玩家使用表情"
+        ],
         "candles_today": [
-            "雨林大蠟燭-2",
-            "雲野季蠟b組-1",
-            "雲野季蠟b組-2",
-            "雨林大蠟燭-1"
+            "雨林季蠟b組-2",
+            "雨林季蠟b組-1",
+            "霞谷大蠟燭-1",
+            "霞谷大蠟燭-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-20",
-        "date_tomorrow": "2026-09-21",
+        "date_today": "2026-09-21",
+        "date_tomorrow": "2026-09-22",
         "quests_today": [
-            "在云野中重温一位先灵的记忆",
-            "在云野找到彩虹蜡烛",
-            "在云野村庄中捕捉四散的光",
-            "在云野神庙外的锦鲤池旁冥想"
-        ],
-        "quests_tomorrow": [
             "抓住雨林之光",
             "向一位玩家挥手",
             "整理树林高处的先祖团聚长桌",
             "收集 30 道烛光"
         ],
+        "quests_tomorrow": [
+            "坐赏霞谷小树苗",
+            "抓住霞谷之光",
+            "将礼物带给健忘的说书人",
+            "对玩家使用表情"
+        ],
         "candles_today": [
-            "雨林大蜡烛-2",
-            "云野季蜡b组-1",
-            "云野季蜡b组-2",
-            "雨林大蜡烛-1"
+            "雨林季蜡b组-2",
+            "雨林季蜡b组-1",
+            "霞谷大蜡烛-1",
+            "霞谷大蜡烛-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-20",
-        "date_tomorrow": "2026-09-21",
+        "date_today": "2026-09-21",
+        "date_tomorrow": "2026-09-22",
         "quests_today": [
-            "Relive a Spirit's memories in Daylight Prairie",
-            "Find the candles at the end of the rainbow in Daylight Prairie",
-            "Catch the wandering lights in Prairie Village",
-            "Meditate by the koi pond outside the Temple of the Prairie"
-        ],
-        "quests_tomorrow": [
             "Catch the light in Hidden Forest",
             "Wave to a player",
             "Tidy up the Ancestor's table in the Elevated Clearing",
             "Collect 30 pieces of light"
         ],
+        "quests_tomorrow": [
+            "Admire the sapling in Valley of Triumph for a short while",
+            "Catch the light in Valley of Triumph",
+            "Bring the gift to Forgetful Storyteller",
+            "Use expressions with players"
+        ],
         "candles_today": [
-            "Hidden Forest Treasure Candle-2",
-            "Daylight Prairie Season Candle group:b-1",
-            "Daylight Prairie Season Candle group:b-2",
-            "Hidden Forest Treasure Candle-1"
+            "Hidden Forest Season Candle group:b-2",
+            "Hidden Forest Season Candle group:b-1",
+            "Valley of Triumph Treasure Candle-1",
+            "Valley of Triumph Treasure Candle-2"
         ],
         "candles_tomorrow": []
     }
