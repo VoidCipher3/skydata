@@ -739,5 +739,43 @@
             "Valley of Triumph Treasure Candle-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-09-22": {
+        "tw": [
+            "欣賞一下霞谷小樹苗",
+            "抓住霞谷之光",
+            "把禮物帶給健忘說書人",
+            "對其他玩家使用表情"
+        ],
+        "candles_tw": [
+            "霞谷季蠟b組-2",
+            "暮土大蠟燭-2",
+            "霞谷季蠟b組-1",
+            "暮土大蠟燭-3"
+        ],
+        "cn": [
+            "坐赏霞谷小树苗",
+            "抓住霞谷之光",
+            "将礼物带给健忘的说书人",
+            "对玩家使用表情"
+        ],
+        "candles_cn": [
+            "霞谷季蜡b组-2",
+            "暮土大蜡烛-2",
+            "霞谷季蜡b组-1",
+            "暮土大蜡烛-3"
+        ],
+        "en": [
+            "Admire the sapling in Valley of Triumph for a short while",
+            "Catch the light in Valley of Triumph",
+            "Bring the gift to Forgetful Storyteller",
+            "Use expressions with players"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:b-2",
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:b-1",
+            "Golden Wasteland Treasure Candle-3"
+        ]
     }
 }

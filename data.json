@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-21 15:40:25 (GMT+8)",
+    "updated_at": "2026-09-22 15:01:30 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-21",
-        "date_tomorrow": "2026-09-22",
+        "date_today": "2026-09-22",
+        "date_tomorrow": "2026-09-23",
         "quests_today": [
-            "抓住雨林之光",
-            "向一位玩家揮手",
-            "整理樹林高處的先祖團聚長桌",
-            "收集 30 道燭光"
-        ],
-        "quests_tomorrow": [
             "欣賞一下霞谷小樹苗",
             "抓住霞谷之光",
             "把禮物帶給健忘說書人",
             "對其他玩家使用表情"
         ],
+        "quests_tomorrow": [
+            "淨化 10 處黑暗腐植",
+            "前往暮土的墓園找到篝火",
+            "和朋友牽手",
+            "在暮土墓園捕捉四散的光"
+        ],
         "candles_today": [
-            "雨林季蠟b組-2",
-            "雨林季蠟b組-1",
-            "霞谷大蠟燭-1",
-            "霞谷大蠟燭-2"
+            "霞谷季蠟b組-2",
+            "暮土大蠟燭-2",
+            "霞谷季蠟b組-1",
+            "暮土大蠟燭-3"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-21",
-        "date_tomorrow": "2026-09-22",
+        "date_today": "2026-09-22",
+        "date_tomorrow": "2026-09-23",
         "quests_today": [
-            "抓住雨林之光",
-            "向一位玩家挥手",
-            "整理树林高处的先祖团聚长桌",
-            "收集 30 道烛光"
-        ],
-        "quests_tomorrow": [
             "坐赏霞谷小树苗",
             "抓住霞谷之光",
             "将礼物带给健忘的说书人",
             "对玩家使用表情"
         ],
+        "quests_tomorrow": [
+            "净化 10 处黑暗腐植",
+            "前往暮土的墓园找到篝火",
+            "和朋友牵手",
+            "在暮土墓园中捕捉四散的光"
+        ],
         "candles_today": [
-            "雨林季蜡b组-2",
-            "雨林季蜡b组-1",
-            "霞谷大蜡烛-1",
-            "霞谷大蜡烛-2"
+            "霞谷季蜡b组-2",
+            "暮土大蜡烛-2",
+            "霞谷季蜡b组-1",
+            "暮土大蜡烛-3"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-21",
-        "date_tomorrow": "2026-09-22",
+        "date_today": "2026-09-22",
+        "date_tomorrow": "2026-09-23",
         "quests_today": [
-            "Catch the light in Hidden Forest",
-            "Wave to a player",
-            "Tidy up the Ancestor's table in the Elevated Clearing",
-            "Collect 30 pieces of light"
-        ],
-        "quests_tomorrow": [
             "Admire the sapling in Valley of Triumph for a short while",
             "Catch the light in Valley of Triumph",
             "Bring the gift to Forgetful Storyteller",
             "Use expressions with players"
         ],
+        "quests_tomorrow": [
+            "Melt 10 darkness",
+            "Visit the bonfire at the Wasteland's Graveyard",
+            "Hold a friend's hand",
+            "Catch the wandering lights in the Graveyard"
+        ],
         "candles_today": [
-            "Hidden Forest Season Candle group:b-2",
-            "Hidden Forest Season Candle group:b-1",
-            "Valley of Triumph Treasure Candle-1",
-            "Valley of Triumph Treasure Candle-2"
+            "Valley of Triumph Season Candle group:b-2",
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:b-1",
+            "Golden Wasteland Treasure Candle-3"
         ],
         "candles_tomorrow": []
     }
