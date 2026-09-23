@@ -777,5 +777,43 @@
             "Valley of Triumph Season Candle group:b-1",
             "Golden Wasteland Treasure Candle-3"
         ]
+    },
+    "2026-09-23": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "前往暮土的墓園找到篝火",
+            "和朋友牽手",
+            "在暮土墓園捕捉四散的光"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1",
+            "禁閣大蠟燭-2",
+            "暮土季蠟b組-1",
+            "暮土季蠟b組-2"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "前往暮土的墓园找到篝火",
+            "和朋友牵手",
+            "在暮土墓园中捕捉四散的光"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1",
+            "禁阁大蜡烛-2",
+            "暮土季蜡b组-1",
+            "暮土季蜡b组-2"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Visit the bonfire at the Wasteland's Graveyard",
+            "Hold a friend's hand",
+            "Catch the wandering lights in the Graveyard"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1",
+            "Vault of Knowledge Treasure Candle-2",
+            "Golden Wasteland Season Candle group:b-1",
+            "Golden Wasteland Season Candle group:b-2"
+        ]
     }
 }
