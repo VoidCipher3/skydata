@@ -815,5 +815,43 @@
             "Golden Wasteland Season Candle group:b-1",
             "Golden Wasteland Season Candle group:b-2"
         ]
+    },
+    "2026-09-24": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "收集 紫色光芒",
+            "重溫智慧長者在禁閣的記憶",
+            "向一位玩家鞠躬"
+        ],
+        "candles_tw": [
+            "禁閣季蠟b組-1",
+            "雲野大蠟燭-2",
+            "雲野大蠟燭-3",
+            "禁閣季蠟b組-2"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "收集 紫色光芒",
+            "在禁阁重温智慧长者的记忆",
+            "向一位玩家鞠躬"
+        ],
+        "candles_cn": [
+            "禁阁季蜡b组-1",
+            "云野大蜡烛-2",
+            "云野大蜡烛-3",
+            "禁阁季蜡b组-2"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Collect Purple Light",
+            "Relive Wise Grandparent's memory from Vault of Knowledge",
+            "Bow at a player"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:b-1",
+            "Daylight Prairie Treasure Candle-2",
+            "Daylight Prairie Treasure Candle-3",
+            "Vault of Knowledge Season Candle group:b-2"
+        ]
     }
 }

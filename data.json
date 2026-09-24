@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-09-23 15:01:10 (GMT+8)",
+    "updated_at": "2026-09-24 15:01:39 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-23",
-        "date_tomorrow": "2026-09-24",
+        "date_today": "2026-09-24",
+        "date_tomorrow": "2026-09-25",
         "quests_today": [
-            "淨化 10 處黑暗腐植",
-            "前往暮土的墓園找到篝火",
-            "和朋友牽手",
-            "在暮土墓園捕捉四散的光"
-        ],
-        "quests_tomorrow": [
             "點亮 20 根蠟燭",
             "收集 紫色光芒",
             "重溫智慧長者在禁閣的記憶",
             "向一位玩家鞠躬"
         ],
+        "quests_tomorrow": [
+            "對 5 位不同玩家發出叫聲",
+            "在浮石鳥巢捕捉四散的光",
+            "重溫熱血運動員在雲野的記憶",
+            "拜訪聖域群島上遭受汙染的間歇泉"
+        ],
         "candles_today": [
-            "禁閣大蠟燭-1",
-            "禁閣大蠟燭-2",
-            "暮土季蠟b組-1",
-            "暮土季蠟b組-2"
+            "禁閣季蠟b組-1",
+            "雲野大蠟燭-2",
+            "雲野大蠟燭-3",
+            "禁閣季蠟b組-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-23",
-        "date_tomorrow": "2026-09-24",
+        "date_today": "2026-09-24",
+        "date_tomorrow": "2026-09-25",
         "quests_today": [
-            "净化 10 处黑暗腐植",
-            "前往暮土的墓园找到篝火",
-            "和朋友牵手",
-            "在暮土墓园中捕捉四散的光"
-        ],
-        "quests_tomorrow": [
             "点亮 20 根蜡烛",
             "收集 紫色光芒",
             "在禁阁重温智慧长者的记忆",
             "向一位玩家鞠躬"
         ],
+        "quests_tomorrow": [
+            "呼唤5位不同玩家",
+            "在浮石鸟巢周围捕捉四散的光",
+            "在云野重温热血运动员的记忆",
+            "拜访圣域群岛上遭受污染的间歇泉"
+        ],
         "candles_today": [
-            "禁阁大蜡烛-1",
-            "禁阁大蜡烛-2",
-            "暮土季蜡b组-1",
-            "暮土季蜡b组-2"
+            "禁阁季蜡b组-1",
+            "云野大蜡烛-2",
+            "云野大蜡烛-3",
+            "禁阁季蜡b组-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-23",
-        "date_tomorrow": "2026-09-24",
+        "date_today": "2026-09-24",
+        "date_tomorrow": "2026-09-25",
         "quests_today": [
-            "Melt 10 darkness",
-            "Visit the bonfire at the Wasteland's Graveyard",
-            "Hold a friend's hand",
-            "Catch the wandering lights in the Graveyard"
-        ],
-        "quests_tomorrow": [
             "Light 20 candles",
             "Collect Purple Light",
             "Relive Wise Grandparent's memory from Vault of Knowledge",
             "Bow at a player"
         ],
+        "quests_tomorrow": [
+            "Call to 5 different players",
+            "Catch the wandering lights around the Bird Nest",
+            "Relive Rallying Thrillseeker's memory from Daylight Prairie",
+            "Visit the polluted geyser in Sanctuary Islands"
+        ],
         "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Vault of Knowledge Treasure Candle-2",
-            "Golden Wasteland Season Candle group:b-1",
-            "Golden Wasteland Season Candle group:b-2"
+            "Vault of Knowledge Season Candle group:b-1",
+            "Daylight Prairie Treasure Candle-2",
+            "Daylight Prairie Treasure Candle-3",
+            "Vault of Knowledge Season Candle group:b-2"
         ],
         "candles_tomorrow": []
     }
