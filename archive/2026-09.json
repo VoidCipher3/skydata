@@ -853,5 +853,37 @@
             "Daylight Prairie Treasure Candle-3",
             "Vault of Knowledge Season Candle group:b-2"
         ]
+    },
+    "2026-09-25": {
+        "tw": [
+            "對 5 位不同玩家發出叫聲",
+            "在浮石鳥巢捕捉四散的光",
+            "重溫熱血運動員在雲野的記憶",
+            "拜訪聖域群島上遭受汙染的間歇泉"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-2",
+            "雲野季蠟b組-1"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "在浮石鸟巢周围捕捉四散的光",
+            "在云野重温热血运动员的记忆",
+            "拜访圣域群岛上遭受污染的间歇泉"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-2",
+            "云野季蜡b组-1"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Catch the wandering lights around the Bird Nest",
+            "Relive Rallying Thrillseeker's memory from Daylight Prairie",
+            "Visit the polluted geyser in Sanctuary Islands"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-2",
+            "Daylight Prairie Season Candle group:b-1"
+        ]
     }
 }

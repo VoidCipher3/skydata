@@ -1,74 +1,68 @@
 {
-    "updated_at": "2026-09-24 19:17:52 (GMT+8)",
+    "updated_at": "2026-09-25 15:01:53 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-24",
-        "date_tomorrow": "2026-09-25",
+        "date_today": "2026-09-25",
+        "date_tomorrow": "2026-09-26",
         "quests_today": [
-            "點亮 20 根蠟燭",
-            "收集 紫色光芒",
-            "重溫智慧長者在禁閣的記憶",
-            "向一位玩家鞠躬"
-        ],
-        "quests_tomorrow": [
             "對 5 位不同玩家發出叫聲",
             "在浮石鳥巢捕捉四散的光",
             "重溫熱血運動員在雲野的記憶",
             "拜訪聖域群島上遭受汙染的間歇泉"
         ],
+        "quests_tomorrow": [
+            "找到雨林的彩虹蠟燭",
+            "在雨林小溪捕捉四散的光",
+            "抱起一隻暗蟹",
+            "重溫正步冒險家在雨林的記憶"
+        ],
         "candles_today": [
-            "禁閣季蠟b組-1",
-            "雲野大蠟燭-2",
-            "雲野大蠟燭-3",
-            "禁閣季蠟b組-2"
+            "雨林大蠟燭-2",
+            "雲野季蠟b組-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-24",
-        "date_tomorrow": "2026-09-25",
+        "date_today": "2026-09-25",
+        "date_tomorrow": "2026-09-26",
         "quests_today": [
-            "点亮 20 根蜡烛",
-            "收集 紫色光芒",
-            "在禁阁重温智慧长者的记忆",
-            "向一位玩家鞠躬"
-        ],
-        "quests_tomorrow": [
             "呼唤5位不同玩家",
             "在浮石鸟巢周围捕捉四散的光",
             "在云野重温热血运动员的记忆",
             "拜访圣域群岛上遭受污染的间歇泉"
         ],
+        "quests_tomorrow": [
+            "在雨林找到彩虹蜡烛",
+            "在雨林小溪捕捉四散的光",
+            "抱起一只暗蟹",
+            "在雨林重温正步冒险家的记忆"
+        ],
         "candles_today": [
-            "禁阁季蜡b组-1",
-            "云野大蜡烛-2",
-            "云野大蜡烛-3",
-            "禁阁季蜡b组-2"
+            "雨林大蜡烛-2",
+            "云野季蜡b组-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-24",
-        "date_tomorrow": "2026-09-25",
+        "date_today": "2026-09-25",
+        "date_tomorrow": "2026-09-26",
         "quests_today": [
-            "Light 20 candles",
-            "Collect Purple Light",
-            "Relive Wise Grandparent's memory from Vault of Knowledge",
-            "Bow at a player"
-        ],
-        "quests_tomorrow": [
             "Call to 5 different players",
             "Catch the wandering lights around the Bird Nest",
             "Relive Rallying Thrillseeker's memory from Daylight Prairie",
             "Visit the polluted geyser in Sanctuary Islands"
         ],
+        "quests_tomorrow": [
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Catch the wandering lights in the Forest Brook",
+            "Pick up a Crab",
+            "Relive Marching Adventurer's memory from Hidden Forest"
+        ],
         "candles_today": [
-            "Vault of Knowledge Season Candle group:b-1",
-            "Daylight Prairie Treasure Candle-2",
-            "Daylight Prairie Treasure Candle-3",
-            "Vault of Knowledge Season Candle group:b-2"
+            "Hidden Forest Treasure Candle-2",
+            "Daylight Prairie Season Candle group:b-1"
         ],
         "candles_tomorrow": []
     }
