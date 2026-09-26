@@ -885,5 +885,37 @@
             "Hidden Forest Treasure Candle-2",
             "Daylight Prairie Season Candle group:b-1"
         ]
+    },
+    "2026-09-26": {
+        "tw": [
+            "找到雨林的彩虹蠟燭",
+            "在雨林小溪捕捉四散的光",
+            "抱起一隻暗蟹",
+            "重溫正步冒險家在雨林的記憶"
+        ],
+        "candles_tw": [
+            "雨林季蠟b組-2",
+            "霞谷大蠟燭-2"
+        ],
+        "cn": [
+            "在雨林找到彩虹蜡烛",
+            "在雨林小溪捕捉四散的光",
+            "抱起一只暗蟹",
+            "在雨林重温正步冒险家的记忆"
+        ],
+        "candles_cn": [
+            "雨林季蜡b组-2",
+            "霞谷大蜡烛-2"
+        ],
+        "en": [
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Catch the wandering lights in the Forest Brook",
+            "Pick up a Crab",
+            "Relive Marching Adventurer's memory from Hidden Forest"
+        ],
+        "candles_en": [
+            "Hidden Forest Season Candle group:b-2",
+            "Valley of Triumph Treasure Candle-2"
+        ]
     }
 }
