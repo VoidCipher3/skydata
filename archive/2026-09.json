@@ -949,5 +949,37 @@
             "Valley of Triumph Season Candle group:b-2",
             "Golden Wasteland Treasure Candle-3"
         ]
+    },
+    "2026-09-28": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "抓住暮土之光",
+            "對其他玩家使用表情",
+            "在破舊神廟冥想"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2",
+            "暮土季蠟b組-2"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "抓住暮土之光",
+            "对玩家使用表情",
+            "在破旧神庙里冥想"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2",
+            "暮土季蜡b组-2"
+        ],
+        "en": [
+            "Forge a candle",
+            "Catch the light in Golden Wasteland",
+            "Use expressions with players",
+            "Meditate in the Broken Temple"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2",
+            "Golden Wasteland Season Candle group:b-2"
+        ]
     }
 }
