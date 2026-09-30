@@ -1013,5 +1013,37 @@
             "Daylight Prairie Treasure Candle-3",
             "Vault of Knowledge Season Candle group:b-2"
         ]
+    },
+    "2026-09-30": {
+        "tw": [
+            "欣賞一下雲野小樹苗",
+            "在蝴蝶原野與眾多蝴蝶一同飛翔",
+            "重溫一位雲野先靈的記憶",
+            "前往雲野山洞找到舒適的藏身處"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-3",
+            "雲野季蠟b組-2"
+        ],
+        "cn": [
+            "坐赏云野小树苗",
+            "在蝴蝶原野与众多蝴蝶一同飞翔",
+            "在云野中重温一位先灵的记忆",
+            "前往云野山洞找到舒适的藏身处"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-3",
+            "云野季蜡b组-2"
+        ],
+        "en": [
+            "Admire the sapling in Daylight Prairie for a short while",
+            "Fly with many butterflies in Butterfly Fields",
+            "Relive a Spirit's memories in Daylight Prairie",
+            "Visit the cozy hideout in Prairie Caves"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-3",
+            "Daylight Prairie Season Candle group:b-2"
+        ]
     }
 }

@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-09-29 15:00:29 (GMT+8)",
+    "updated_at": "2026-09-30 15:00:29 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-09-29",
-        "date_tomorrow": "2026-09-30",
+        "date_today": "2026-09-30",
+        "date_tomorrow": "2026-10-01",
         "quests_today": [
-            "和朋友擁抱",
-            "在禁閣的入口處進行冥想。",
-            "在知識庫避難所捕捉四散的光",
-            "重溫一位禁閣先靈的記憶"
-        ],
-        "quests_tomorrow": [
             "欣賞一下雲野小樹苗",
             "在蝴蝶原野與眾多蝴蝶一同飛翔",
             "重溫一位雲野先靈的記憶",
             "前往雲野山洞找到舒適的藏身處"
         ],
+        "quests_tomorrow": [
+            "對 5 位不同玩家發出叫聲",
+            "欣賞一下雨林小樹苗",
+            "點亮 20 根蠟燭",
+            "重溫躲貓貓拓荒者在雨林的記憶"
+        ],
         "candles_today": [
-            "雲野大蠟燭-3",
-            "禁閣季蠟b組-2"
+            "雨林大蠟燭-3",
+            "雲野季蠟b組-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-09-29",
-        "date_tomorrow": "2026-09-30",
+        "date_today": "2026-09-30",
+        "date_tomorrow": "2026-10-01",
         "quests_today": [
-            "和朋友拥抱",
-            "在禁阁的入口冥想。",
-            "在禁阁的知识库避难所捕捉四散的光",
-            "在禁阁中重温一位先灵的记忆"
-        ],
-        "quests_tomorrow": [
             "坐赏云野小树苗",
             "在蝴蝶原野与众多蝴蝶一同飞翔",
             "在云野中重温一位先灵的记忆",
             "前往云野山洞找到舒适的藏身处"
         ],
+        "quests_tomorrow": [
+            "呼唤5位不同玩家",
+            "坐赏雨林小树苗",
+            "点亮 20 根蜡烛",
+            "在雨林重温躲猫猫拓荒者的记忆"
+        ],
         "candles_today": [
-            "云野大蜡烛-3",
-            "禁阁季蜡b组-2"
+            "雨林大蜡烛-3",
+            "云野季蜡b组-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-09-29",
-        "date_tomorrow": "2026-09-30",
+        "date_today": "2026-09-30",
+        "date_tomorrow": "2026-10-01",
         "quests_today": [
-            "Hug a friend",
-            "Meditate at the Vault's entrance",
-            "Catch the wandering lights in the Vault's Repository",
-            "Relive a Spirit's memories in Vault of Knowledge"
-        ],
-        "quests_tomorrow": [
             "Admire the sapling in Daylight Prairie for a short while",
             "Fly with many butterflies in Butterfly Fields",
             "Relive a Spirit's memories in Daylight Prairie",
             "Visit the cozy hideout in Prairie Caves"
         ],
+        "quests_tomorrow": [
+            "Call to 5 different players",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Light 20 candles",
+            "Relive Hide'n'seek Pioneer's memory from Hidden Forest"
+        ],
         "candles_today": [
-            "Daylight Prairie Treasure Candle-3",
-            "Vault of Knowledge Season Candle group:b-2"
+            "Hidden Forest Treasure Candle-3",
+            "Daylight Prairie Season Candle group:b-2"
         ],
         "candles_tomorrow": []
     }
