@@ -1,74 +1,74 @@
 {
-    "updated_at": "2026-10-01 15:00:52 (GMT+8)",
+    "updated_at": "2026-10-02 15:01:18 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-01",
-        "date_tomorrow": "2026-10-02",
+        "date_today": "2026-10-02",
+        "date_tomorrow": "2026-10-03",
         "quests_today": [
-            "對 5 位不同玩家發出叫聲",
-            "欣賞一下雨林小樹苗",
-            "點亮 20 根蠟燭",
-            "重溫躲貓貓拓荒者在雨林的記憶"
-        ],
-        "quests_tomorrow": [
             "重溫一位先靈的記憶",
             "淨化 10 處黑暗腐植",
             "把禮物帶給謙遜舞者",
             "向一位玩家鞠躬"
         ],
+        "quests_tomorrow": [
+            "向一位玩家揮手",
+            "在寶礁中欣賞一下彩虹",
+            "在寶礁海底捕捉四散的光",
+            "抱起一隻暗蟹"
+        ],
         "candles_today": [
-            "雨林季蠟b組-2",
-            "雨林季蠟b組-1",
-            "暮土大蠟燭-2",
-            "暮土大蠟燭-1"
+            "禁閣大蠟燭-1",
+            "霞谷季蠟b組-2",
+            "禁閣大蠟燭-2",
+            "霞谷季蠟b組-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-01",
-        "date_tomorrow": "2026-10-02",
+        "date_today": "2026-10-02",
+        "date_tomorrow": "2026-10-03",
         "quests_today": [
-            "呼唤5位不同玩家",
-            "坐赏雨林小树苗",
-            "点亮 20 根蜡烛",
-            "在雨林重温躲猫猫拓荒者的记忆"
-        ],
-        "quests_tomorrow": [
             "重温一位先灵的记忆",
             "净化 10 处黑暗腐植",
             "将礼物带给谦逊的舞者",
             "向一位玩家鞠躬"
         ],
+        "quests_tomorrow": [
+            "向一位玩家挥手",
+            "在宝藏暗礁欣赏一下彩虹",
+            "在宝礁海底捕捉四散的光",
+            "抱起一只暗蟹"
+        ],
         "candles_today": [
-            "雨林季蜡b组-2",
-            "雨林季蜡b组-1",
-            "暮土大蜡烛-2",
-            "暮土大蜡烛-1"
+            "禁阁大蜡烛-1",
+            "霞谷季蜡b组-2",
+            "禁阁大蜡烛-2",
+            "霞谷季蜡b组-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-01",
-        "date_tomorrow": "2026-10-02",
+        "date_today": "2026-10-02",
+        "date_tomorrow": "2026-10-03",
         "quests_today": [
-            "Call to 5 different players",
-            "Admire the sapling in the Hidden Forest for a short while",
-            "Light 20 candles",
-            "Relive Hide'n'seek Pioneer's memory from Hidden Forest"
-        ],
-        "quests_tomorrow": [
             "Relive a Spirit's memories",
             "Melt 10 darkness",
             "Bring the gift to Modest Dancer",
             "Bow at a player"
         ],
+        "quests_tomorrow": [
+            "Wave to a player",
+            "Admire the rainbow in Treasure Reef for a short while",
+            "Catch the wandering lights under the sea in Treasure Reef",
+            "Pick up a Crab"
+        ],
         "candles_today": [
-            "Hidden Forest Season Candle group:b-2",
-            "Hidden Forest Season Candle group:b-1",
-            "Golden Wasteland Treasure Candle-2",
-            "Golden Wasteland Treasure Candle-1"
+            "Vault of Knowledge Treasure Candle-1",
+            "Valley of Triumph Season Candle group:b-2",
+            "Vault of Knowledge Treasure Candle-2",
+            "Valley of Triumph Season Candle group:b-1"
         ],
         "candles_tomorrow": []
     }

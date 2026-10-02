@@ -36,5 +36,43 @@
             "Golden Wasteland Treasure Candle-2",
             "Golden Wasteland Treasure Candle-1"
         ]
+    },
+    "2026-10-02": {
+        "tw": [
+            "重溫一位先靈的記憶",
+            "淨化 10 處黑暗腐植",
+            "把禮物帶給謙遜舞者",
+            "向一位玩家鞠躬"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1",
+            "霞谷季蠟b組-2",
+            "禁閣大蠟燭-2",
+            "霞谷季蠟b組-1"
+        ],
+        "cn": [
+            "重温一位先灵的记忆",
+            "净化 10 处黑暗腐植",
+            "将礼物带给谦逊的舞者",
+            "向一位玩家鞠躬"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1",
+            "霞谷季蜡b组-2",
+            "禁阁大蜡烛-2",
+            "霞谷季蜡b组-1"
+        ],
+        "en": [
+            "Relive a Spirit's memories",
+            "Melt 10 darkness",
+            "Bring the gift to Modest Dancer",
+            "Bow at a player"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1",
+            "Valley of Triumph Season Candle group:b-2",
+            "Vault of Knowledge Treasure Candle-2",
+            "Valley of Triumph Season Candle group:b-1"
+        ]
     }
 }
