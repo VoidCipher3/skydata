@@ -1,74 +1,65 @@
 {
-    "updated_at": "2026-10-02 15:01:18 (GMT+8)",
+    "updated_at": "2026-10-03 15:00:42 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-02",
-        "date_tomorrow": "2026-10-03",
+        "date_today": "2026-10-03",
+        "date_tomorrow": "2026-10-04",
         "quests_today": [
-            "重溫一位先靈的記憶",
-            "淨化 10 處黑暗腐植",
-            "把禮物帶給謙遜舞者",
-            "向一位玩家鞠躬"
-        ],
-        "quests_tomorrow": [
             "向一位玩家揮手",
             "在寶礁中欣賞一下彩虹",
             "在寶礁海底捕捉四散的光",
             "抱起一隻暗蟹"
         ],
+        "quests_tomorrow": [
+            "收集 30 道燭光",
+            "抓住禁閣之光",
+            "重溫氣功高人在禁閣的記憶",
+            "對其他玩家使用表情"
+        ],
         "candles_today": [
-            "禁閣大蠟燭-1",
-            "霞谷季蠟b組-2",
-            "禁閣大蠟燭-2",
-            "霞谷季蠟b組-1"
+            "禁閣大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-02",
-        "date_tomorrow": "2026-10-03",
+        "date_today": "2026-10-03",
+        "date_tomorrow": "2026-10-04",
         "quests_today": [
-            "重温一位先灵的记忆",
-            "净化 10 处黑暗腐植",
-            "将礼物带给谦逊的舞者",
-            "向一位玩家鞠躬"
-        ],
-        "quests_tomorrow": [
             "向一位玩家挥手",
             "在宝藏暗礁欣赏一下彩虹",
             "在宝礁海底捕捉四散的光",
             "抱起一只暗蟹"
         ],
+        "quests_tomorrow": [
+            "收集 30 道烛光",
+            "抓住禁阁之光",
+            "在禁阁重温气功高人的记忆",
+            "对玩家使用表情"
+        ],
         "candles_today": [
-            "禁阁大蜡烛-1",
-            "霞谷季蜡b组-2",
-            "禁阁大蜡烛-2",
-            "霞谷季蜡b组-1"
+            "禁阁大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-02",
-        "date_tomorrow": "2026-10-03",
+        "date_today": "2026-10-03",
+        "date_tomorrow": "2026-10-04",
         "quests_today": [
-            "Relive a Spirit's memories",
-            "Melt 10 darkness",
-            "Bring the gift to Modest Dancer",
-            "Bow at a player"
-        ],
-        "quests_tomorrow": [
             "Wave to a player",
             "Admire the rainbow in Treasure Reef for a short while",
             "Catch the wandering lights under the sea in Treasure Reef",
             "Pick up a Crab"
         ],
+        "quests_tomorrow": [
+            "Collect 30 pieces of light",
+            "Catch the light in the Vault of Knowledge",
+            "Relive Levitating Adept's memory from Vault of Knowledge",
+            "Use expressions with players"
+        ],
         "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Valley of Triumph Season Candle group:b-2",
-            "Vault of Knowledge Treasure Candle-2",
-            "Valley of Triumph Season Candle group:b-1"
+            "Vault of Knowledge Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }
