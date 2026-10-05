@@ -132,5 +132,34 @@
         "candles_en": [
             "Daylight Prairie Treasure Candle-1"
         ]
+    },
+    "2026-10-05": {
+        "tw": [
+            "抓住雲野之光",
+            "用燭光凝聚成一根蠟燭",
+            "在雲野村莊冥想",
+            "乘坐光鰩"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "抓住云野之光",
+            "用烛光凝聚成一根蜡烛",
+            "在云野村庄里冥想",
+            "乘着光鳐兜风"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Daylight Prairie",
+            "Forge a candle",
+            "Meditate in Prairie Village",
+            "Ride with a Manta"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-1"
+        ]
     }
 }
