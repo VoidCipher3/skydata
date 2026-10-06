@@ -161,5 +161,34 @@
         "candles_en": [
             "Hidden Forest Treasure Candle-1"
         ]
+    },
+    "2026-10-06": {
+        "tw": [
+            "和朋友牽手",
+            "透過光菇重新恢復能量",
+            "拯救一隻被黑暗腐植困住的光鰩",
+            "收集 橙色光芒"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-2"
+        ],
+        "cn": [
+            "和朋友牵手",
+            "用光菇重新恢复能量",
+            "拯救一只被黑暗腐植困住的光鳐",
+            "收集 橙色光芒"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-2"
+        ],
+        "en": [
+            "Hold a friend's hand",
+            "Recharge your light from a light bloom",
+            "Rescue a manta from darkness",
+            "Collect Orange Light"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-2"
+        ]
     }
 }
