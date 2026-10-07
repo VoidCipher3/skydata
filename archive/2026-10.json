@@ -190,5 +190,34 @@
         "candles_en": [
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-10-07": {
+        "tw": [
+            "重溫一位霞谷先靈的記憶",
+            "對 5 位不同玩家發出叫聲",
+            "在霞谷城堡捕捉四散的光",
+            "找到霞谷的彩虹蠟燭"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-2"
+        ],
+        "cn": [
+            "在霞谷中重温一位先灵的记忆",
+            "呼唤5位不同玩家",
+            "在霞谷城堡捕捉四散的光",
+            "在霞谷找到彩虹蜡烛"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-2"
+        ],
+        "en": [
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Call to 5 different players",
+            "Catch the wandering lights in The Citadel",
+            "Find the candles at the end of the rainbow in the Valley of Triumph"
+        ],
+        "candles_en": [
+            "Golden Wasteland Treasure Candle-2"
+        ]
     }
 }
