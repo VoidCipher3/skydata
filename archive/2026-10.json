@@ -248,5 +248,34 @@
         "candles_en": [
             "Vault of Knowledge Treasure Candle-2"
         ]
+    },
+    "2026-10-09": {
+        "tw": [
+            "向一位玩家揮手",
+            "找到禁閣的彩虹蠟燭",
+            "在禁閣上層捕捉四散的光",
+            "在禁閣神廟冥想"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-2"
+        ],
+        "cn": [
+            "向一位玩家挥手",
+            "在禁阁找到彩虹蜡烛",
+            "在禁阁上层捕捉四散的光",
+            "在禁阁神庙冥想"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-2"
+        ],
+        "en": [
+            "Wave to a player",
+            "Find the candles at the end of the rainbow in the Vault of Knowledge",
+            "Catch the wandering lights in the Upper Vault",
+            "Meditate at the Temple of the Vault"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-2"
+        ]
     }
 }
