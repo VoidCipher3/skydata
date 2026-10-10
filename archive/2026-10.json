@@ -277,5 +277,34 @@
         "candles_en": [
             "Daylight Prairie Treasure Candle-2"
         ]
+    },
+    "2026-10-10": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "對其他玩家使用表情",
+            "與夜鳥語者一起大聲呼喚蝴蝶",
+            "在雲野神廟外的錦鯉池旁冥想"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-2"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "对玩家使用表情",
+            "与夜鸟语者一起大声呼唤蝴蝶",
+            "在云野神庙外的锦鲤池旁冥想"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-2"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Use expressions with players",
+            "Deep call the butterflies with Nightbird Whisperer",
+            "Meditate by the koi pond outside the Temple of the Prairie"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-2"
+        ]
     }
 }
