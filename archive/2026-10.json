@@ -306,5 +306,34 @@
         "candles_en": [
             "Hidden Forest Treasure Candle-2"
         ]
+    },
+    "2026-10-11": {
+        "tw": [
+            "抓住雨林之光",
+            "重溫發抖開拓者在雨林的記憶",
+            "整理樹林高處的先祖團聚長桌",
+            "和朋友擁抱"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1"
+        ],
+        "cn": [
+            "抓住雨林之光",
+            "在雨林重温发抖开拓者的记忆",
+            "整理树林高处的先祖团聚长桌",
+            "和朋友拥抱"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Hidden Forest",
+            "Relive Shivering Trailblazer's memory from Hidden Forest",
+            "Tidy up the Ancestor's table in the Elevated Clearing",
+            "Hug a friend"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1"
+        ]
     }
 }
