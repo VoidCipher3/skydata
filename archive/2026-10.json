@@ -335,5 +335,34 @@
         "candles_en": [
             "Valley of Triumph Treasure Candle-1"
         ]
+    },
+    "2026-10-12": {
+        "tw": [
+            "和朋友牽手",
+            "用燭光凝聚成一根蠟燭",
+            "沿著霞谷下層賽道捕捉四散的光",
+            "重溫自豪冠軍在霞谷的記憶"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-3"
+        ],
+        "cn": [
+            "和朋友牵手",
+            "用烛光凝聚成一根蜡烛",
+            "在下层霞谷赛道捕捉漫游之光",
+            "在霞谷重温自豪冠军的记忆"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-3"
+        ],
+        "en": [
+            "Hold a friend's hand",
+            "Forge a candle",
+            "Catch the wandering lights along the Lower Valley Track",
+            "Relive Proud Victor's memory from Valley of Triumph"
+        ],
+        "candles_en": [
+            "Golden Wasteland Treasure Candle-3"
+        ]
     }
 }

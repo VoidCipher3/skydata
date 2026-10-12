@@ -1,65 +1,65 @@
 {
-    "updated_at": "2026-10-11 15:01:43 (GMT+8)",
+    "updated_at": "2026-10-12 15:02:33 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-11",
-        "date_tomorrow": "2026-10-12",
+        "date_today": "2026-10-12",
+        "date_tomorrow": "2026-10-13",
         "quests_today": [
-            "抓住雨林之光",
-            "重溫發抖開拓者在雨林的記憶",
-            "整理樹林高處的先祖團聚長桌",
-            "和朋友擁抱"
-        ],
-        "quests_tomorrow": [
             "和朋友牽手",
             "用燭光凝聚成一根蠟燭",
             "沿著霞谷下層賽道捕捉四散的光",
             "重溫自豪冠軍在霞谷的記憶"
         ],
+        "quests_tomorrow": [
+            "對 5 位不同玩家發出叫聲",
+            "淨化 10 處黑暗腐植",
+            "在暮土墓園捕捉四散的光",
+            "前往暮土的墓園找到篝火"
+        ],
         "candles_today": [
-            "霞谷大蠟燭-1"
+            "暮土大蠟燭-3"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-11",
-        "date_tomorrow": "2026-10-12",
+        "date_today": "2026-10-12",
+        "date_tomorrow": "2026-10-13",
         "quests_today": [
-            "抓住雨林之光",
-            "在雨林重温发抖开拓者的记忆",
-            "整理树林高处的先祖团聚长桌",
-            "和朋友拥抱"
-        ],
-        "quests_tomorrow": [
             "和朋友牵手",
             "用烛光凝聚成一根蜡烛",
             "在下层霞谷赛道捕捉漫游之光",
             "在霞谷重温自豪冠军的记忆"
         ],
+        "quests_tomorrow": [
+            "呼唤5位不同玩家",
+            "净化 10 处黑暗腐植",
+            "在暮土墓园中捕捉四散的光",
+            "前往暮土的墓园找到篝火"
+        ],
         "candles_today": [
-            "霞谷大蜡烛-1"
+            "暮土大蜡烛-3"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-11",
-        "date_tomorrow": "2026-10-12",
+        "date_today": "2026-10-12",
+        "date_tomorrow": "2026-10-13",
         "quests_today": [
-            "Catch the light in Hidden Forest",
-            "Relive Shivering Trailblazer's memory from Hidden Forest",
-            "Tidy up the Ancestor's table in the Elevated Clearing",
-            "Hug a friend"
-        ],
-        "quests_tomorrow": [
             "Hold a friend's hand",
             "Forge a candle",
             "Catch the wandering lights along the Lower Valley Track",
             "Relive Proud Victor's memory from Valley of Triumph"
         ],
+        "quests_tomorrow": [
+            "Call to 5 different players",
+            "Melt 10 darkness",
+            "Catch the wandering lights in the Graveyard",
+            "Visit the bonfire at the Wasteland's Graveyard"
+        ],
         "candles_today": [
-            "Valley of Triumph Treasure Candle-1"
+            "Golden Wasteland Treasure Candle-3"
         ],
         "candles_tomorrow": []
     }
