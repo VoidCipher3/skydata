@@ -364,5 +364,34 @@
         "candles_en": [
             "Golden Wasteland Treasure Candle-3"
         ]
+    },
+    "2026-10-13": {
+        "tw": [
+            "對 5 位不同玩家發出叫聲",
+            "淨化 10 處黑暗腐植",
+            "在暮土墓園捕捉四散的光",
+            "前往暮土的墓園找到篝火"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-1"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "净化 10 处黑暗腐植",
+            "在暮土墓园中捕捉四散的光",
+            "前往暮土的墓园找到篝火"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-1"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Melt 10 darkness",
+            "Catch the wandering lights in the Graveyard",
+            "Visit the bonfire at the Wasteland's Graveyard"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-1"
+        ]
     }
 }

@@ -1,65 +1,65 @@
 {
-    "updated_at": "2026-10-12 15:02:33 (GMT+8)",
+    "updated_at": "2026-10-13 15:00:50 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-12",
-        "date_tomorrow": "2026-10-13",
+        "date_today": "2026-10-13",
+        "date_tomorrow": "2026-10-14",
         "quests_today": [
-            "和朋友牽手",
-            "用燭光凝聚成一根蠟燭",
-            "沿著霞谷下層賽道捕捉四散的光",
-            "重溫自豪冠軍在霞谷的記憶"
-        ],
-        "quests_tomorrow": [
             "對 5 位不同玩家發出叫聲",
             "淨化 10 處黑暗腐植",
             "在暮土墓園捕捉四散的光",
             "前往暮土的墓園找到篝火"
         ],
+        "quests_tomorrow": [
+            "欣賞一下禁閣小樹苗",
+            "和陌生人坐在長凳上",
+            "重溫一位先靈的記憶",
+            "重溫氣功高人在禁閣的記憶"
+        ],
         "candles_today": [
-            "暮土大蠟燭-3"
+            "禁閣大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-12",
-        "date_tomorrow": "2026-10-13",
+        "date_today": "2026-10-13",
+        "date_tomorrow": "2026-10-14",
         "quests_today": [
-            "和朋友牵手",
-            "用烛光凝聚成一根蜡烛",
-            "在下层霞谷赛道捕捉漫游之光",
-            "在霞谷重温自豪冠军的记忆"
-        ],
-        "quests_tomorrow": [
             "呼唤5位不同玩家",
             "净化 10 处黑暗腐植",
             "在暮土墓园中捕捉四散的光",
             "前往暮土的墓园找到篝火"
         ],
+        "quests_tomorrow": [
+            "坐赏禁阁小树苗",
+            "和陌生人坐在长凳上",
+            "重温一位先灵的记忆",
+            "在禁阁重温气功高人的记忆"
+        ],
         "candles_today": [
-            "暮土大蜡烛-3"
+            "禁阁大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-12",
-        "date_tomorrow": "2026-10-13",
+        "date_today": "2026-10-13",
+        "date_tomorrow": "2026-10-14",
         "quests_today": [
-            "Hold a friend's hand",
-            "Forge a candle",
-            "Catch the wandering lights along the Lower Valley Track",
-            "Relive Proud Victor's memory from Valley of Triumph"
-        ],
-        "quests_tomorrow": [
             "Call to 5 different players",
             "Melt 10 darkness",
             "Catch the wandering lights in the Graveyard",
             "Visit the bonfire at the Wasteland's Graveyard"
         ],
+        "quests_tomorrow": [
+            "Admire the sapling in the Vault of Knowledge for a short while",
+            "Sit on a bench with a stranger",
+            "Relive a Spirit's memories",
+            "Relive Levitating Adept's memory from Vault of Knowledge"
+        ],
         "candles_today": [
-            "Golden Wasteland Treasure Candle-3"
+            "Vault of Knowledge Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }
