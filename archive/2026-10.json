@@ -393,5 +393,34 @@
         "candles_en": [
             "Vault of Knowledge Treasure Candle-1"
         ]
+    },
+    "2026-10-14": {
+        "tw": [
+            "欣賞一下禁閣小樹苗",
+            "和陌生人坐在長凳上",
+            "重溫一位先靈的記憶",
+            "重溫氣功高人在禁閣的記憶"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-3"
+        ],
+        "cn": [
+            "坐赏禁阁小树苗",
+            "和陌生人坐在长凳上",
+            "重温一位先灵的记忆",
+            "在禁阁重温气功高人的记忆"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-3"
+        ],
+        "en": [
+            "Admire the sapling in the Vault of Knowledge for a short while",
+            "Sit on a bench with a stranger",
+            "Relive a Spirit's memories",
+            "Relive Levitating Adept's memory from Vault of Knowledge"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-3"
+        ]
     }
 }

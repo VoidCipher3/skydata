@@ -1,8 +1,8 @@
 {
  "meta": {
-  "fetchedAt": 1791874852,
-  "builtAt": 1791874850,
-  "validUntil": 1791876643,
+  "fetchedAt": 1791961257,
+  "builtAt": 1791961271,
+  "validUntil": 1791963064,
   "baseTime": 1587366000
  },
  "items": [
@@ -185,6 +185,114 @@
    "unlocks": [],
    "image": null,
    "eventName": null,
+   "platforms": "xsolla",
+   "giftable": false
+  },
+  {
+   "id": "XSNC01",
+   "oldId": null,
+   "nameKey": "commerce_item_name_web_sunheadband",
+   "descKey": "commerce_item_desc_web_sunheadband",
+   "type": "Non-Consumable",
+   "tier": 100,
+   "prices": {
+    "USD": 100,
+    "TWD": 3000,
+    "CNY": 600
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Hat_SunflowerHeadband",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_SunflowerHeadband.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Hat_SunflowerHeadband",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_SunflowerHeadband.png"
+   },
+   "eventName": "global_webshop_start",
+   "platforms": "xsolla",
+   "giftable": false
+  },
+  {
+   "id": "XSNC02",
+   "oldId": null,
+   "nameKey": "commerce_item_name_web_sprouthat",
+   "descKey": "commerce_item_desc_web_sprouthat",
+   "type": "Non-Consumable",
+   "tier": 100,
+   "prices": {
+    "USD": 100,
+    "TWD": 3000,
+    "CNY": 600
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Hat_Sprout",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_Sprout.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Hat_Sprout",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_Sprout.png"
+   },
+   "eventName": "global_webshop_start",
+   "platforms": "xsolla",
+   "giftable": false
+  },
+  {
+   "id": "XSNC03",
+   "oldId": null,
+   "nameKey": "commerce_item_name_web_sunflowerneck",
+   "descKey": "commerce_item_desc_web_sunflowerneck",
+   "type": "Non-Consumable",
+   "tier": 100,
+   "prices": {
+    "USD": 100,
+    "TWD": 3000,
+    "CNY": 600
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Neck_SunflowerTie",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_SunflowerTie.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Neck_SunflowerTie",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_SunflowerTie.png"
+   },
+   "eventName": "global_webshop_start",
+   "platforms": "xsolla",
+   "giftable": false
+  },
+  {
+   "id": "XSNC04",
+   "oldId": null,
+   "nameKey": "commerce_item_name_web_sunflowerskirt",
+   "descKey": "commerce_item_desc_web_sunflowerskirt",
+   "type": "Non-Consumable",
+   "tier": 100,
+   "prices": {
+    "USD": 100,
+    "TWD": 3000,
+    "CNY": 600
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Body_SunflowerSkirt",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_SunflowerSkirt.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Body_SunflowerSkirt",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_SunflowerSkirt.png"
+   },
+   "eventName": "global_webshop_start",
    "platforms": "xsolla",
    "giftable": false
   },
@@ -1124,6 +1232,176 @@
    "giftable": true
   },
   {
+   "id": "SNC218",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_ivoryswing",
+   "descKey": "commerce_item_desc_cafe_ivoryswing",
+   "type": "Non-Consumable",
+   "tier": 15,
+   "prices": {
+    "USD": 15,
+    "TWD": 450,
+    "CNY": 90
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Prop_IvorySwing",
+     "url": null
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Prop_IvorySwing",
+    "url": null
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC219",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_ivoryoveralls",
+   "descKey": "commerce_item_desc_cafe_ivoryoveralls",
+   "type": "Non-Consumable",
+   "tier": 10,
+   "prices": {
+    "USD": 10,
+    "TWD": 300,
+    "CNY": 60
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Body_IvoryOveralls",
+     "url": null
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Body_IvoryOveralls",
+    "url": null
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC112",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_pastryhair",
+   "descKey": "commerce_item_desc_cafe_pastryhair",
+   "type": "Non-Consumable",
+   "tier": 15,
+   "prices": {
+    "USD": 15,
+    "TWD": 450,
+    "CNY": 90
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Hair_PastryShort",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_PastryShort.png"
+    },
+    {
+     "name": "CharSkyKid_Horn_PastryEars",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryEars.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Hair_PastryShort",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_PastryShort.png"
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC113",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_pastryplush",
+   "descKey": "commerce_item_desc_cafe_pastryplush",
+   "type": "Non-Consumable",
+   "tier": 15,
+   "prices": {
+    "USD": 15,
+    "TWD": 450,
+    "CNY": 90
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Prop_PastryPlush",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_PastryPlush.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Prop_PastryPlush",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_PastryPlush.png"
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC114",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_pastrymini",
+   "descKey": "commerce_item_desc_cafe_pastrymini",
+   "type": "Non-Consumable",
+   "tier": 7,
+   "prices": {
+    "USD": 7,
+    "TWD": 210,
+    "CNY": 42
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Horn_PastryMini",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryMini.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Horn_PastryMini",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryMini.png"
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC115",
+   "oldId": null,
+   "nameKey": "commerce_item_name_cafe_pastrywing",
+   "descKey": "commerce_item_desc_cafe_pastrywing",
+   "type": "Non-Consumable",
+   "tier": 15,
+   "prices": {
+    "USD": 15,
+    "TWD": 450,
+    "CNY": 90
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Neck_PastryBow",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_PastryBow.png"
+    },
+    {
+     "name": "CharSkyKid_Wing_PastryCloud",
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_PastryCloud.png"
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Neck_PastryBow",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_PastryBow.png"
+   },
+   "eventName": "global_cafe",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
    "id": "SNC175",
    "oldId": null,
    "nameKey": "commerce_item_name_twinribbon_pink",
@@ -1244,6 +1522,87 @@
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_KizunaAi.png"
    },
    "eventName": "global_twinribbon",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC215",
+   "oldId": null,
+   "nameKey": "commerce_item_name_mischief_batwingcape",
+   "descKey": "commerce_item_desc_mischief_batwingcape",
+   "type": "Non-Consumable",
+   "tier": 15,
+   "prices": {
+    "USD": 15,
+    "TWD": 450,
+    "CNY": 90
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Wing_MischiefBatWing",
+     "url": null
+    }
+   ],
+   "image": {
+    "name": "UiOutfitCapeMischiefBatWing",
+    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiOutfitCapeMischiefBatWing.png"
+   },
+   "eventName": "global_halloween",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC216",
+   "oldId": null,
+   "nameKey": "commerce_item_name_mischief_magichat",
+   "descKey": "commerce_item_desc_mischief_magichat",
+   "type": "Non-Consumable",
+   "tier": 10,
+   "prices": {
+    "USD": 10,
+    "TWD": 300,
+    "CNY": 60
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Hat_MischiefMagicHat",
+     "url": null
+    }
+   ],
+   "image": {
+    "name": "CharSkyKid_Hat_MischiefMagicHat",
+    "url": null
+   },
+   "eventName": "global_halloween",
+   "platforms": "*",
+   "giftable": true
+  },
+  {
+   "id": "SNC217",
+   "oldId": null,
+   "nameKey": "commerce_item_name_mischief_catbuddy",
+   "descKey": "commerce_item_desc_mischief_catbuddy",
+   "type": "Non-Consumable",
+   "tier": 3,
+   "prices": {
+    "USD": 3,
+    "TWD": 90,
+    "CNY": 18
+   },
+   "bonus": [],
+   "unlocks": [
+    {
+     "name": "CharSkyKid_Neck_MischiefCat",
+     "url": null
+    }
+   ],
+   "image": {
+    "name": "UiOutfitNeckMischiefCat",
+    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiOutfitNeckMischiefCat.png"
+   },
+   "eventName": "global_halloween",
    "platforms": "*",
    "giftable": true
   },
@@ -5719,122 +6078,6 @@
     "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMenuHeartCandle.png"
    },
    "eventName": null,
-   "platforms": "*",
-   "giftable": true
-  },
-  {
-   "id": "SNC112",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_pastryhair",
-   "descKey": "commerce_item_desc_cafe_pastryhair",
-   "type": "Non-Consumable",
-   "tier": 15,
-   "prices": {
-    "USD": 15,
-    "TWD": 450,
-    "CNY": 90
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Hair_PastryShort",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_PastryShort.png"
-    },
-    {
-     "name": "CharSkyKid_Horn_PastryEars",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryEars.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Hair_PastryShort",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_PastryShort.png"
-   },
-   "eventName": "global_cafe",
-   "platforms": "*",
-   "giftable": true
-  },
-  {
-   "id": "SNC113",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_pastryplush",
-   "descKey": "commerce_item_desc_cafe_pastryplush",
-   "type": "Non-Consumable",
-   "tier": 15,
-   "prices": {
-    "USD": 15,
-    "TWD": 450,
-    "CNY": 90
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Prop_PastryPlush",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_PastryPlush.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Prop_PastryPlush",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_PastryPlush.png"
-   },
-   "eventName": "global_cafe",
-   "platforms": "*",
-   "giftable": true
-  },
-  {
-   "id": "SNC114",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_pastrymini",
-   "descKey": "commerce_item_desc_cafe_pastrymini",
-   "type": "Non-Consumable",
-   "tier": 7,
-   "prices": {
-    "USD": 7,
-    "TWD": 210,
-    "CNY": 42
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Horn_PastryMini",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryMini.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Horn_PastryMini",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryMini.png"
-   },
-   "eventName": "global_cafe",
-   "platforms": "*",
-   "giftable": true
-  },
-  {
-   "id": "SNC115",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_pastrywing",
-   "descKey": "commerce_item_desc_cafe_pastrywing",
-   "type": "Non-Consumable",
-   "tier": 15,
-   "prices": {
-    "USD": 15,
-    "TWD": 450,
-    "CNY": 90
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Neck_PastryBow",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_PastryBow.png"
-    },
-    {
-     "name": "CharSkyKid_Wing_PastryCloud",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_PastryCloud.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Neck_PastryBow",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_PastryBow.png"
-   },
-   "eventName": "global_cafe",
    "platforms": "*",
    "giftable": true
   },
