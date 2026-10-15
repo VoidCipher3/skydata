@@ -1,65 +1,65 @@
 {
-    "updated_at": "2026-10-14 15:01:11 (GMT+8)",
+    "updated_at": "2026-10-15 15:01:29 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-14",
-        "date_tomorrow": "2026-10-15",
+        "date_today": "2026-10-15",
+        "date_tomorrow": "2026-10-16",
         "quests_today": [
-            "欣賞一下禁閣小樹苗",
-            "和陌生人坐在長凳上",
-            "重溫一位先靈的記憶",
-            "重溫氣功高人在禁閣的記憶"
-        ],
-        "quests_tomorrow": [
             "收集 30 道燭光",
             "向一位玩家鞠躬",
             "在洞穴中與雀躍地質學家一起大聲呼喚蝴蝶",
             "在雲野村莊捕捉四散的光"
         ],
+        "quests_tomorrow": [
+            "找到雨林的彩虹蠟燭",
+            "在雨林小溪捕捉四散的光",
+            "重溫羞澀勘探者在雨林的記憶",
+            "抱起一隻暗蟹"
+        ],
         "candles_today": [
-            "雨林大蠟燭-3"
+            "霞谷大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-14",
-        "date_tomorrow": "2026-10-15",
+        "date_today": "2026-10-15",
+        "date_tomorrow": "2026-10-16",
         "quests_today": [
-            "坐赏禁阁小树苗",
-            "和陌生人坐在长凳上",
-            "重温一位先灵的记忆",
-            "在禁阁重温气功高人的记忆"
-        ],
-        "quests_tomorrow": [
             "收集 30 道烛光",
             "向一位玩家鞠躬",
             "与雀跃地质学家一起在洞穴中大声呼唤蝴蝶",
             "在云野村庄中捕捉四散的光"
         ],
+        "quests_tomorrow": [
+            "在雨林找到彩虹蜡烛",
+            "在雨林小溪捕捉四散的光",
+            "在雨林重温羞涩勘探者的记忆",
+            "抱起一只暗蟹"
+        ],
         "candles_today": [
-            "雨林大蜡烛-3"
+            "霞谷大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-14",
-        "date_tomorrow": "2026-10-15",
+        "date_today": "2026-10-15",
+        "date_tomorrow": "2026-10-16",
         "quests_today": [
-            "Admire the sapling in the Vault of Knowledge for a short while",
-            "Sit on a bench with a stranger",
-            "Relive a Spirit's memories",
-            "Relive Levitating Adept's memory from Vault of Knowledge"
-        ],
-        "quests_tomorrow": [
             "Collect 30 pieces of light",
             "Bow at a player",
             "Deep call the butterflies in the cave with Jolly Geologist",
             "Catch the wandering lights in Prairie Village"
         ],
+        "quests_tomorrow": [
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Catch the wandering lights in the Forest Brook",
+            "Relive Blushing Prospector 's memory from Hidden Forest",
+            "Pick up a Crab"
+        ],
         "candles_today": [
-            "Hidden Forest Treasure Candle-3"
+            "Valley of Triumph Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }
