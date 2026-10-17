@@ -483,5 +483,37 @@
             "Golden Wasteland Treasure Candle-1",
             "Hidden Forest Season Candle group:a-2"
         ]
+    },
+    "2026-10-17": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "重溫熊抱雪人在霞谷的記憶",
+            "拜訪圓夢村的溫泉",
+            "對其他玩家使用表情"
+        ],
+        "candles_tw": [
+            "霞谷季蠟a組-2",
+            "禁閣大蠟燭-2"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "在霞谷重温熊抱雪人的记忆",
+            "拜访园梦村的温泉",
+            "对玩家使用表情"
+        ],
+        "candles_cn": [
+            "霞谷季蜡a组-2",
+            "禁阁大蜡烛-2"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Relive Bearhug Hermit's memory from Valley of Triumph",
+            "Visit the Hotspring in the Village of Dreams",
+            "Use expressions with players"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:a-2",
+            "Vault of Knowledge Treasure Candle-2"
+        ]
     }
 }
