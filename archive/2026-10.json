@@ -515,5 +515,37 @@
             "Valley of Triumph Season Candle group:a-2",
             "Vault of Knowledge Treasure Candle-2"
         ]
+    },
+    "2026-10-18": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "在暗蟹沙原冥想",
+            "重溫行禮艦長在暮土的記憶",
+            "點亮一位陌生玩家"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-1",
+            "暮土季蠟a組-2"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "在暗蟹沙原冥想",
+            "在暮土重温行礼舰长的记忆",
+            "交一个新朋友"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-1",
+            "暮土季蜡a组-2"
+        ],
+        "en": [
+            "Forge a candle",
+            "Meditate in the Crab Fields",
+            "Relive Saluting Captain's memory from Golden Wasteland",
+            "Make a new acquaintance"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-1",
+            "Golden Wasteland Season Candle group:a-2"
+        ]
     }
 }

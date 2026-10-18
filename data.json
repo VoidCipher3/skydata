@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-10-17 15:01:26 (GMT+8)",
+    "updated_at": "2026-10-18 15:01:01 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-17",
-        "date_tomorrow": "2026-10-18",
+        "date_today": "2026-10-18",
+        "date_tomorrow": "2026-10-19",
         "quests_today": [
-            "點亮 20 根蠟燭",
-            "重溫熊抱雪人在霞谷的記憶",
-            "拜訪圓夢村的溫泉",
-            "對其他玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "用燭光凝聚成一根蠟燭",
             "在暗蟹沙原冥想",
             "重溫行禮艦長在暮土的記憶",
             "點亮一位陌生玩家"
         ],
+        "quests_tomorrow": [
+            "對 5 位不同玩家發出叫聲",
+            "收集 紫色光芒",
+            "重溫智慧長者在禁閣的記憶",
+            "重溫一位禁閣先靈的記憶"
+        ],
         "candles_today": [
-            "霞谷季蠟a組-2",
-            "禁閣大蠟燭-2"
+            "雲野大蠟燭-1",
+            "暮土季蠟a組-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-17",
-        "date_tomorrow": "2026-10-18",
+        "date_today": "2026-10-18",
+        "date_tomorrow": "2026-10-19",
         "quests_today": [
-            "点亮 20 根蜡烛",
-            "在霞谷重温熊抱雪人的记忆",
-            "拜访园梦村的温泉",
-            "对玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "用烛光凝聚成一根蜡烛",
             "在暗蟹沙原冥想",
             "在暮土重温行礼舰长的记忆",
             "交一个新朋友"
         ],
+        "quests_tomorrow": [
+            "呼唤5位不同玩家",
+            "收集 紫色光芒",
+            "在禁阁重温智慧长者的记忆",
+            "在禁阁中重温一位先灵的记忆"
+        ],
         "candles_today": [
-            "霞谷季蜡a组-2",
-            "禁阁大蜡烛-2"
+            "云野大蜡烛-1",
+            "暮土季蜡a组-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-17",
-        "date_tomorrow": "2026-10-18",
+        "date_today": "2026-10-18",
+        "date_tomorrow": "2026-10-19",
         "quests_today": [
-            "Light 20 candles",
-            "Relive Bearhug Hermit's memory from Valley of Triumph",
-            "Visit the Hotspring in the Village of Dreams",
-            "Use expressions with players"
-        ],
-        "quests_tomorrow": [
             "Forge a candle",
             "Meditate in the Crab Fields",
             "Relive Saluting Captain's memory from Golden Wasteland",
             "Make a new acquaintance"
         ],
+        "quests_tomorrow": [
+            "Call to 5 different players",
+            "Collect Purple Light",
+            "Relive Wise Grandparent's memory from Vault of Knowledge",
+            "Relive a Spirit's memories in Vault of Knowledge"
+        ],
         "candles_today": [
-            "Valley of Triumph Season Candle group:a-2",
-            "Vault of Knowledge Treasure Candle-2"
+            "Daylight Prairie Treasure Candle-1",
+            "Golden Wasteland Season Candle group:a-2"
         ],
         "candles_tomorrow": []
     }
