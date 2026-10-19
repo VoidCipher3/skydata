@@ -547,5 +547,37 @@
             "Daylight Prairie Treasure Candle-1",
             "Golden Wasteland Season Candle group:a-2"
         ]
+    },
+    "2026-10-19": {
+        "tw": [
+            "對 5 位不同玩家發出叫聲",
+            "收集 紫色光芒",
+            "重溫智慧長者在禁閣的記憶",
+            "重溫一位禁閣先靈的記憶"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "收集 紫色光芒",
+            "在禁阁重温智慧长者的记忆",
+            "在禁阁中重温一位先灵的记忆"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Collect Purple Light",
+            "Relive Wise Grandparent's memory from Vault of Knowledge",
+            "Relive a Spirit's memories in Vault of Knowledge"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-1"
+        ]
     }
 }
