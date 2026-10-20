@@ -579,5 +579,37 @@
             "Vault of Knowledge Season Candle group:a-2",
             "Hidden Forest Treasure Candle-1"
         ]
+    },
+    "2026-10-20": {
+        "tw": [
+            "在蝴蝶原野與眾多蝴蝶一同飛翔",
+            "找到雲野的彩虹蠟燭",
+            "將夜鳥語者帶到光鰩的所在",
+            "向一位玩家揮手"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-1",
+            "霞谷大蠟燭-2"
+        ],
+        "cn": [
+            "在蝴蝶原野与众多蝴蝶一同飞翔",
+            "在云野找到彩虹蜡烛",
+            "将夜鸟语者带到光鳐处",
+            "向一位玩家挥手"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-1",
+            "霞谷大蜡烛-2"
+        ],
+        "en": [
+            "Fly with many butterflies in Butterfly Fields",
+            "Find the candles at the end of the rainbow in Daylight Prairie",
+            "Bring Nightbird Whisperer to the manta",
+            "Wave to a player"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-1",
+            "Valley of Triumph Treasure Candle-2"
+        ]
     }
 }

@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-10-19 15:01:27 (GMT+8)",
+    "updated_at": "2026-10-20 15:01:02 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-19",
-        "date_tomorrow": "2026-10-20",
+        "date_today": "2026-10-20",
+        "date_tomorrow": "2026-10-21",
         "quests_today": [
-            "對 5 位不同玩家發出叫聲",
-            "收集 紫色光芒",
-            "重溫智慧長者在禁閣的記憶",
-            "重溫一位禁閣先靈的記憶"
-        ],
-        "quests_tomorrow": [
             "在蝴蝶原野與眾多蝴蝶一同飛翔",
             "找到雲野的彩虹蠟燭",
             "將夜鳥語者帶到光鰩的所在",
             "向一位玩家揮手"
         ],
+        "quests_tomorrow": [
+            "淨化 10 處黑暗腐植",
+            "欣賞一下雨林小樹苗",
+            "向一位玩家鞠躬",
+            "重溫一位雨林先靈的記憶"
+        ],
         "candles_today": [
-            "禁閣季蠟a組-2",
-            "雨林大蠟燭-1"
+            "雲野季蠟a組-1",
+            "霞谷大蠟燭-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-19",
-        "date_tomorrow": "2026-10-20",
+        "date_today": "2026-10-20",
+        "date_tomorrow": "2026-10-21",
         "quests_today": [
-            "呼唤5位不同玩家",
-            "收集 紫色光芒",
-            "在禁阁重温智慧长者的记忆",
-            "在禁阁中重温一位先灵的记忆"
-        ],
-        "quests_tomorrow": [
             "在蝴蝶原野与众多蝴蝶一同飞翔",
             "在云野找到彩虹蜡烛",
             "将夜鸟语者带到光鳐处",
             "向一位玩家挥手"
         ],
+        "quests_tomorrow": [
+            "净化 10 处黑暗腐植",
+            "坐赏雨林小树苗",
+            "向一位玩家鞠躬",
+            "在雨林中重温一位先灵的记忆"
+        ],
         "candles_today": [
-            "禁阁季蜡a组-2",
-            "雨林大蜡烛-1"
+            "云野季蜡a组-1",
+            "霞谷大蜡烛-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-19",
-        "date_tomorrow": "2026-10-20",
+        "date_today": "2026-10-20",
+        "date_tomorrow": "2026-10-21",
         "quests_today": [
-            "Call to 5 different players",
-            "Collect Purple Light",
-            "Relive Wise Grandparent's memory from Vault of Knowledge",
-            "Relive a Spirit's memories in Vault of Knowledge"
-        ],
-        "quests_tomorrow": [
             "Fly with many butterflies in Butterfly Fields",
             "Find the candles at the end of the rainbow in Daylight Prairie",
             "Bring Nightbird Whisperer to the manta",
             "Wave to a player"
         ],
+        "quests_tomorrow": [
+            "Melt 10 darkness",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Bow at a player",
+            "Relive a Spirit's memories in Hidden Forest"
+        ],
         "candles_today": [
-            "Vault of Knowledge Season Candle group:a-2",
-            "Hidden Forest Treasure Candle-1"
+            "Daylight Prairie Season Candle group:a-1",
+            "Valley of Triumph Treasure Candle-2"
         ],
         "candles_tomorrow": []
     }
