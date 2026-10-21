@@ -611,5 +611,37 @@
             "Daylight Prairie Season Candle group:a-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-10-21": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "欣賞一下雨林小樹苗",
+            "向一位玩家鞠躬",
+            "重溫一位雨林先靈的記憶"
+        ],
+        "candles_tw": [
+            "雨林季蠟a組-1",
+            "暮土大蠟燭-2"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "坐赏雨林小树苗",
+            "向一位玩家鞠躬",
+            "在雨林中重温一位先灵的记忆"
+        ],
+        "candles_cn": [
+            "雨林季蜡a组-1",
+            "暮土大蜡烛-2"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Bow at a player",
+            "Relive a Spirit's memories in Hidden Forest"
+        ],
+        "candles_en": [
+            "Hidden Forest Season Candle group:a-1",
+            "Golden Wasteland Treasure Candle-2"
+        ]
     }
 }
