@@ -675,5 +675,37 @@
             "Vault of Knowledge Treasure Candle-1",
             "Valley of Triumph Season Candle group:a-1"
         ]
+    },
+    "2026-10-23": {
+        "tw": [
+            "向一位玩家揮手",
+            "在寶礁中欣賞一下彩虹",
+            "在寶礁海底捕捉四散的光",
+            "抱起一隻暗蟹"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-2",
+            "暮土季蠟a組-1"
+        ],
+        "cn": [
+            "向一位玩家挥手",
+            "在宝藏暗礁欣赏一下彩虹",
+            "在宝礁海底捕捉四散的光",
+            "抱起一只暗蟹"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-2",
+            "暮土季蜡a组-1"
+        ],
+        "en": [
+            "Wave to a player",
+            "Admire the rainbow in Treasure Reef for a short while",
+            "Catch the wandering lights under the sea in Treasure Reef",
+            "Pick up a Crab"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-2",
+            "Golden Wasteland Season Candle group:a-1"
+        ]
     }
 }

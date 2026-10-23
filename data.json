@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-10-22 15:01:39 (GMT+8)",
+    "updated_at": "2026-10-23 15:04:05 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-22",
-        "date_tomorrow": "2026-10-23",
+        "date_today": "2026-10-23",
+        "date_tomorrow": "2026-10-24",
         "quests_today": [
-            "和朋友擊掌",
-            "在俯瞰冰封湖的位置冥想",
-            "抓住霞谷之光",
-            "重溫鰩語者在霞谷的記憶"
-        ],
-        "quests_tomorrow": [
             "向一位玩家揮手",
             "在寶礁中欣賞一下彩虹",
             "在寶礁海底捕捉四散的光",
             "抱起一隻暗蟹"
         ],
+        "quests_tomorrow": [
+            "用燭光凝聚成一根蠟燭",
+            "抓住禁閣之光",
+            "重溫靜光學者在禁閣的記憶",
+            "對其他玩家使用表情"
+        ],
         "candles_today": [
-            "禁閣大蠟燭-1",
-            "霞谷季蠟a組-1"
+            "雲野大蠟燭-2",
+            "暮土季蠟a組-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-22",
-        "date_tomorrow": "2026-10-23",
+        "date_today": "2026-10-23",
+        "date_tomorrow": "2026-10-24",
         "quests_today": [
-            "和朋友击掌",
-            "在俯瞰冰封湖的位置冥想",
-            "抓住霞谷之光",
-            "在霞谷重温鳐语者的记忆"
-        ],
-        "quests_tomorrow": [
             "向一位玩家挥手",
             "在宝藏暗礁欣赏一下彩虹",
             "在宝礁海底捕捉四散的光",
             "抱起一只暗蟹"
         ],
+        "quests_tomorrow": [
+            "用烛光凝聚成一根蜡烛",
+            "抓住禁阁之光",
+            "在禁阁重温静光学者的记忆",
+            "对玩家使用表情"
+        ],
         "candles_today": [
-            "禁阁大蜡烛-1",
-            "霞谷季蜡a组-1"
+            "云野大蜡烛-2",
+            "暮土季蜡a组-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-22",
-        "date_tomorrow": "2026-10-23",
+        "date_today": "2026-10-23",
+        "date_tomorrow": "2026-10-24",
         "quests_today": [
-            "High-Five a friend",
-            "Meditate overlooking the Frozen Lake",
-            "Catch the light in Valley of Triumph",
-            "Relive Manta Whisperer's memory from Valley of Triumph"
-        ],
-        "quests_tomorrow": [
             "Wave to a player",
             "Admire the rainbow in Treasure Reef for a short while",
             "Catch the wandering lights under the sea in Treasure Reef",
             "Pick up a Crab"
         ],
+        "quests_tomorrow": [
+            "Forge a candle",
+            "Catch the light in the Vault of Knowledge",
+            "Relive Shushing Light Scholar's memory from Vault of Knowledge",
+            "Use expressions with players"
+        ],
         "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Valley of Triumph Season Candle group:a-1"
+            "Daylight Prairie Treasure Candle-2",
+            "Golden Wasteland Season Candle group:a-1"
         ],
         "candles_tomorrow": []
     }
