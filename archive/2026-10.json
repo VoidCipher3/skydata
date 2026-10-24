@@ -707,5 +707,37 @@
             "Daylight Prairie Treasure Candle-2",
             "Golden Wasteland Season Candle group:a-1"
         ]
+    },
+    "2026-10-24": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "抓住禁閣之光",
+            "重溫靜光學者在禁閣的記憶",
+            "對其他玩家使用表情"
+        ],
+        "candles_tw": [
+            "雨林大蠟燭-2",
+            "禁閣季蠟a組-1"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "抓住禁阁之光",
+            "在禁阁重温静光学者的记忆",
+            "对玩家使用表情"
+        ],
+        "candles_cn": [
+            "雨林大蜡烛-2",
+            "禁阁季蜡a组-1"
+        ],
+        "en": [
+            "Forge a candle",
+            "Catch the light in the Vault of Knowledge",
+            "Relive Shushing Light Scholar's memory from Vault of Knowledge",
+            "Use expressions with players"
+        ],
+        "candles_en": [
+            "Hidden Forest Treasure Candle-2",
+            "Vault of Knowledge Season Candle group:a-1"
+        ]
     }
 }
