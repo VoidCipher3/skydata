@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-10-24 15:01:11 (GMT+8)",
+    "updated_at": "2026-10-25 15:01:03 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-24",
-        "date_tomorrow": "2026-10-25",
+        "date_today": "2026-10-25",
+        "date_tomorrow": "2026-10-26",
         "quests_today": [
-            "用燭光凝聚成一根蠟燭",
-            "抓住禁閣之光",
-            "重溫靜光學者在禁閣的記憶",
-            "對其他玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "對 5 位不同玩家發出叫聲",
             "在浮石鳥巢捕捉四散的光",
             "重溫含蓄書蟲在雲野的記憶",
             "拜訪聖域群島上遭受汙染的間歇泉"
         ],
+        "quests_tomorrow": [
+            "和朋友牽手",
+            "透過光菇重新恢復能量",
+            "拯救一隻被黑暗腐植困住的光鰩",
+            "收集 橙色光芒"
+        ],
         "candles_today": [
-            "雨林大蠟燭-2",
-            "禁閣季蠟a組-1"
+            "雲野季蠟a組-2",
+            "霞谷大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-24",
-        "date_tomorrow": "2026-10-25",
+        "date_today": "2026-10-25",
+        "date_tomorrow": "2026-10-26",
         "quests_today": [
-            "用烛光凝聚成一根蜡烛",
-            "抓住禁阁之光",
-            "在禁阁重温静光学者的记忆",
-            "对玩家使用表情"
-        ],
-        "quests_tomorrow": [
             "呼唤5位不同玩家",
             "在浮石鸟巢周围捕捉四散的光",
             "在云野重温内秀书虫的记忆",
             "拜访圣域群岛上遭受污染的间歇泉"
         ],
+        "quests_tomorrow": [
+            "和朋友牵手",
+            "用光菇重新恢复能量",
+            "拯救一只被黑暗腐植困住的光鳐",
+            "收集 橙色光芒"
+        ],
         "candles_today": [
-            "雨林大蜡烛-2",
-            "禁阁季蜡a组-1"
+            "云野季蜡a组-2",
+            "霞谷大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-24",
-        "date_tomorrow": "2026-10-25",
+        "date_today": "2026-10-25",
+        "date_tomorrow": "2026-10-26",
         "quests_today": [
-            "Forge a candle",
-            "Catch the light in the Vault of Knowledge",
-            "Relive Shushing Light Scholar's memory from Vault of Knowledge",
-            "Use expressions with players"
-        ],
-        "quests_tomorrow": [
             "Call to 5 different players",
             "Catch the wandering lights around the Bird Nest",
             "Relive Timid Bookworm's memory from Daylight Prairie",
             "Visit the polluted geyser in Sanctuary Islands"
         ],
+        "quests_tomorrow": [
+            "Hold a friend's hand",
+            "Recharge your light from a light bloom",
+            "Rescue a manta from darkness",
+            "Collect Orange Light"
+        ],
         "candles_today": [
-            "Hidden Forest Treasure Candle-2",
-            "Vault of Knowledge Season Candle group:a-1"
+            "Daylight Prairie Season Candle group:a-2",
+            "Valley of Triumph Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }
