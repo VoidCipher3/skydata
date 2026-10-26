@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-10-25 15:01:03 (GMT+8)",
+    "updated_at": "2026-10-26 15:01:02 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-10-25",
-        "date_tomorrow": "2026-10-26",
+        "date_today": "2026-10-26",
+        "date_tomorrow": "2026-10-27",
         "quests_today": [
-            "對 5 位不同玩家發出叫聲",
-            "在浮石鳥巢捕捉四散的光",
-            "重溫含蓄書蟲在雲野的記憶",
-            "拜訪聖域群島上遭受汙染的間歇泉"
-        ],
-        "quests_tomorrow": [
             "和朋友牽手",
             "透過光菇重新恢復能量",
             "拯救一隻被黑暗腐植困住的光鰩",
             "收集 橙色光芒"
         ],
+        "quests_tomorrow": [
+            "重溫一位霞谷先靈的記憶",
+            "與熊抱雪人欣賞共享空間",
+            "在隱士山谷欣賞一下彩虹",
+            "在隱士山谷山頂捕捉四散的光"
+        ],
         "candles_today": [
-            "雲野季蠟a組-2",
-            "霞谷大蠟燭-1"
+            "暮土大蠟燭-3",
+            "雨林季蠟a組-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-10-25",
-        "date_tomorrow": "2026-10-26",
+        "date_today": "2026-10-26",
+        "date_tomorrow": "2026-10-27",
         "quests_today": [
-            "呼唤5位不同玩家",
-            "在浮石鸟巢周围捕捉四散的光",
-            "在云野重温内秀书虫的记忆",
-            "拜访圣域群岛上遭受污染的间歇泉"
-        ],
-        "quests_tomorrow": [
             "和朋友牵手",
             "用光菇重新恢复能量",
             "拯救一只被黑暗腐植困住的光鳐",
             "收集 橙色光芒"
         ],
+        "quests_tomorrow": [
+            "在霞谷中重温一位先灵的记忆",
+            "与熊抱雪人一起欣赏共享空间",
+            "在隐士山谷欣赏一下彩虹",
+            "在隐士山谷顶上捕捉四散的光"
+        ],
         "candles_today": [
-            "云野季蜡a组-2",
-            "霞谷大蜡烛-1"
+            "暮土大蜡烛-3",
+            "雨林季蜡a组-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-10-25",
-        "date_tomorrow": "2026-10-26",
+        "date_today": "2026-10-26",
+        "date_tomorrow": "2026-10-27",
         "quests_today": [
-            "Call to 5 different players",
-            "Catch the wandering lights around the Bird Nest",
-            "Relive Timid Bookworm's memory from Daylight Prairie",
-            "Visit the polluted geyser in Sanctuary Islands"
-        ],
-        "quests_tomorrow": [
             "Hold a friend's hand",
             "Recharge your light from a light bloom",
             "Rescue a manta from darkness",
             "Collect Orange Light"
         ],
+        "quests_tomorrow": [
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Admire Shared Spaces with Bearhug Hermit",
+            "Admire the rainbow in Hermit Valley for a short while",
+            "Catch the wandering lights atop Hermit Valley"
+        ],
         "candles_today": [
-            "Daylight Prairie Season Candle group:a-2",
-            "Valley of Triumph Treasure Candle-1"
+            "Golden Wasteland Treasure Candle-3",
+            "Hidden Forest Season Candle group:a-2"
         ],
         "candles_tomorrow": []
     }
