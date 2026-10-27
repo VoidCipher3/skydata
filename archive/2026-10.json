@@ -803,5 +803,37 @@
             "Golden Wasteland Treasure Candle-3",
             "Hidden Forest Season Candle group:a-2"
         ]
+    },
+    "2026-10-27": {
+        "tw": [
+            "重溫一位霞谷先靈的記憶",
+            "與熊抱雪人欣賞共享空間",
+            "在隱士山谷欣賞一下彩虹",
+            "在隱士山谷山頂捕捉四散的光"
+        ],
+        "candles_tw": [
+            "霞谷季蠟a組-2",
+            "禁閣大蠟燭-2"
+        ],
+        "cn": [
+            "在霞谷中重温一位先灵的记忆",
+            "与熊抱雪人一起欣赏共享空间",
+            "在隐士山谷欣赏一下彩虹",
+            "在隐士山谷顶上捕捉四散的光"
+        ],
+        "candles_cn": [
+            "霞谷季蜡a组-2",
+            "禁阁大蜡烛-2"
+        ],
+        "en": [
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Admire Shared Spaces with Bearhug Hermit",
+            "Admire the rainbow in Hermit Valley for a short while",
+            "Catch the wandering lights atop Hermit Valley"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:a-2",
+            "Vault of Knowledge Treasure Candle-2"
+        ]
     }
 }
