@@ -835,5 +835,37 @@
             "Valley of Triumph Season Candle group:a-2",
             "Vault of Knowledge Treasure Candle-2"
         ]
+    },
+    "2026-10-28": {
+        "tw": [
+            "抓住暮土之光",
+            "收集 30 道燭光",
+            "協助行禮艦長驅趕靠近蟹語者的螃蟹",
+            "向一位玩家鞠躬"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-3",
+            "暮土季蠟a組-2"
+        ],
+        "cn": [
+            "抓住暮土之光",
+            "收集 30 道烛光",
+            "帮助行礼舰长阻止螃蟹靠近蟹语者",
+            "向一位玩家鞠躬"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-3",
+            "暮土季蜡a组-2"
+        ],
+        "en": [
+            "Catch the light in Golden Wasteland",
+            "Collect 30 pieces of light",
+            "Help Saluting Captain to keep crabs away from Crab Whisperer",
+            "Bow at a player"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-3",
+            "Golden Wasteland Season Candle group:a-2"
+        ]
     }
 }
