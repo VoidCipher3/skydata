@@ -867,5 +867,37 @@
             "Daylight Prairie Treasure Candle-3",
             "Golden Wasteland Season Candle group:a-2"
         ]
+    },
+    "2026-10-29": {
+        "tw": [
+            "點亮 20 根蠟燭",
+            "找到禁閣的彩虹蠟燭",
+            "重溫拳禮武僧在禁閣的記憶",
+            "在禁閣神廟冥想"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雨林大蠟燭-3"
+        ],
+        "cn": [
+            "点亮 20 根蜡烛",
+            "在禁阁找到彩虹蜡烛",
+            "在禁阁重温拳礼武僧的记忆",
+            "在禁阁神庙冥想"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "雨林大蜡烛-3"
+        ],
+        "en": [
+            "Light 20 candles",
+            "Find the candles at the end of the rainbow in the Vault of Knowledge",
+            "Relive Greeting Shaman's memory from Vault of Knowledge",
+            "Meditate at the Temple of the Vault"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-3"
+        ]
     }
 }
