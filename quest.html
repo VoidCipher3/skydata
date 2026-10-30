@@ -3,19 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <title>Sky 每日任務追蹤</title>
     <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》每日任務追蹤站，每天15:00 GMT+8自動更新今日／明日任務與蠟燭資訊，支援繁體中文、简体中文、English，並提供歷史紀錄查詢。">
     <meta property="og:title" content="Sky 每日任務追蹤">
     <meta property="og:description" content="每天15:00 GMT+8自動更新的《光·遇》每日任務、蠟燭資訊與歷史紀錄查詢。">
     <meta property="og:type" content="website">
+    <script>
+        // 在 CSS 套用前先決定主題，避免深色模式使用者先看到一閃白底。
+        // 與 iap.html / shop.html 共用 localStorage 的 sky_theme。
+        (function () {
+            try {
+                var t = localStorage.getItem('sky_theme');
+                if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { /* 無痕模式或儲存被封鎖：跟隨系統 */ }
+        })();
+    </script>
     <style>
+        /* 顏色全部走變數；深色模式只換變數值。
+           變數表寫兩次（@media 內、[data-theme="dark"]）是因為 CSS 無法讓兩個條件共用區塊，
+           改色時兩處要一起改。配色與 assets/shop.css 一致。 */
         :root {
+            color-scheme: light;
             --primary: #5dade2;
             --accent: #f1c40f;
             --bg: #ebf5fb;
             --card-bg: #ffffff;
             --text: #34495e;
             --btn-active: #2e86c1;
+
+            --muted: #7f8c8d;
+            --btn-bg: #ffffff;
+            --on-primary: #ffffff;
+            --badge-bg: #f0f3f4;
+            --line: #f0f3f4;
+            --dash: #dddddd;
+            --history: #95a5a6;
+            --candle: #e67e22;
+            --candle-text: #d35400;
+            --img-border: #eeeeee;
+            --input-bg: #ffffff;
+            --input-border: #cccccc;
+            --danger: #e74c3c;
+            --alert-bg: #ffe6e6; --alert-fg: #c0392b; --alert-border: #e74c3c;
+            --footer: #ff0000;
+            --status: #f52f0c;
+            --shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                color-scheme: dark;
+                --bg: #0f1a22;
+                --card-bg: #172530;
+                --text: #dce6ec;
+                --btn-active: #6cb8ec;
+                --muted: #8fa1ad;
+                --btn-bg: transparent;
+                --on-primary: #0b1620;
+                --badge-bg: #213342;
+                --line: #26394a;
+                --dash: #2f4557;
+                --history: #8fa1ad;
+                --candle: #f0913a;
+                --candle-text: #f5a35c;
+                --img-border: #26394a;
+                --input-bg: #0f1a22;
+                --input-border: #2f4557;
+                --danger: #ff8a80;
+                --alert-bg: #3a1a1a; --alert-fg: #ff8a80; --alert-border: #c0392b;
+                --footer: #ff6b6b;
+                --status: #ff7a5c;
+                --shadow: 0 4px 15px rgba(0,0,0,0.35);
+            }
+        }
+        :root[data-theme="dark"] {
+            color-scheme: dark;
+            --bg: #0f1a22;
+            --card-bg: #172530;
+            --text: #dce6ec;
+            --btn-active: #6cb8ec;
+            --muted: #8fa1ad;
+            --btn-bg: transparent;
+            --on-primary: #0b1620;
+            --badge-bg: #213342;
+            --line: #26394a;
+            --dash: #2f4557;
+            --history: #8fa1ad;
+            --candle: #f0913a;
+            --candle-text: #f5a35c;
+            --img-border: #26394a;
+            --input-bg: #0f1a22;
+            --input-border: #2f4557;
+            --danger: #ff8a80;
+            --alert-bg: #3a1a1a; --alert-fg: #ff8a80; --alert-border: #c0392b;
+            --footer: #ff6b6b;
+            --status: #ff7a5c;
+            --shadow: 0 4px 15px rgba(0,0,0,0.35);
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,7 +111,7 @@
             align-items: center;
             min-height: 100vh;
         }
-        .status { font-size: 0.85rem; color: #f52f0c; }
+        .status { font-size: 0.85rem; color: var(--status); }
 
         /* 容器變寬以容納橫向排列 */
         .container { width: 100%; max-width: 1200px; }
@@ -36,28 +119,28 @@
         /* 介紹區塊 */
         .intro-card {
             background: var(--card-bg); border-radius: 16px; padding: 18px 22px; margin-bottom: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--btn-active);
+            box-shadow: var(--shadow); border-left: 6px solid var(--btn-active);
             width: 100%; box-sizing: border-box;
         }
         .intro-card h1 { font-size: 1.15rem; margin: 0 0 8px 0; color: var(--btn-active); }
         .intro-card p { margin: 0 0 6px 0; font-size: 0.9rem; line-height: 1.5; }
         .intro-card p:last-child { margin-bottom: 0; }
-        .intro-meta { font-size: 0.8rem; color: #7f8c8d; }
+        .intro-meta { font-size: 0.8rem; color: var(--muted); }
         .intro-meta a { color: var(--btn-active); }
 
         .top-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
         .lang-switch { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
         .lang-btn {
-            background: white; border: 2px solid var(--primary); color: var(--primary);
+            background: var(--btn-bg); border: 2px solid var(--primary); color: var(--primary);
             padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
         }
-        .lang-btn.active { background: var(--primary); color: white; }
+        .lang-btn.active { background: var(--primary); color: var(--on-primary); }
 
         .refresh-btn {
-            background: white; border: 2px solid #e67e22; color: #e67e22;
+            background: var(--btn-bg); border: 2px solid var(--candle); color: var(--candle);
             padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
         }
-        .refresh-btn:hover { background: #e67e22; color: white; }
+        .refresh-btn:hover { background: var(--candle); color: var(--on-primary); }
         .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
         /* 卡片包裝器 (Flex Row) */
@@ -71,53 +154,56 @@
         /* 卡片樣式調整為彈性寬度 */
         .card {
             background: var(--card-bg); border-radius: 16px; padding: 20px; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--primary);
+            box-shadow: var(--shadow); border-left: 6px solid var(--primary);
             flex: 1 1 300px; /* 寬度彈性，最小300px */
             min-width: 280px;
         }
         .card.tomorrow { border-left-color: var(--accent); }
-        .card.history { border-left-color: #95a5a6; }
+        .card.history { border-left-color: var(--history); }
         
         h2 { margin-top: 0; font-size: 1.2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 5px;}
-        .date-badge { font-size: 0.8rem; background: #f0f3f4; padding: 4px 8px; border-radius: 12px; color: #7f8c8d; }
+        .date-badge { font-size: 0.8rem; background: var(--badge-bg); padding: 4px 8px; border-radius: 12px; color: var(--muted); }
         
         ul { list-style: none; padding: 0; margin: 0; }
-        li { padding: 10px 0; border-bottom: 1px solid #f0f3f4; display: flex; align-items: center; flex-wrap: wrap; }
+        li { padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; align-items: center; flex-wrap: wrap; }
         li::before { content: "✦"; color: var(--primary); margin-right: 10px; }
         .tomorrow li::before { color: var(--accent); }
-        .history li::before { color: #95a5a6; }
+        .history li::before { color: var(--history); }
 
         /* 蠟燭與圖片樣式 */
-        .candle-header { font-size: 0.9em; color: #e67e22; font-weight: bold; margin-bottom: 5px; margin-top: 15px; }
-        .candle-list { color: #d35400; }
-        .candle-list li::before { content: "🔥"; color: #e67e22; }
+        .candle-header { font-size: 0.9em; color: var(--candle); font-weight: bold; margin-bottom: 5px; margin-top: 15px; }
+        .candle-list { color: var(--candle-text); }
+        .candle-list li::before { content: "🔥"; color: var(--candle); }
         .candle-img {
             width: 100%; max-width: 100%; height: auto;
-            border-radius: 8px; margin-top: 5px; display: block; border: 1px solid #eee;
+            border-radius: 8px; margin-top: 5px; display: block; border: 1px solid var(--img-border);
         }
         
         /* 異常警告 */
         .abnormal-alert {
-            background-color: #ffe6e6; color: #c0392b; padding: 10px;
-            border-radius: 8px; margin-bottom: 15px; border: 1px solid #e74c3c;
+            background-color: var(--alert-bg); color: var(--alert-fg); padding: 10px;
+            border-radius: 8px; margin-bottom: 15px; border: 1px solid var(--alert-border);
             display: none; font-size: 0.9rem; width: 100%; box-sizing: border-box;
         }
         
         .history-controls { display: flex; gap: 10px; margin-bottom: 15px; }
-        input[type="date"] { padding: 8px; border-radius: 8px; border: 1px solid #ccc; flex-grow: 1; }
-        button.search-btn { padding: 8px 15px; background: #95a5a6; color: white; border: none; border-radius: 8px; cursor: pointer; white-space: nowrap;}
+        input[type="date"] { padding: 8px; border-radius: 8px; border: 1px solid var(--input-border); flex-grow: 1; background: var(--input-bg); color: var(--text); font: inherit; }
+        button.search-btn { padding: 8px 15px; background: var(--history); color: var(--on-primary); border: none; border-radius: 8px; cursor: pointer; white-space: nowrap;}
         
-        .footer { text-align:center; color:#ff0000; font-size:0.8rem; margin-top:20px; width: 100%; }
+        .footer { text-align:center; color: var(--footer); font-size:0.8rem; margin-top:20px; width: 100%; }
         .nav, .lang-switch { display: flex; gap: 10px; flex-wrap: wrap; }
 
         .nav a, .lang-btn {
-        background: #fff; border: 2px solid var(--primary); color: var(--primary);
+        background: var(--btn-bg); border: 2px solid var(--primary); color: var(--primary);
         padding: 8px 16px; border-radius: 20px; cursor: pointer;
         font-weight: bold; font-size: .9rem; text-decoration: none;
         transition: background .2s, color .2s;
         }
-        .nav a:hover, .lang-btn:hover { background: var(--primary); color: #fff; }
-        .nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: #fff; }
+        .nav a:hover, .lang-btn:hover { background: var(--primary); color: var(--on-primary); }
+        .nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: var(--on-primary); }
+        .theme-btn { padding: 8px 12px; line-height: 1; font-size: 1rem; }
+        body { transition: background-color .2s, color .2s; }
+        @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
     </style>
 </head>
 <body>
@@ -145,6 +231,7 @@
                 <button class="lang-btn active" onclick="setLang('tw')">繁體</button>
                 <button class="lang-btn" onclick="setLang('cn')">简体</button>
                 <button class="lang-btn" onclick="setLang('en')">English</button>
+                <button id="theme-btn" class="lang-btn theme-btn" type="button" aria-label="Dark mode"></button>
             </div>
             <button class="refresh-btn lbl-refresh" onclick="manualRefresh()">🔄 手動刷新</button>
         </div>
@@ -157,7 +244,7 @@
                 <div class="card">
                     <h2><span class="lbl-today">今日任務</span> <span class="date-badge" id="date-today"></span></h2>
                     <ul id="list-today"></ul>
-                    <hr style="border: 0; border-top: 1px dashed #ddd; margin: 15px 0;">
+                    <hr style="border: 0; border-top: 1px dashed var(--dash); margin: 15px 0;">
                     <div class="candle-header">🔥 蠟燭 / Candles</div>
                     <ul id="candles-today" class="candle-list"></ul>
                 </div>
@@ -165,7 +252,7 @@
                 <div class="card tomorrow">
                     <h2><span class="lbl-tmr">明日預告</span> <span class="date-badge" id="date-tmr"></span></h2>
                     <ul id="list-tmr"></ul>
-                    <hr style="border: 0; border-top: 1px dashed #ddd; margin: 15px 0;">
+                    <hr style="border: 0; border-top: 1px dashed var(--dash); margin: 15px 0;">
                     <div class="candle-header">🔥 蠟燭 / Candles</div>
                     <ul id="candles-tmr" class="candle-list"></ul>
                 </div>
@@ -180,7 +267,7 @@
                         <span class="date-badge" id="date-history" style="display:block; margin-bottom:10px;"></span>
                         <ul id="list-history"></ul>
                     </div>
-                    <div id="history-error" style="color: #e74c3c; display:none; font-size: 0.9rem;"></div>
+                    <div id="history-error" style="color: var(--danger); display:none; font-size: 0.9rem;"></div>
                 </div>
 
             </div> <div class="footer">Updated: <span id="update-time"></span></div>
@@ -212,6 +299,47 @@
             "禁閣": "Vault", "禁阁": "Vault", "Vault": "Vault",
             "晨島": "Isle", "晨岛": "Isle", "Isle": "Isle"
         };
+
+        // --- 深色模式 ---
+        // 配色在上面的 CSS 變數；這裡只管按鈕與記住選擇（與 iap/shop 共用 sky_theme）。
+        const THEME_KEY = 'sky_theme';
+        const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+        let themeLabels = null;
+
+        function systemTheme() { return darkQuery && darkQuery.matches ? 'dark' : 'light'; }
+        function currentTheme() { return document.documentElement.getAttribute('data-theme') || systemTheme(); }
+
+        function updateThemeButton() {
+            const btn = document.getElementById('theme-btn');
+            if (!btn) return;
+            const dark = currentTheme() === 'dark';
+            const label = themeLabels ? (dark ? themeLabels.toLight : themeLabels.toDark)
+                                      : (dark ? 'Light mode' : 'Dark mode');
+            btn.textContent = dark ? '\u2600' : '\u263E';   // ☀ / ☾
+            btn.setAttribute('aria-label', label);
+            btn.title = label;
+        }
+
+        function setTheme(theme) {
+            // 選到的剛好等於系統設定 → 清掉覆寫，回到「跟隨系統」
+            if (theme === systemTheme()) {
+                document.documentElement.removeAttribute('data-theme');
+                try { localStorage.removeItem(THEME_KEY); } catch (e) { /* 無痕模式 */ }
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+                try { localStorage.setItem(THEME_KEY, theme); } catch (e) { /* 無痕模式 */ }
+            }
+            updateThemeButton();
+        }
+
+        document.getElementById('theme-btn').addEventListener('click', function () {
+            setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+        });
+        if (darkQuery) {
+            if (darkQuery.addEventListener) darkQuery.addEventListener('change', updateThemeButton);
+            else if (darkQuery.addListener) darkQuery.addListener(updateThemeButton);
+        }
+        updateThemeButton();
 
         // 初始化
         document.getElementById('history-picker').valueAsDate = new Date(); 
@@ -350,14 +478,16 @@
             const labels = {
                 'tw': { today: '今日任務', tmr: '明日預告', history: '歷史查詢', search: '查詢', candles: '🔥 蠟燭 / Candles',
                          introTitle: 'Sky 每日任務追蹤', introBody: '這是一個非官方的《Sky: Children of the Light（光‧遇）》每日任務小工具，每天15:00 GMT+8自動抓取今日／明日任務與蠟燭資訊，並保存歷史紀錄供查詢。資料為社群整理，如與遊戲內容有落差請以遊戲內為準。',
-                         refresh: '🔄 手動刷新' },
+                         refresh: '🔄 手動刷新', toDark: '切換為深色模式', toLight: '切換為淺色模式' },
                 'cn': { today: '今日任务', tmr: '明日预告', history: '历史查询', search: '查询', candles: '🔥 蜡烛 / Candles',
                          introTitle: 'Sky 每日任务追踪', introBody: '这是一个非官方的《Sky: Children of the Light（光‧遇）》每日任务小工具，每天15:00 GMT+8自动抓取今日／明日任务与蜡烛资讯，并保存历史记录供查询。数据为社区整理，如与游戏内容有出入请以游戏公告为准。',
-                         refresh: '🔄 手动刷新' },
+                         refresh: '🔄 手动刷新', toDark: '切换为深色模式', toLight: '切换为浅色模式' },
                 'en': { today: 'Today', tmr: 'Tomorrow', history: 'History', search: 'Search', candles: '🔥 Candles',
                          introTitle: 'Sky Daily Quest Tracker', introBody: 'An unofficial daily quest tracker for Sky: Children of the Light. Today/tomorrow quests and candle info refresh automatically everyday 0:00 GMT-7, with a searchable history archive. Community-maintained data — treat in-game announcements as the source of truth.',
-                         refresh: '🔄 Refresh' }
+                         refresh: '🔄 Refresh', toDark: 'Switch to dark mode', toLight: 'Switch to light mode' }
             };
+            themeLabels = labels[lang];
+            updateThemeButton();
             document.querySelector('.lbl-today').innerText = labels[lang].today;
             document.querySelector('.lbl-tmr').innerText = labels[lang].tmr;
             document.querySelector('.lbl-history').innerText = labels[lang].history;
@@ -444,7 +574,7 @@
 
                         if (candles.length > 0) {
                             const hr = document.createElement('hr');
-                            hr.style.cssText = "border: 0; border-top: 1px dashed #ddd; margin: 10px 0;";
+                            hr.style.cssText = "border: 0; border-top: 1px dashed var(--dash); margin: 10px 0;";
                             listUl.appendChild(hr);
 
                             const header = document.createElement('div');

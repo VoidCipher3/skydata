@@ -62,5 +62,7 @@
  "timeDay": "{n}d",
  "timeHour": "{n}h",
  "timeMin": "{n}m",
- "footerSource": "Data comes from the game API. Unofficial site."
+ "footerSource": "Data comes from the game API. Unofficial site.",
+ "themeToDark": "Switch to dark mode",
+ "themeToLight": "Switch to light mode"
 }

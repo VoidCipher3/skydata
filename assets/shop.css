@@ -1,7 +1,17 @@
 /* 沿用 index.html 既有的視覺語彙（淺藍底、白卡、16px 圓角、左側色條），
-   讓商店頁看起來是同一個站的一部分，而不是外掛上去的另一個網站。 */
+   讓商店頁看起來是同一個站的一部分，而不是外掛上去的另一個網站。
+
+   深色模式：
+   - 所有顏色都走 :root 的變數，元件本身不寫死色碼，切主題只換變數。
+   - 預設跟隨系統（prefers-color-scheme），使用者手動切換後寫進
+     <html data-theme="light|dark">，由 <head> 裡的小段 script 在首次繪製前套上，
+     避免先閃一下白底（FOUC）。
+   - 變數表寫兩次（@media 內一次、[data-theme="dark"] 一次）是刻意的：
+     CSS 沒辦法讓兩個條件共用同一個區塊。改色時兩處要一起改。 */
 
 :root {
+  color-scheme: light;
+
   --primary: #5dade2;
   --accent: #f1c40f;
   --bg: #ebf5fb;
@@ -13,6 +23,75 @@
   --active: #27ae60;
   --upcoming: #e67e22;
   --idle: #95a5a6;
+
+  /* 原本寫死在各元件裡的顏色，抽成變數 */
+  --btn-bg: #ffffff;            /* 導覽／語言按鈕底色 */
+  --on-primary: #ffffff;        /* 主色底上的文字 */
+  --input-bg: #ffffff;
+  --input-border: #cfd8dd;
+  --surface-2: #f6f9fb;         /* 圖片框、原文標籤的淺底 */
+  --tag-bg: #f0f3f4;
+  --shadow: 0 4px 15px rgba(0, 0, 0, .05);
+  --refresh: #e67e22;
+
+  --warn-bg: #fff8e1;   --warn-fg: #8a6d00;   --warn-border: #f1c40f;
+  --severe-bg: #ffe6e6; --severe-fg: #c0392b; --severe-border: #e74c3c;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+
+    --primary: #5dade2;
+    --bg: #0f1a22;
+    --card-bg: #172530;
+    --text: #dce6ec;
+    --muted: #8fa1ad;
+    --btn-active: #6cb8ec;      /* 原本的 #2e86c1 在深底上對比不足 4.5:1 */
+    --line: #26394a;
+    --active: #2ecc71;
+    --upcoming: #f0913a;
+    --idle: #6c7a84;
+
+    --btn-bg: transparent;
+    --on-primary: #0b1620;
+    --input-bg: #0f1a22;
+    --input-border: #2f4557;
+    --surface-2: #213342;
+    --tag-bg: #213342;
+    --shadow: 0 4px 15px rgba(0, 0, 0, .35);
+    --refresh: #f0913a;
+
+    --warn-bg: #2d2610;   --warn-fg: #f5d36b;   --warn-border: #8a6d00;
+    --severe-bg: #3a1a1a; --severe-fg: #ff8a80; --severe-border: #c0392b;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --primary: #5dade2;
+  --bg: #0f1a22;
+  --card-bg: #172530;
+  --text: #dce6ec;
+  --muted: #8fa1ad;
+  --btn-active: #6cb8ec;
+  --line: #26394a;
+  --active: #2ecc71;
+  --upcoming: #f0913a;
+  --idle: #6c7a84;
+
+  --btn-bg: transparent;
+  --on-primary: #0b1620;
+  --input-bg: #0f1a22;
+  --input-border: #2f4557;
+  --surface-2: #213342;
+  --tag-bg: #213342;
+  --shadow: 0 4px 15px rgba(0, 0, 0, .35);
+  --refresh: #f0913a;
+
+  --warn-bg: #2d2610;   --warn-fg: #f5d36b;   --warn-border: #8a6d00;
+  --severe-bg: #3a1a1a; --severe-fg: #ff8a80; --severe-border: #c0392b;
 }
 
 * { box-sizing: border-box; }
@@ -24,6 +103,7 @@ body {
   margin: 0;
   padding: 20px;
   line-height: 1.5;
+  transition: background .2s, color .2s;
 }
 
 .container { width: 100%; max-width: 1200px; margin: 0 auto; }
@@ -35,7 +115,7 @@ body {
   border-radius: 16px;
   padding: 18px 22px;
   margin-bottom: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, .05);
+  box-shadow: var(--shadow);
   border-left: 6px solid var(--btn-active);
 }
 .intro-card h1 { font-size: 1.15rem; margin: 0 0 8px; color: var(--btn-active); }
@@ -51,18 +131,22 @@ body {
 .nav, .lang-switch { display: flex; gap: 10px; flex-wrap: wrap; }
 
 .nav a, .lang-btn {
-  background: #fff; border: 2px solid var(--primary); color: var(--primary);
+  background: var(--btn-bg); border: 2px solid var(--primary); color: var(--primary);
   padding: 8px 16px; border-radius: 20px; cursor: pointer;
   font-weight: bold; font-size: .9rem; text-decoration: none;
   transition: background .2s, color .2s;
 }
-.nav a:hover, .lang-btn:hover { background: var(--primary); color: #fff; }
-.nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: #fff; }
+.nav a:hover, .lang-btn:hover { background: var(--primary); color: var(--on-primary); }
+.nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: var(--on-primary); }
+
+/* 主題切換鈕：沿用 lang-btn 外觀，只把寬度收成圓形 */
+.theme-btn { padding: 8px 12px; line-height: 1; font-size: 1rem; }
+
 .refresh-btn {
-            background: white; border: 2px solid #e67e22; color: #e67e22;
-            padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
-        }
-.refresh-btn:hover { background: #e67e22; color: white; }
+  background: var(--btn-bg); border: 2px solid var(--refresh); color: var(--refresh);
+  padding: 8px 16px; border-radius: 20px; cursor: pointer; font-weight: bold; transition: 0.2s;
+}
+.refresh-btn:hover { background: var(--refresh); color: var(--on-primary); }
 .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
 
 /* --- 過期橫幅 --- */
@@ -71,27 +155,28 @@ body {
   border-radius: 12px; padding: 12px 16px; margin-bottom: 16px;
   font-size: .9rem; border: 1px solid;
 }
-.stale-warn { background: #fff8e1; color: #8a6d00; border-color: #f1c40f; }
-.stale-severe { background: #ffe6e6; color: #c0392b; border-color: #e74c3c; }
+.stale-warn { background: var(--warn-bg); color: var(--warn-fg); border-color: var(--warn-border); }
+.stale-severe { background: var(--severe-bg); color: var(--severe-fg); border-color: var(--severe-border); }
 
 /* --- 篩選列 --- */
 
 .controls {
   background: var(--card-bg); border-radius: 16px; padding: 16px 18px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, .05); margin-bottom: 16px;
+  box-shadow: var(--shadow); margin-bottom: 16px;
   display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: flex-end;
 }
 .field { display: flex; flex-direction: column; gap: 4px; flex: 1 1 150px; min-width: 140px; }
 .field > span { font-size: .78rem; color: var(--muted); }
 .field select, .field input[type="search"] {
-  padding: 8px 10px; border: 1px solid #cfd8dd; border-radius: 8px;
-  font: inherit; font-size: .88rem; background: #fff; color: var(--text);
+  padding: 8px 10px; border: 1px solid var(--input-border); border-radius: 8px;
+  font: inherit; font-size: .88rem; background: var(--input-bg); color: var(--text);
 }
 .field select:focus-visible, .field input:focus-visible,
 .nav a:focus-visible, .lang-btn:focus-visible {
   outline: 3px solid var(--btn-active); outline-offset: 2px;
 }
 .check { flex: 0 0 auto; display: flex; align-items: center; gap: 6px; font-size: .88rem; }
+.check input { accent-color: var(--btn-active); }
 .status-row {
   display: flex; justify-content: space-between; align-items: center;
   flex-wrap: wrap; gap: 8px; margin-bottom: 12px;
@@ -107,7 +192,7 @@ body {
 }
 .item {
   background: var(--card-bg); border-radius: 16px; padding: 16px 18px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, .05);
+  box-shadow: var(--shadow);
   border-left: 6px solid var(--idle);
   display: flex; flex-direction: column; gap: 8px;
 }
@@ -119,14 +204,15 @@ body {
 .item-name { margin: 0; font-size: 1rem; font-weight: 600; word-break: break-word; }
 .item-desc { margin: 0; font-size: .85rem; color: var(--muted); }
 
+/* chip 在兩種主題都是「彩色底＋白字」，維持原設計不跟著換 */
 .chip {
   flex: 0 0 auto; font-size: .72rem; padding: 3px 9px;
   border-radius: 12px; white-space: nowrap; color: #fff;
 }
-.chip-active { background: var(--active); }
-.chip-upcoming { background: var(--upcoming); }
-.chip-permanent { background: var(--primary); }
-.chip-unscheduled { background: var(--idle); cursor: help; }
+.chip-active { background: #27ae60; }
+.chip-upcoming { background: #e67e22; }
+.chip-permanent { background: #5dade2; }
+.chip-unscheduled { background: #95a5a6; cursor: help; }
 
 .price { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
 .price-main { font-size: 1.25rem; font-weight: 700; color: var(--btn-active); }
@@ -134,7 +220,7 @@ body {
 .price-sub { font-size: .8rem; color: var(--muted); }
 .tag {
   font-size: .72rem; padding: 2px 8px; border-radius: 10px;
-  background: #f0f3f4; color: var(--muted);
+  background: var(--tag-bg); color: var(--muted);
 }
 .limit { font-size: .82rem; color: var(--text); }
 
@@ -145,12 +231,12 @@ body {
 .assets-strip { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
 .asset-img {
   width: 44px; height: 44px; object-fit: contain;
-  background: #f6f9fb; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px;
 }
 /* 沒有圖片時顯示原始資產名 —— 不放破圖，也不留空白。 */
 .asset-text {
   font-size: .74rem; padding: 3px 8px; border-radius: 8px;
-  background: #f6f9fb; border: 1px solid var(--line);
+  background: var(--surface-2); border: 1px solid var(--line);
   color: var(--muted); word-break: break-all;
 }
 

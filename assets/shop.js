@@ -473,6 +473,59 @@
     });
     var meta = state.data && state.data.meta;
     if (meta) $('#updated').textContent = t('updatedAt') + ': ' + formatAbsolute(meta.fetchedAt);
+    updateThemeButton();
+  }
+
+  /* ---------- 深色模式 ---------- */
+  // 實際配色全在 shop.css；這裡只負責按鈕與記住使用者的選擇。
+  // 首次繪製前的套用由 <head> 裡的小段 inline script 處理（避免先閃白底），
+  // 這裡不重複做。
+  var THEME_KEY = 'sky_theme';
+  var darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+
+  function systemTheme() { return darkQuery && darkQuery.matches ? 'dark' : 'light'; }
+  function currentTheme() {
+    return document.documentElement.getAttribute('data-theme') || systemTheme();
+  }
+
+  function updateThemeButton() {
+    var btn = document.getElementById('theme-btn');
+    if (!btn) return;
+    var dark = currentTheme() === 'dark';
+    var key = dark ? 'themeToLight' : 'themeToDark';
+    var label = t(key);
+    if (label === key) label = dark ? 'Light mode' : 'Dark mode';  // 語系檔還沒載入
+    btn.textContent = dark ? '☀' : '☾';   // ☀ / ☾
+    btn.setAttribute('aria-label', label);
+    btn.title = label;
+  }
+
+  function setTheme(theme) {
+    // 選到的剛好等於系統設定 → 清掉覆寫，回到「跟隨系統」。
+    // 這樣不用另外做「自動」選項，切回系統那一側就等於重設。
+    if (theme === systemTheme()) {
+      document.documentElement.removeAttribute('data-theme');
+      try { localStorage.removeItem(THEME_KEY); } catch (e) { /* 無痕模式 */ }
+    } else {
+      document.documentElement.setAttribute('data-theme', theme);
+      try { localStorage.setItem(THEME_KEY, theme); } catch (e) { /* 無痕模式 */ }
+    }
+    updateThemeButton();
+  }
+
+  function initTheme() {
+    var btn = document.getElementById('theme-btn');
+    if (btn) {
+      btn.addEventListener('click', function () {
+        setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+      });
+    }
+    // 跟隨系統時，系統切換主題要同步更新按鈕圖示（配色本身 CSS 會自己換）
+    if (darkQuery) {
+      if (darkQuery.addEventListener) darkQuery.addEventListener('change', updateThemeButton);
+      else if (darkQuery.addListener) darkQuery.addListener(updateThemeButton);
+    }
+    updateThemeButton();
   }
 
   /* ---------- 啟動 ---------- */
@@ -528,6 +581,8 @@
 
   function init(config) {
     state.config = config;
+    // 主題鈕在資料載入前就要能用（載入失敗時也一樣）
+    initTheme();
     try { state.lang = localStorage.getItem('sky_lang') || 'tw'; } catch (e) { state.lang = 'tw'; }
 
     Promise.all([
@@ -554,5 +609,5 @@
     });
   }
 
-  global.SkyShop = { init: init, setLang: setLang };
+  global.SkyShop = { init: init, setLang: setLang, setTheme: setTheme };
 })(window);

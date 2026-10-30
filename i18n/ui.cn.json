@@ -62,5 +62,7 @@
  "timeDay": "{n} 天",
  "timeHour": "{n} 小时",
  "timeMin": "{n} 分",
- "footerSource": "资料来源为游戏 API，非官方站点。"
+ "footerSource": "资料来源为游戏 API，非官方站点。",
+ "themeToDark": "切换为深色模式",
+ "themeToLight": "切换为浅色模式"
 }

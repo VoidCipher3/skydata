@@ -3,11 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 <title>商店一覽 · Sky 每日任務追蹤</title>
 <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》商店清單，涵蓋魔法、道具、染料、家具與小屋，含價格、限購次數與上架狀態。">
 <meta property="og:title" content="Sky 商店一覽">
 <meta property="og:description" content="《光·遇》各商店商品價格、限購次數與上架狀態查詢。">
 <meta property="og:type" content="website">
+<script>
+  // 在 CSS 套用前先決定主題，避免深色模式使用者先看到一閃白底。
+  // 只認 light / dark 兩個值；沒存過就不設，交給 prefers-color-scheme。
+  (function () {
+    try {
+      var t = localStorage.getItem('sky_theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) { /* 無痕模式或儲存被封鎖：跟隨系統 */ }
+  })();
+</script>
 <link rel="stylesheet" href="assets/shop.css">
 </head>
 <body>
@@ -32,6 +43,7 @@
       <button class="lang-btn" type="button" data-lang="tw">繁體</button>
       <button class="lang-btn" type="button" data-lang="cn">简体</button>
       <button class="lang-btn" type="button" data-lang="en">English</button>
+      <button id="theme-btn" class="lang-btn theme-btn" type="button" aria-label="Dark mode"></button>
     </div>
   </div>
 

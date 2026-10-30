@@ -3,19 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
     <title>Sky 工具站</title>
     <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》社群工具集合：每日任務追蹤、禮包與商店資訊，支援繁體中文、简体中文、English。">
     <meta property="og:title" content="Sky 工具站">
     <meta property="og:description" content="非官方《光·遇》社群工具：每日任務、禮包、商店資訊。">
     <meta property="og:type" content="website">
+    <script>
+        // 在 CSS 套用前先決定主題，避免深色模式使用者先看到一閃白底。
+        // 與 quest / iap / shop 共用 localStorage 的 sky_theme。
+        (function () {
+            try {
+                var t = localStorage.getItem('sky_theme');
+                if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+            } catch (e) { /* 無痕模式或儲存被封鎖：跟隨系統 */ }
+        })();
+    </script>
     <style>
+        /* 顏色全部走變數；深色模式只換變數值。變數表寫兩次是因為 CSS 無法讓
+           @media 與 [data-theme] 兩個條件共用區塊，改色時兩處要一起改。配色與 assets/shop.css 一致。 */
         :root {
+            color-scheme: light;
             --primary: #5dade2;
             --accent: #f1c40f;
             --bg: #ebf5fb;
             --card-bg: #ffffff;
             --text: #34495e;
             --btn-active: #2e86c1;
+
+            --muted: #7f8c8d;
+            --btn-bg: #ffffff;
+            --on-primary: #ffffff;
+            --iap-name: #c9990f;
+            --shop-border: #95a5a6;
+            --shadow: 0 4px 15px rgba(0,0,0,0.05);
+            --shadow-hover: 0 8px 22px rgba(0,0,0,0.1);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                color-scheme: dark;
+                --bg: #0f1a22;
+                --card-bg: #172530;
+                --text: #dce6ec;
+                --btn-active: #6cb8ec;
+                --muted: #8fa1ad;
+                --btn-bg: transparent;
+                --on-primary: #0b1620;
+                --iap-name: #e0b43a;
+                --shop-border: #6c7a84;
+                --shadow: 0 4px 15px rgba(0,0,0,0.35);
+                --shadow-hover: 0 8px 22px rgba(0,0,0,0.5);
+            }
+        }
+        :root[data-theme="dark"] {
+            color-scheme: dark;
+            --bg: #0f1a22;
+            --card-bg: #172530;
+            --text: #dce6ec;
+            --btn-active: #6cb8ec;
+            --muted: #8fa1ad;
+            --btn-bg: transparent;
+            --on-primary: #0b1620;
+            --iap-name: #e0b43a;
+            --shop-border: #6c7a84;
+            --shadow: 0 4px 15px rgba(0,0,0,0.35);
+            --shadow-hover: 0 8px 22px rgba(0,0,0,0.5);
         }
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,7 +84,7 @@
 
         .intro-card {
             background: var(--card-bg); border-radius: 16px; padding: 22px 24px; margin-bottom: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--btn-active);
+            box-shadow: var(--shadow); border-left: 6px solid var(--btn-active);
             box-sizing: border-box;
         }
         .intro-card h1 { font-size: 1.4rem; margin: 0 0 8px 0; color: var(--btn-active); }
@@ -41,13 +93,14 @@
         .top-actions { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px; margin-bottom: 24px; }
         .nav, .lang-switch { display: flex; gap: 10px; flex-wrap: wrap; }
         .nav a, .lang-btn {
-            background: #fff; border: 2px solid var(--primary); color: var(--primary);
+            background: var(--btn-bg); border: 2px solid var(--primary); color: var(--primary);
             padding: 8px 16px; border-radius: 20px; cursor: pointer;
             font-weight: bold; font-size: .9rem; text-decoration: none;
             transition: background .2s, color .2s;
         }
-        .nav a:hover, .lang-btn:hover { background: var(--primary); color: #fff; }
-        .nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: #fff; }
+        .nav a:hover, .lang-btn:hover { background: var(--primary); color: var(--on-primary); }
+        .nav a[aria-current="page"], .lang-btn.active { background: var(--primary); color: var(--on-primary); }
+        .theme-btn { padding: 8px 12px; line-height: 1; font-size: 1rem; }
 
         .hub-grid {
             display: flex; gap: 20px; flex-wrap: wrap; align-items: stretch;
@@ -55,21 +108,24 @@
         .hub-card {
             display: flex; flex-direction: column;
             background: var(--card-bg); border-radius: 16px; padding: 22px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 6px solid var(--primary);
+            box-shadow: var(--shadow); border-left: 6px solid var(--primary);
             flex: 1 1 260px; min-width: 240px;
             text-decoration: none; color: var(--text);
             transition: transform .15s, box-shadow .15s;
         }
-        .hub-card:hover { transform: translateY(-3px); box-shadow: 0 8px 22px rgba(0,0,0,0.1); }
+        .hub-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-hover); }
         .hub-card.iap { border-left-color: var(--accent); }
-        .hub-card.shop { border-left-color: #95a5a6; }
+        .hub-card.shop { border-left-color: var(--shop-border); }
         .hub-icon { font-size: 2rem; margin-bottom: 10px; }
         .hub-name { font-size: 1.15rem; font-weight: bold; margin-bottom: 8px; color: var(--btn-active); }
-        .hub-card.iap .hub-name { color: #c9990f; }
-        .hub-card.shop .hub-name { color: #7f8c8d; }
+        .hub-card.iap .hub-name { color: var(--iap-name); }
+        .hub-card.shop .hub-name { color: var(--muted); }
         .hub-desc { font-size: 0.9rem; line-height: 1.5; }
 
-        .footer { text-align: center; color: #7f8c8d; font-size: 0.8rem; margin-top: 28px; }
+        .footer { text-align: center; color: var(--muted); font-size: 0.8rem; margin-top: 28px; }
+
+        body { transition: background-color .2s, color .2s; }
+        @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
     </style>
 </head>
 <body>
@@ -90,6 +146,7 @@
                 <button class="lang-btn" data-lang="tw">繁體</button>
                 <button class="lang-btn" data-lang="cn">简体</button>
                 <button class="lang-btn" data-lang="en">English</button>
+                <button id="theme-btn" class="lang-btn theme-btn" type="button" aria-label="Dark mode"></button>
             </div>
         </div>
 
@@ -124,7 +181,8 @@
                 questName: '每日任務', questDesc: '今日／明日任務與蠟燭資訊，附歷史查詢。',
                 iapName: '禮包', iapDesc: '當期與常駐禮包的內容、定價與上架狀態。',
                 shopName: '商店', shopDesc: '魔法商店等 generic 商店的商品、幣別與重置時刻。',
-                footer: '非官方社群工具，如與遊戲內容有落差請以遊戲公告為準。'
+                footer: '非官方社群工具，如與遊戲內容有落差請以遊戲公告為準。',
+                toDark: '切換為深色模式', toLight: '切換為淺色模式'
             },
             cn: {
                 title: 'Sky 工具站',
@@ -133,7 +191,8 @@
                 questName: '每日任务', questDesc: '今日／明日任务与蜡烛资讯，附历史查询。',
                 iapName: '礼包', iapDesc: '当期与常驻礼包的内容、定价与上架状态。',
                 shopName: '商店', shopDesc: '魔法商店等 generic 商店的商品、币种与重置时刻。',
-                footer: '非官方社区工具，如与游戏内容有出入请以游戏公告为准。'
+                footer: '非官方社区工具，如与游戏内容有出入请以游戏公告为准。',
+                toDark: '切换为深色模式', toLight: '切换为浅色模式'
             },
             en: {
                 title: 'Sky Tools',
@@ -142,7 +201,8 @@
                 questName: 'Daily quests', questDesc: "Today / tomorrow quests & candles, with a searchable history.",
                 iapName: 'Bundles', iapDesc: 'Contents, pricing and availability of current & permanent bundles.',
                 shopName: 'Shops', shopDesc: 'Generic shop items, currencies and reset times.',
-                footer: 'Unofficial community tools — treat in-game announcements as the source of truth.'
+                footer: 'Unofficial community tools — treat in-game announcements as the source of truth.',
+                toDark: 'Switch to dark mode', toLight: 'Switch to light mode'
             }
         };
 
@@ -158,14 +218,56 @@
                 const key = n.getAttribute('data-i18n');
                 if (dict[key] !== undefined) n.textContent = dict[key];   // 只用 textContent
             });
-            document.querySelectorAll('.lang-btn').forEach(function (btn) {
+            document.querySelectorAll('.lang-btn[data-lang]').forEach(function (btn) {
                 btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
             });
+            currentDict = dict;
+            updateThemeButton();
         }
 
-        document.querySelectorAll('.lang-btn').forEach(function (btn) {
+        document.querySelectorAll('.lang-btn[data-lang]').forEach(function (btn) {
             btn.addEventListener('click', function () { setLang(btn.getAttribute('data-lang')); });
         });
+
+        // --- 深色模式 ---
+        // 配色在上面的 CSS 變數；這裡只管按鈕與記住選擇。
+        const THEME_KEY = 'sky_theme';
+        const darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+        let currentDict = null;
+
+        function systemTheme() { return darkQuery && darkQuery.matches ? 'dark' : 'light'; }
+        function currentTheme() { return document.documentElement.getAttribute('data-theme') || systemTheme(); }
+
+        function updateThemeButton() {
+            const btn = document.getElementById('theme-btn');
+            if (!btn) return;
+            const dark = currentTheme() === 'dark';
+            const label = currentDict ? (dark ? currentDict.toLight : currentDict.toDark)
+                                      : (dark ? 'Light mode' : 'Dark mode');
+            btn.textContent = dark ? '\u2600' : '\u263E';   // ☀ / ☾
+            btn.setAttribute('aria-label', label);
+            btn.title = label;
+        }
+
+        function setTheme(theme) {
+            // 選到的剛好等於系統設定 → 清掉覆寫，回到「跟隨系統」
+            if (theme === systemTheme()) {
+                document.documentElement.removeAttribute('data-theme');
+                try { localStorage.removeItem(THEME_KEY); } catch (e) { /* 無痕模式 */ }
+            } else {
+                document.documentElement.setAttribute('data-theme', theme);
+                try { localStorage.setItem(THEME_KEY, theme); } catch (e) { /* 無痕模式 */ }
+            }
+            updateThemeButton();
+        }
+
+        document.getElementById('theme-btn').addEventListener('click', function () {
+            setTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+        });
+        if (darkQuery) {
+            if (darkQuery.addEventListener) darkQuery.addEventListener('change', updateThemeButton);
+            else if (darkQuery.addListener) darkQuery.addListener(updateThemeButton);
+        }
 
         let initial = 'tw';
         try { initial = localStorage.getItem('sky_lang') || 'tw'; } catch (e) { initial = 'tw'; }
