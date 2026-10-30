@@ -899,5 +899,37 @@
             "Vault of Knowledge Season Candle group:a-2",
             "Hidden Forest Treasure Candle-3"
         ]
+    },
+    "2026-10-30": {
+        "tw": [
+            "欣賞一下雲野小樹苗",
+            "對其他玩家使用表情",
+            "重溫一位雲野先靈的記憶",
+            "用燭光凝聚成一根蠟燭"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-1",
+            "霞谷大蠟燭-2"
+        ],
+        "cn": [
+            "坐赏云野小树苗",
+            "对玩家使用表情",
+            "在云野中重温一位先灵的记忆",
+            "用烛光凝聚成一根蜡烛"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-1",
+            "霞谷大蜡烛-2"
+        ],
+        "en": [
+            "Admire the sapling in Daylight Prairie for a short while",
+            "Use expressions with players",
+            "Relive a Spirit's memories in Daylight Prairie",
+            "Forge a candle"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-1",
+            "Valley of Triumph Treasure Candle-2"
+        ]
     }
 }
