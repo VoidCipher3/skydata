@@ -1,8 +1,8 @@
 {
  "meta": {
-  "fetchedAt": 1793343667,
-  "builtAt": 1793343683,
-  "validUntil": 1793345477,
+  "fetchedAt": 1793362220,
+  "builtAt": 1793362328,
+  "validUntil": 1793364014,
   "baseTime": 1587366000
  },
  "items": [
@@ -1247,12 +1247,12 @@
    "unlocks": [
     {
      "name": "CharSkyKid_Prop_IvorySwing",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_IvorySwing.png"
     }
    ],
    "image": {
     "name": "CharSkyKid_Prop_IvorySwing",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_IvorySwing.png"
    },
    "eventName": "global_cafe",
    "platforms": "*",
@@ -1274,12 +1274,12 @@
    "unlocks": [
     {
      "name": "CharSkyKid_Body_IvoryOveralls",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_IvoryOveralls.png"
     }
    ],
    "image": {
     "name": "CharSkyKid_Body_IvoryOveralls",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_IvoryOveralls.png"
    },
    "eventName": "global_cafe",
    "platforms": "*",
@@ -1541,12 +1541,12 @@
    "unlocks": [
     {
      "name": "CharSkyKid_Wing_MischiefBatWing",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_MischiefBatWing.png"
     }
    ],
    "image": {
-    "name": "UiOutfitCapeMischiefBatWing",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiOutfitCapeMischiefBatWing.png"
+    "name": "CharSkyKid_Wing_MischiefBatWing",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_MischiefBatWing.png"
    },
    "eventName": "global_halloween",
    "platforms": "*",
@@ -1568,12 +1568,12 @@
    "unlocks": [
     {
      "name": "CharSkyKid_Hat_MischiefMagicHat",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_MischiefMagicHat.png"
     }
    ],
    "image": {
     "name": "CharSkyKid_Hat_MischiefMagicHat",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_MischiefMagicHat.png"
    },
    "eventName": "global_halloween",
    "platforms": "*",
@@ -1595,12 +1595,12 @@
    "unlocks": [
     {
      "name": "CharSkyKid_Neck_MischiefCat",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_MischiefCat.png"
     }
    ],
    "image": {
-    "name": "UiOutfitNeckMischiefCat",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiOutfitNeckMischiefCat.png"
+    "name": "CharSkyKid_Neck_MischiefCat",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_MischiefCat.png"
    },
    "eventName": "global_halloween",
    "platforms": "*",

@@ -1,8 +1,8 @@
 {
  "meta": {
-  "fetchedAt": 1793343667,
-  "builtAt": 1793343683,
-  "validUntil": 1793345477,
+  "fetchedAt": 1793362220,
+  "builtAt": 1793362328,
+  "validUntil": 1793364014,
   "baseTime": 1587366000
  },
  "items": [
@@ -2992,7 +2992,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_MischiefCoatRack",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefCoatRack.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_MischiefCoatRack"
@@ -3013,7 +3013,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_MischiefPumpkinSofa",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefPumpkinSofa.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_MischiefPumpkinSofa"
@@ -3637,12 +3637,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_MischiefCoatRack",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefCoatRack.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_MischiefCoatRack",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefCoatRack.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_MischiefCoatRack",
@@ -3664,12 +3664,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_MischiefPumpkinSofa",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefPumpkinSofa.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_MischiefPumpkinSofa",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_MischiefPumpkinSofa.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_MischiefPumpkinSofa",
@@ -8414,8 +8414,8 @@
    "resetEvent": "gen_shop_monthly_reset",
    "unlockRequires": [],
    "image": {
-    "name": "outfit_wing_ivorybow",
-    "url": null
+    "name": "UiOutfitCapeIvoryBow",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_IvoryBow.png"
    },
    "imageCandidates": [
     "outfit_wing_ivorybow",
@@ -8590,8 +8590,8 @@
    "resetEvent": "gen_shop_monthly_reset",
    "unlockRequires": [],
    "image": {
-    "name": "outfit_hair_ivoryhat",
-    "url": null
+    "name": "UiOutfitHairIvoryHat",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_IvoryHat.png"
    },
    "imageCandidates": [
     "outfit_hair_ivoryhat",
@@ -8612,8 +8612,8 @@
    "resetEvent": "gen_shop_monthly_reset",
    "unlockRequires": [],
    "image": {
-    "name": "outfit_body_ivoryoveralls",
-    "url": null
+    "name": "UiOutfitBodyIvoryOveralls",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_IvoryOveralls.png"
    },
    "imageCandidates": [
     "outfit_body_ivoryoveralls",
@@ -8635,7 +8635,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Wing_IvoryBow",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_IvoryBow.png"
    },
    "imageCandidates": [
     "CharSkyKid_Wing_IvoryBow",
@@ -8657,7 +8657,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Hair_IvoryHat",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_IvoryHat.png"
    },
    "imageCandidates": [
     "CharSkyKid_Hair_IvoryHat",
@@ -16218,7 +16218,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP24OilLamp",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24OilLamp.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24OilLamp",
@@ -16240,7 +16240,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP24ConsoleTable",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24ConsoleTable.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24ConsoleTable",
@@ -16262,7 +16262,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP24RockingChair",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24RockingChair.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24RockingChair",
@@ -16284,7 +16284,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP24Crate",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Crate.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24Crate",
@@ -16306,7 +16306,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP24Desk",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Desk.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24Desk",
@@ -16328,7 +16328,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP31BedroomChair",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomChair.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31BedroomChair",
@@ -16350,7 +16350,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP31BedroomTallTable",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomTallTable.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31BedroomTallTable",
@@ -16372,7 +16372,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP31Bed",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31Bed.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31Bed",
@@ -16394,7 +16394,7 @@
    "unlockRequires": [],
    "image": {
     "name": "CharSkyKid_Prop_AP31PaintingSet",
-    "url": null
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31PaintingSet.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31PaintingSet",
@@ -19581,12 +19581,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP24OilLamp",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24OilLamp.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP24OilLamp",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24OilLamp.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24OilLamp",
@@ -19608,12 +19608,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP24ConsoleTable",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24ConsoleTable.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP24ConsoleTable",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24ConsoleTable.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24ConsoleTable",
@@ -19635,12 +19635,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP24RockingChair",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24RockingChair.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP24RockingChair",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24RockingChair.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24RockingChair",
@@ -19662,12 +19662,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP24Crate",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Crate.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP24Crate",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Crate.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24Crate",
@@ -19689,12 +19689,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP24Desk",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Desk.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP24Desk",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP24Desk.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP24Desk",
@@ -19716,12 +19716,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP31BedroomChair",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomChair.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP31BedroomChair",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomChair.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31BedroomChair",
@@ -19743,12 +19743,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP31BedroomTallTable",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomTallTable.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP31BedroomTallTable",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31BedroomTallTable.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31BedroomTallTable",
@@ -19770,12 +19770,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP31Bed",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31Bed.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP31Bed",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31Bed.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31Bed",
@@ -19797,12 +19797,12 @@
    "unlockRequires": [
     {
      "name": "CharSkyKid_Prop_AP31PaintingSet",
-     "url": null
+     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31PaintingSet.png"
     }
    ],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "CharSkyKid_Prop_AP31PaintingSet",
+    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_AP31PaintingSet.png"
    },
    "imageCandidates": [
     "CharSkyKid_Prop_AP31PaintingSet",
@@ -20164,8 +20164,8 @@
    "resetEvent": "gen_shop_daily_reset",
    "unlockRequires": [],
    "image": {
-    "name": "UiMiscDiamond",
-    "url": "https://skyinfoweb.pages.dev/image/nonoutfit/UiMiscDiamond.png"
+    "name": "Nest_Nest_Night_GO_Town",
+    "url": "https://skyinfoweb.pages.dev/image/items/Nest_Nest_Night_GO_Town.png"
    },
    "imageCandidates": [
     "Nest_Nest_Night_GO_Town",
