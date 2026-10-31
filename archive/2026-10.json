@@ -931,5 +931,37 @@
             "Daylight Prairie Season Candle group:a-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-10-31": {
+        "tw": [
+            "對 5 位不同玩家發出叫聲",
+            "找到雨林的彩虹蠟燭",
+            "抱起一隻暗蟹",
+            "整理樹林高處的先祖團聚長桌"
+        ],
+        "candles_tw": [
+            "雨林季蠟a組-1",
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "呼唤5位不同玩家",
+            "在雨林找到彩虹蜡烛",
+            "抱起一只暗蟹",
+            "整理树林高处的先祖团聚长桌"
+        ],
+        "candles_cn": [
+            "雨林季蜡a组-1",
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Call to 5 different players",
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Pick up a Crab",
+            "Tidy up the Ancestor's table in the Elevated Clearing"
+        ],
+        "candles_en": [
+            "Hidden Forest Season Candle group:a-1",
+            "Golden Wasteland Treasure Candle-1"
+        ]
     }
 }
