@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-01 15:38:23 (GMT+8)",
+    "updated_at": "2026-11-01 16:08:05 (GMT+8)",
     "tw": {
         "title": "繁體中文",
         "date_today": "2026-11-01",
@@ -8,13 +8,14 @@
             "欣賞一下霞谷小樹苗",
             "向一位玩家揮手",
             "沿著霞谷下層賽道捕捉四散的光",
-            "重溫叫好觀眾在霞谷的記憶",
-            "欣賞一下霞谷小樹苗",
-            "向一位玩家揮手",
-            "沿著霞谷下層賽道捕捉四散的光",
             "重溫叫好觀眾在霞谷的記憶"
         ],
-        "quests_tomorrow": [],
+        "quests_tomorrow": [
+            "淨化 10 處黑暗腐植",
+            "對其他玩家使用表情",
+            "與先靈們一起跳蟹舞",
+            "在戰場冥想"
+        ],
         "candles_today": [
             "霞谷季蠟a組-1"
         ],
@@ -28,13 +29,14 @@
             "坐赏霞谷小树苗",
             "向一位玩家挥手",
             "在下层霞谷赛道捕捉漫游之光",
-            "在霞谷重温叫好观众的记忆",
-            "坐赏霞谷小树苗",
-            "向一位玩家挥手",
-            "在下层霞谷赛道捕捉漫游之光",
             "在霞谷重温叫好观众的记忆"
         ],
-        "quests_tomorrow": [],
+        "quests_tomorrow": [
+            "净化 10 处黑暗腐植",
+            "对玩家使用表情",
+            "与先灵们一起跳蟹舞",
+            "在战场冥想"
+        ],
         "candles_today": [
             "霞谷季蜡a组-1"
         ],
@@ -48,13 +50,14 @@
             "Admire the sapling in Valley of Triumph for a short while",
             "Wave to a player",
             "Catch the wandering lights along the Lower Valley Track",
-            "Relive Cheerful Spectator's memory from Valley of Triumph",
-            "Admire the sapling in Valley of Triumph for a short while",
-            "Wave to a player",
-            "Catch the wandering lights along the Lower Valley Track",
             "Relive Cheerful Spectator's memory from Valley of Triumph"
         ],
-        "quests_tomorrow": [],
+        "quests_tomorrow": [
+            "Melt 10 darkness",
+            "Use expressions with players",
+            "Crabwalk with the Spirits",
+            "Meditate on the Battlefield"
+        ],
         "candles_today": [
             "Valley of Triumph Season Candle group:a-1"
         ],
