@@ -27,5 +27,34 @@
         "candles_en": [
             "Valley of Triumph Season Candle group:a-1"
         ]
+    },
+    "2026-11-02": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "對其他玩家使用表情",
+            "與先靈們一起跳蟹舞",
+            "在戰場冥想"
+        ],
+        "candles_tw": [
+            "暮土季蠟a組-1"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "对玩家使用表情",
+            "与先灵们一起跳蟹舞",
+            "在战场冥想"
+        ],
+        "candles_cn": [
+            "暮土季蜡a组-1"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Use expressions with players",
+            "Crabwalk with the Spirits",
+            "Meditate on the Battlefield"
+        ],
+        "candles_en": [
+            "Golden Wasteland Season Candle group:a-1"
+        ]
     }
 }
