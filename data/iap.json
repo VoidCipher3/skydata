@@ -1,8 +1,8 @@
 {
  "meta": {
-  "fetchedAt": 1793606446,
-  "builtAt": 1793606451,
-  "validUntil": 1793608243,
+  "fetchedAt": 1793651005,
+  "builtAt": 1793651012,
+  "validUntil": 1793652805,
   "baseTime": 1587366000
  },
  "items": [
@@ -194,12 +194,8 @@
    "nameKey": "commerce_item_name_web_sunheadband",
    "descKey": "commerce_item_desc_web_sunheadband",
    "type": "Non-Consumable",
-   "tier": 100,
-   "prices": {
-    "USD": 100,
-    "TWD": 3000,
-    "CNY": 600
-   },
+   "tier": 0,
+   "prices": {},
    "bonus": [],
    "unlocks": [
     {
@@ -221,12 +217,8 @@
    "nameKey": "commerce_item_name_web_sprouthat",
    "descKey": "commerce_item_desc_web_sprouthat",
    "type": "Non-Consumable",
-   "tier": 100,
-   "prices": {
-    "USD": 100,
-    "TWD": 3000,
-    "CNY": 600
-   },
+   "tier": 0,
+   "prices": {},
    "bonus": [],
    "unlocks": [
     {
@@ -248,12 +240,8 @@
    "nameKey": "commerce_item_name_web_sunflowerneck",
    "descKey": "commerce_item_desc_web_sunflowerneck",
    "type": "Non-Consumable",
-   "tier": 100,
-   "prices": {
-    "USD": 100,
-    "TWD": 3000,
-    "CNY": 600
-   },
+   "tier": 0,
+   "prices": {},
    "bonus": [],
    "unlocks": [
     {
@@ -275,12 +263,8 @@
    "nameKey": "commerce_item_name_web_sunflowerskirt",
    "descKey": "commerce_item_desc_web_sunflowerskirt",
    "type": "Non-Consumable",
-   "tier": 100,
-   "prices": {
-    "USD": 100,
-    "TWD": 3000,
-    "CNY": 600
-   },
+   "tier": 0,
+   "prices": {},
    "bonus": [],
    "unlocks": [
     {
@@ -1232,60 +1216,6 @@
    "giftable": true
   },
   {
-   "id": "SNC218",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_ivoryswing",
-   "descKey": "commerce_item_desc_cafe_ivoryswing",
-   "type": "Non-Consumable",
-   "tier": 15,
-   "prices": {
-    "USD": 15,
-    "TWD": 450,
-    "CNY": 90
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Prop_IvorySwing",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_IvorySwing.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Prop_IvorySwing",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_IvorySwing.png"
-   },
-   "eventName": "global_cafe",
-   "platforms": "*",
-   "giftable": true
-  },
-  {
-   "id": "SNC219",
-   "oldId": null,
-   "nameKey": "commerce_item_name_cafe_ivoryoveralls",
-   "descKey": "commerce_item_desc_cafe_ivoryoveralls",
-   "type": "Non-Consumable",
-   "tier": 10,
-   "prices": {
-    "USD": 10,
-    "TWD": 300,
-    "CNY": 60
-   },
-   "bonus": [],
-   "unlocks": [
-    {
-     "name": "CharSkyKid_Body_IvoryOveralls",
-     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_IvoryOveralls.png"
-    }
-   ],
-   "image": {
-    "name": "CharSkyKid_Body_IvoryOveralls",
-    "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Body_IvoryOveralls.png"
-   },
-   "eventName": "global_cafe",
-   "platforms": "*",
-   "giftable": true
-  },
-  {
    "id": "SNC112",
    "oldId": null,
    "nameKey": "commerce_item_name_cafe_pastryhair",
@@ -1312,7 +1242,7 @@
     "name": "CharSkyKid_Hair_PastryShort",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_PastryShort.png"
    },
-   "eventName": "global_cafe",
+   "eventName": "old_retired_event",
    "platforms": "*",
    "giftable": true
   },
@@ -1339,7 +1269,7 @@
     "name": "CharSkyKid_Prop_PastryPlush",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_PastryPlush.png"
    },
-   "eventName": "global_cafe",
+   "eventName": "old_retired_event",
    "platforms": "*",
    "giftable": true
   },
@@ -1366,7 +1296,7 @@
     "name": "CharSkyKid_Horn_PastryMini",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_PastryMini.png"
    },
-   "eventName": "global_cafe",
+   "eventName": "old_retired_event",
    "platforms": "*",
    "giftable": true
   },
@@ -1397,7 +1327,7 @@
     "name": "CharSkyKid_Neck_PastryBow",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Neck_PastryBow.png"
    },
-   "eventName": "global_cafe",
+   "eventName": "old_retired_event",
    "platforms": "*",
    "giftable": true
   },
@@ -2272,7 +2202,7 @@
     "name": "CharSkyKid_Wing_FeastScarf",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_FeastScarf.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2303,7 +2233,7 @@
     "name": "CharSkyKid_Feet_FeastLegWarmers",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Feet_FeastLegWarmers.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2330,7 +2260,7 @@
     "name": "CharSkyKid_Hat_FeastSnowman",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_FeastSnowman.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2357,7 +2287,7 @@
     "name": "CharSkyKid_Prop_CrabbitPortal",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_CrabbitPortal.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2388,7 +2318,7 @@
     "name": "CharSkyKid_Hat_BlueBow",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hat_BlueBow.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2415,7 +2345,7 @@
     "name": "CharSkyKid_Feet_YetiBoots",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Feet_YetiBoots.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2442,7 +2372,7 @@
     "name": "CharSkyKid_Wing_WinterPuffer",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_WinterPuffer.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2469,7 +2399,7 @@
     "name": "CharSkyKid_Prop_SkyBallGoals",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_SkyBallGoals.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2496,7 +2426,7 @@
     "name": "CharSkyKid_Wing_YetiFur",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_YetiFur.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2523,7 +2453,7 @@
     "name": "CharSkyKid_Prop_SnowGlobe",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Prop_SnowGlobe.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2550,7 +2480,7 @@
     "name": "CharSkyKid_Wing_WinterElder_01",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_WinterElder_01.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2577,7 +2507,7 @@
     "name": "CharSkyKid_Horn_Snowflake_01",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_Snowflake_01.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2604,7 +2534,7 @@
     "name": "CharSkyKid_Horn_Elk",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Horn_Elk.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2631,7 +2561,7 @@
     "name": "CharSkyKid_Wing_Snowflake",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Wing_Snowflake.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
@@ -2663,7 +2593,7 @@
     "name": "CharSkyKid_Hair_Xmas",
     "url": "https://skyinfoweb.pages.dev/image/items/CharSkyKid_Hair_Xmas.png"
    },
-   "eventName": "global_feast_storefronts",
+   "eventName": "global_feast",
    "platforms": "*",
    "giftable": true
   },
