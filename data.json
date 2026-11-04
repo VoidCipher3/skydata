@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-04 13:55:11 (GMT+8)",
+    "updated_at": "2026-11-04 15:30:33 (GMT+8)",
     "tw": {
         "title": "繁體中文",
         "date_today": "2026-11-03",
@@ -20,7 +20,10 @@
             "禁閣季蠟a組-1",
             "雲野大蠟燭-1"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "雲野季蠟a組-2",
+            "雨林大蠟燭-1"
+        ]
     },
     "cn": {
         "title": "简体中文",
@@ -42,7 +45,10 @@
             "禁阁季蜡a组-1",
             "云野大蜡烛-1"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "云野季蜡a组-2",
+            "雨林大蜡烛-1"
+        ]
     },
     "en": {
         "title": "English",
@@ -64,6 +70,9 @@
             "Vault of Knowledge Season Candle group:a-1",
             "Daylight Prairie Treasure Candle-1"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "Daylight Prairie Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-1"
+        ]
     }
 }
