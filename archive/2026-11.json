@@ -91,5 +91,37 @@
             "Vault of Knowledge Season Candle group:a-1",
             "Daylight Prairie Treasure Candle-1"
         ]
+    },
+    "2026-11-04": {
+        "tw": [
+            "抓住雲野之光",
+            "點亮 20 根蠟燭",
+            "收集 綠色光芒",
+            "乘坐光鰩"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-2",
+            "雨林大蠟燭-1"
+        ],
+        "cn": [
+            "抓住云野之光",
+            "点亮 20 根蜡烛",
+            "收集 绿色光芒",
+            "乘着光鳐兜风"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-2",
+            "雨林大蜡烛-1"
+        ],
+        "en": [
+            "Catch the light in Daylight Prairie",
+            "Light 20 candles",
+            "Collect Green Light",
+            "Ride with a Manta"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-1"
+        ]
     }
 }
