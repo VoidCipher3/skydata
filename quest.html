@@ -7,7 +7,7 @@
     <title>Sky 每日任務追蹤</title>
     <meta name="description" content="非官方《Sky: Children of the Light（光·遇）》每日任務追蹤站，每天15:00 GMT+8自動更新今日／明日任務與蠟燭資訊，支援繁體中文、简体中文、English，並提供歷史紀錄查詢。">
     <meta property="og:title" content="Sky 每日任務追蹤">
-    <meta property="og:description" content="每天15:00 GMT+8自動更新的《光·遇》每日任務、蠟燭資訊與歷史紀錄查詢。">
+    <meta property="og:description" content="每天15:00 GMT+8(夏令時間)/16:00 GMT+8冬令時間自動更新的《光·遇》每日任務、蠟燭資訊與歷史紀錄查詢。">
     <meta property="og:type" content="website">
     <script>
         // 在 CSS 套用前先決定主題，避免深色模式使用者先看到一閃白底。
@@ -477,13 +477,13 @@
 
             const labels = {
                 'tw': { today: '今日任務', tmr: '明日預告', history: '歷史查詢', search: '查詢', candles: '🔥 蠟燭 / Candles',
-                         introTitle: 'Sky 每日任務追蹤', introBody: '這是一個非官方的《Sky: Children of the Light（光‧遇）》每日任務小工具，每天15:00 GMT+8自動抓取今日／明日任務與蠟燭資訊，並保存歷史紀錄供查詢。資料為社群整理，如與遊戲內容有落差請以遊戲內為準。',
-                         refresh: '🔄 手動刷新', toDark: '切換為深色模式', toLight: '切換為淺色模式' },
+         introTitle: 'Sky 每日任務追蹤', introBody: '這是一個非官方的《Sky: Children of the Light（光‧遇）》每日任務小工具，每天 15:00 GMT+8（美國夏令時間）／16:00 GMT+8（冬令時間）自動抓取今日／明日任務與蠟燭資訊，並保存歷史紀錄供查詢。資料為社群整理，如與遊戲內容有落差請以遊戲內為準。',
+         refresh: '🔄 手動刷新', toDark: '切換為深色模式', toLight: '切換為淺色模式' },
                 'cn': { today: '今日任务', tmr: '明日预告', history: '历史查询', search: '查询', candles: '🔥 蜡烛 / Candles',
-                         introTitle: 'Sky 每日任务追踪', introBody: '这是一个非官方的《Sky: Children of the Light（光‧遇）》每日任务小工具，每天15:00 GMT+8自动抓取今日／明日任务与蜡烛资讯，并保存历史记录供查询。数据为社区整理，如与游戏内容有出入请以游戏公告为准。',
+                         introTitle: 'Sky 每日任务追踪', introBody: '这是一个非官方的《Sky: Children of the Light（光‧遇）》每日任务小工具，每天 15:00 GMT+8（美国夏令时）／16:00 GMT+8（冬令时）自动抓取今日／明日任务与蜡烛资讯，并保存历史记录供查询。数据为社区整理，如与游戏内容有出入请以游戏公告为准。',
                          refresh: '🔄 手动刷新', toDark: '切换为深色模式', toLight: '切换为浅色模式' },
                 'en': { today: 'Today', tmr: 'Tomorrow', history: 'History', search: 'Search', candles: '🔥 Candles',
-                         introTitle: 'Sky Daily Quest Tracker', introBody: 'An unofficial daily quest tracker for Sky: Children of the Light. Today/tomorrow quests and candle info refresh automatically everyday 0:00 GMT-7, with a searchable history archive. Community-maintained data — treat in-game announcements as the source of truth.',
+                         introTitle: 'Sky Daily Quest Tracker', introBody: 'An unofficial daily quest tracker for Sky: Children of the Light. Today/tomorrow quests and candle info refresh automatically every day at 00:00 Pacific Time (15:00 GMT+8 during US daylight saving time / 16:00 GMT+8 in winter), with a searchable history archive. Community-maintained data — treat in-game announcements as the source of truth.',
                          refresh: '🔄 Refresh', toDark: 'Switch to dark mode', toLight: 'Switch to light mode' }
             };
             themeLabels = labels[lang];
