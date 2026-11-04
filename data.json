@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-11-03 15:01:04 (GMT+8)",
+    "updated_at": "2026-11-04 13:55:11 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-02",
-        "date_tomorrow": "2026-11-03",
+        "date_today": "2026-11-03",
+        "date_tomorrow": "2026-11-04",
         "quests_today": [
-            "淨化 10 處黑暗腐植",
-            "對其他玩家使用表情",
-            "與先靈們一起跳蟹舞",
-            "在戰場冥想"
-        ],
-        "quests_tomorrow": [
             "收集 30 道燭光",
             "在禁閣上層捕捉四散的光",
             "向一位玩家鞠躬",
             "重溫禪修院士在禁閣的記憶"
         ],
+        "quests_tomorrow": [
+            "抓住雲野之光",
+            "點亮 20 根蠟燭",
+            "收集 綠色光芒",
+            "乘坐光鰩"
+        ],
         "candles_today": [
-            "禁閣大蠟燭-1",
-            "暮土季蠟a組-1"
+            "禁閣季蠟a組-1",
+            "雲野大蠟燭-1"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-02",
-        "date_tomorrow": "2026-11-03",
+        "date_today": "2026-11-03",
+        "date_tomorrow": "2026-11-04",
         "quests_today": [
-            "净化 10 处黑暗腐植",
-            "对玩家使用表情",
-            "与先灵们一起跳蟹舞",
-            "在战场冥想"
-        ],
-        "quests_tomorrow": [
             "收集 30 道烛光",
             "在禁阁上层捕捉四散的光",
             "向一位玩家鞠躬",
             "在禁阁重温禅修院士的记忆"
         ],
+        "quests_tomorrow": [
+            "抓住云野之光",
+            "点亮 20 根蜡烛",
+            "收集 绿色光芒",
+            "乘着光鳐兜风"
+        ],
         "candles_today": [
-            "禁阁大蜡烛-1",
-            "暮土季蜡a组-1"
+            "禁阁季蜡a组-1",
+            "云野大蜡烛-1"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-02",
-        "date_tomorrow": "2026-11-03",
+        "date_today": "2026-11-03",
+        "date_tomorrow": "2026-11-04",
         "quests_today": [
-            "Melt 10 darkness",
-            "Use expressions with players",
-            "Crabwalk with the Spirits",
-            "Meditate on the Battlefield"
-        ],
-        "quests_tomorrow": [
             "Collect 30 pieces of light",
             "Catch the wandering lights in the Upper Vault",
             "Bow at a player",
             "Relive Meditating Monastic's memory from Vault of Knowledge"
         ],
+        "quests_tomorrow": [
+            "Catch the light in Daylight Prairie",
+            "Light 20 candles",
+            "Collect Green Light",
+            "Ride with a Manta"
+        ],
         "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Golden Wasteland Season Candle group:a-1"
+            "Vault of Knowledge Season Candle group:a-1",
+            "Daylight Prairie Treasure Candle-1"
         ],
         "candles_tomorrow": []
     }

@@ -59,5 +59,37 @@
             "Vault of Knowledge Treasure Candle-1",
             "Golden Wasteland Season Candle group:a-1"
         ]
+    },
+    "2026-11-03": {
+        "tw": [
+            "收集 30 道燭光",
+            "在禁閣上層捕捉四散的光",
+            "向一位玩家鞠躬",
+            "重溫禪修院士在禁閣的記憶"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-1",
+            "雲野大蠟燭-1"
+        ],
+        "cn": [
+            "收集 30 道烛光",
+            "在禁阁上层捕捉四散的光",
+            "向一位玩家鞠躬",
+            "在禁阁重温禅修院士的记忆"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-1",
+            "云野大蜡烛-1"
+        ],
+        "en": [
+            "Collect 30 pieces of light",
+            "Catch the wandering lights in the Upper Vault",
+            "Bow at a player",
+            "Relive Meditating Monastic's memory from Vault of Knowledge"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-1",
+            "Daylight Prairie Treasure Candle-1"
+        ]
     }
 }
