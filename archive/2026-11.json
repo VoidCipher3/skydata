@@ -123,5 +123,37 @@
             "Daylight Prairie Season Candle group:a-2",
             "Hidden Forest Treasure Candle-1"
         ]
+    },
+    "2026-11-05": {
+        "tw": [
+            "用燭光凝聚成一根蠟燭",
+            "重溫挑釁藝伎在雨林的記憶",
+            "透過光菇重新恢復能量",
+            "在雨林小溪捕捉四散的光"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1",
+            "雨林季蠟a組-2"
+        ],
+        "cn": [
+            "用烛光凝聚成一根蜡烛",
+            "在雨林重温挑衅艺伎的记忆",
+            "用光菇重新恢复能量",
+            "在雨林小溪捕捉四散的光"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1",
+            "雨林季蜡a组-2"
+        ],
+        "en": [
+            "Forge a candle",
+            "Relive Provoking Performer's memory from Hidden Forest",
+            "Recharge your light from a light bloom",
+            "Catch the wandering lights in the Forest Brook"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1",
+            "Hidden Forest Season Candle group:a-2"
+        ]
     }
 }

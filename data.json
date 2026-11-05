@@ -1,68 +1,68 @@
 {
-    "updated_at": "2026-11-05 15:00:39 (GMT+8)",
+    "updated_at": "2026-11-05 16:39:26 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-04",
-        "date_tomorrow": "2026-11-05",
+        "date_today": "2026-11-05",
+        "date_tomorrow": "2026-11-06",
         "quests_today": [
-            "抓住雲野之光",
-            "點亮 20 根蠟燭",
-            "收集 綠色光芒",
-            "乘坐光鰩"
-        ],
-        "quests_tomorrow": [
             "用燭光凝聚成一根蠟燭",
             "重溫挑釁藝伎在雨林的記憶",
             "透過光菇重新恢復能量",
             "在雨林小溪捕捉四散的光"
         ],
+        "quests_tomorrow": [
+            "收集 藍色光芒",
+            "對 5 位不同玩家發出叫聲",
+            "重溫跳舞藝人在霞谷的記憶",
+            "拜訪圓夢村的溫泉"
+        ],
         "candles_today": [
-            "雲野季蠟a組-2",
-            "雨林大蠟燭-1"
+            "霞谷大蠟燭-1",
+            "雨林季蠟a組-2"
         ],
         "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-04",
-        "date_tomorrow": "2026-11-05",
+        "date_today": "2026-11-05",
+        "date_tomorrow": "2026-11-06",
         "quests_today": [
-            "抓住云野之光",
-            "点亮 20 根蜡烛",
-            "收集 绿色光芒",
-            "乘着光鳐兜风"
-        ],
-        "quests_tomorrow": [
             "用烛光凝聚成一根蜡烛",
             "在雨林重温挑衅艺伎的记忆",
             "用光菇重新恢复能量",
             "在雨林小溪捕捉四散的光"
         ],
+        "quests_tomorrow": [
+            "收集 蓝色光芒",
+            "呼唤5位不同玩家",
+            "在霞谷重温跳舞艺人的记忆",
+            "拜访园梦村的温泉"
+        ],
         "candles_today": [
-            "云野季蜡a组-2",
-            "雨林大蜡烛-1"
+            "霞谷大蜡烛-1",
+            "雨林季蜡a组-2"
         ],
         "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-04",
-        "date_tomorrow": "2026-11-05",
+        "date_today": "2026-11-05",
+        "date_tomorrow": "2026-11-06",
         "quests_today": [
-            "Catch the light in Daylight Prairie",
-            "Light 20 candles",
-            "Collect Green Light",
-            "Ride with a Manta"
-        ],
-        "quests_tomorrow": [
             "Forge a candle",
             "Relive Provoking Performer's memory from Hidden Forest",
             "Recharge your light from a light bloom",
             "Catch the wandering lights in the Forest Brook"
         ],
+        "quests_tomorrow": [
+            "Collect Blue Light",
+            "Call to 5 different players",
+            "Relive Dancing Performer's memory from Valley of Triumph",
+            "Visit the Hotspring in the Village of Dreams"
+        ],
         "candles_today": [
-            "Daylight Prairie Season Candle group:a-2",
-            "Hidden Forest Treasure Candle-1"
+            "Valley of Triumph Treasure Candle-1",
+            "Hidden Forest Season Candle group:a-2"
         ],
         "candles_tomorrow": []
     }
