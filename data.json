@@ -1,78 +1,69 @@
 {
-    "updated_at": "2026-11-06 15:30:40 (GMT+8)",
+    "updated_at": "2026-11-06 16:16:54 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-05",
-        "date_tomorrow": "2026-11-06",
+        "date_today": "2026-11-06",
+        "date_tomorrow": "2026-11-07",
         "quests_today": [
-            "用燭光凝聚成一根蠟燭",
-            "重溫挑釁藝伎在雨林的記憶",
-            "透過光菇重新恢復能量",
-            "在雨林小溪捕捉四散的光"
-        ],
-        "quests_tomorrow": [
             "收集 藍色光芒",
             "對 5 位不同玩家發出叫聲",
             "重溫跳舞藝人在霞谷的記憶",
             "拜訪圓夢村的溫泉"
         ],
-        "candles_today": [
-            "霞谷大蠟燭-1",
-            "雨林季蠟a組-2"
+        "quests_tomorrow": [
+            "重溫一位暮土先靈的記憶",
+            "面對冥龍",
+            "與暗蟹一起爬到管道上方",
+            "抱起一隻暗蟹"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "暮土大蠟燭-2",
             "霞谷季蠟a組-2"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-05",
-        "date_tomorrow": "2026-11-06",
+        "date_today": "2026-11-06",
+        "date_tomorrow": "2026-11-07",
         "quests_today": [
-            "用烛光凝聚成一根蜡烛",
-            "在雨林重温挑衅艺伎的记忆",
-            "用光菇重新恢复能量",
-            "在雨林小溪捕捉四散的光"
-        ],
-        "quests_tomorrow": [
             "收集 蓝色光芒",
             "呼唤5位不同玩家",
             "在霞谷重温跳舞艺人的记忆",
             "拜访园梦村的温泉"
         ],
-        "candles_today": [
-            "霞谷大蜡烛-1",
-            "雨林季蜡a组-2"
+        "quests_tomorrow": [
+            "在暮土中重温一位先灵的记忆",
+            "面对冥龙",
+            "与暗蟹一起爬到管道上方",
+            "抱起一只暗蟹"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "暮土大蜡烛-2",
             "霞谷季蜡a组-2"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-05",
-        "date_tomorrow": "2026-11-06",
+        "date_today": "2026-11-06",
+        "date_tomorrow": "2026-11-07",
         "quests_today": [
-            "Forge a candle",
-            "Relive Provoking Performer's memory from Hidden Forest",
-            "Recharge your light from a light bloom",
-            "Catch the wandering lights in the Forest Brook"
-        ],
-        "quests_tomorrow": [
             "Collect Blue Light",
             "Call to 5 different players",
             "Relive Dancing Performer's memory from Valley of Triumph",
             "Visit the Hotspring in the Village of Dreams"
         ],
-        "candles_today": [
-            "Valley of Triumph Treasure Candle-1",
-            "Hidden Forest Season Candle group:a-2"
+        "quests_tomorrow": [
+            "Relive a Spirit's memories in Golden Wasteland",
+            "Face the Dark Dragon",
+            "Reach above the pipes together with the crab",
+            "Pick up a Crab"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "Golden Wasteland Treasure Candle-2",
             "Valley of Triumph Season Candle group:a-2"
-        ]
+        ],
+        "candles_tomorrow": []
     }
 }

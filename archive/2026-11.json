@@ -155,5 +155,37 @@
             "Valley of Triumph Treasure Candle-1",
             "Hidden Forest Season Candle group:a-2"
         ]
+    },
+    "2026-11-06": {
+        "tw": [
+            "收集 藍色光芒",
+            "對 5 位不同玩家發出叫聲",
+            "重溫跳舞藝人在霞谷的記憶",
+            "拜訪圓夢村的溫泉"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-2",
+            "霞谷季蠟a組-2"
+        ],
+        "cn": [
+            "收集 蓝色光芒",
+            "呼唤5位不同玩家",
+            "在霞谷重温跳舞艺人的记忆",
+            "拜访园梦村的温泉"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-2",
+            "霞谷季蜡a组-2"
+        ],
+        "en": [
+            "Collect Blue Light",
+            "Call to 5 different players",
+            "Relive Dancing Performer's memory from Valley of Triumph",
+            "Visit the Hotspring in the Village of Dreams"
+        ],
+        "candles_en": [
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:a-2"
+        ]
     }
 }
