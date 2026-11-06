@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-05 16:39:26 (GMT+8)",
+    "updated_at": "2026-11-06 15:30:40 (GMT+8)",
     "tw": {
         "title": "繁體中文",
         "date_today": "2026-11-05",
@@ -20,7 +20,10 @@
             "霞谷大蠟燭-1",
             "雨林季蠟a組-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "暮土大蠟燭-2",
+            "霞谷季蠟a組-2"
+        ]
     },
     "cn": {
         "title": "简体中文",
@@ -42,7 +45,10 @@
             "霞谷大蜡烛-1",
             "雨林季蜡a组-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "暮土大蜡烛-2",
+            "霞谷季蜡a组-2"
+        ]
     },
     "en": {
         "title": "English",
@@ -64,6 +70,9 @@
             "Valley of Triumph Treasure Candle-1",
             "Hidden Forest Season Candle group:a-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:a-2"
+        ]
     }
 }
