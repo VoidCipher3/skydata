@@ -187,5 +187,37 @@
             "Golden Wasteland Treasure Candle-2",
             "Valley of Triumph Season Candle group:a-2"
         ]
+    },
+    "2026-11-07": {
+        "tw": [
+            "重溫一位暮土先靈的記憶",
+            "面對冥龍",
+            "與暗蟹一起爬到管道上方",
+            "抱起一隻暗蟹"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2",
+            "暮土季蠟a組-2"
+        ],
+        "cn": [
+            "在暮土中重温一位先灵的记忆",
+            "面对冥龙",
+            "与暗蟹一起爬到管道上方",
+            "抱起一只暗蟹"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2",
+            "暮土季蜡a组-2"
+        ],
+        "en": [
+            "Relive a Spirit's memories in Golden Wasteland",
+            "Face the Dark Dragon",
+            "Reach above the pipes together with the crab",
+            "Pick up a Crab"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2",
+            "Golden Wasteland Season Candle group:a-2"
+        ]
     }
 }
