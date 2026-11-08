@@ -219,5 +219,37 @@
             "Vault of Knowledge Treasure Candle-2",
             "Golden Wasteland Season Candle group:a-2"
         ]
+    },
+    "2026-11-08": {
+        "tw": [
+            "收集 紫色光芒",
+            "重溫智慧長者在禁閣的記憶",
+            "重溫一位禁閣先靈的記憶",
+            "淨化 10 處黑暗腐植"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雲野大蠟燭-2"
+        ],
+        "cn": [
+            "收集 紫色光芒",
+            "在禁阁重温智慧长者的记忆",
+            "在禁阁中重温一位先灵的记忆",
+            "净化 10 处黑暗腐植"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "云野大蜡烛-2"
+        ],
+        "en": [
+            "Collect Purple Light",
+            "Relive Wise Grandparent's memory from Vault of Knowledge",
+            "Relive a Spirit's memories in Vault of Knowledge",
+            "Melt 10 darkness"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Daylight Prairie Treasure Candle-2"
+        ]
     }
 }
