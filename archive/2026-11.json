@@ -379,5 +379,37 @@
             "Vault of Knowledge Treasure Candle-1",
             "Golden Wasteland Season Candle group:a-1"
         ]
+    },
+    "2026-11-13": {
+        "tw": [
+            "和朋友擁抱",
+            "抓住禁閣之光",
+            "重溫氣功高人在禁閣的記憶",
+            "在禁閣第二層冥想"
+        ],
+        "candles_tw": [
+            "雲野大蠟燭-3",
+            "禁閣季蠟a組-1"
+        ],
+        "cn": [
+            "和朋友拥抱",
+            "抓住禁阁之光",
+            "在禁阁重温气功高人的记忆",
+            "在禁阁第二层冥想"
+        ],
+        "candles_cn": [
+            "云野大蜡烛-3",
+            "禁阁季蜡a组-1"
+        ],
+        "en": [
+            "Hug a friend",
+            "Catch the light in the Vault of Knowledge",
+            "Relive Levitating Adept's memory from Vault of Knowledge",
+            "Meditate on the second floor of the Vault"
+        ],
+        "candles_en": [
+            "Daylight Prairie Treasure Candle-3",
+            "Vault of Knowledge Season Candle group:a-1"
+        ]
     }
 }

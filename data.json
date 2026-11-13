@@ -1,78 +1,69 @@
 {
-    "updated_at": "2026-11-13 15:30:59 (GMT+8)",
+    "updated_at": "2026-11-13 16:01:10 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-12",
-        "date_tomorrow": "2026-11-13",
+        "date_today": "2026-11-13",
+        "date_tomorrow": "2026-11-14",
         "quests_today": [
-            "欣賞一下暮土小樹苗",
-            "找到暮土的彩虹蠟燭",
-            "重溫情緒草藥師在暮土的記憶",
-            "向一位玩家揮手"
-        ],
-        "quests_tomorrow": [
             "和朋友擁抱",
             "抓住禁閣之光",
             "重溫氣功高人在禁閣的記憶",
             "在禁閣第二層冥想"
         ],
-        "candles_today": [
-            "禁閣大蠟燭-1",
-            "暮土季蠟a組-1"
+        "quests_tomorrow": [
+            "淨化 10 處黑暗腐植",
+            "對 5 位不同玩家發出叫聲",
+            "在雲野村莊捕捉四散的光",
+            "乘坐光鰩"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "雲野大蠟燭-3",
             "禁閣季蠟a組-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-12",
-        "date_tomorrow": "2026-11-13",
+        "date_today": "2026-11-13",
+        "date_tomorrow": "2026-11-14",
         "quests_today": [
-            "坐赏暮土小树苗",
-            "在暮土找到彩虹蜡烛",
-            "在暮土重温情绪草药师的记忆",
-            "向一位玩家挥手"
-        ],
-        "quests_tomorrow": [
             "和朋友拥抱",
             "抓住禁阁之光",
             "在禁阁重温气功高人的记忆",
             "在禁阁第二层冥想"
         ],
-        "candles_today": [
-            "禁阁大蜡烛-1",
-            "暮土季蜡a组-1"
+        "quests_tomorrow": [
+            "净化 10 处黑暗腐植",
+            "呼唤5位不同玩家",
+            "在云野村庄中捕捉四散的光",
+            "乘着光鳐兜风"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "云野大蜡烛-3",
             "禁阁季蜡a组-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-12",
-        "date_tomorrow": "2026-11-13",
+        "date_today": "2026-11-13",
+        "date_tomorrow": "2026-11-14",
         "quests_today": [
-            "Admire the sapling in Golden Wasteland for a short while",
-            "Find the candles at the end of the rainbow in the Golden Wasteland",
-            "Relive Playfighting Herbalist's memory from Golden Wasteland",
-            "Wave to a player"
-        ],
-        "quests_tomorrow": [
             "Hug a friend",
             "Catch the light in the Vault of Knowledge",
             "Relive Levitating Adept's memory from Vault of Knowledge",
             "Meditate on the second floor of the Vault"
         ],
-        "candles_today": [
-            "Vault of Knowledge Treasure Candle-1",
-            "Golden Wasteland Season Candle group:a-1"
+        "quests_tomorrow": [
+            "Melt 10 darkness",
+            "Call to 5 different players",
+            "Catch the wandering lights in Prairie Village",
+            "Ride with a Manta"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "Daylight Prairie Treasure Candle-3",
             "Vault of Knowledge Season Candle group:a-1"
-        ]
+        ],
+        "candles_tomorrow": []
     }
 }
