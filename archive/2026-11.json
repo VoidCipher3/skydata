@@ -411,5 +411,37 @@
             "Daylight Prairie Treasure Candle-3",
             "Vault of Knowledge Season Candle group:a-1"
         ]
+    },
+    "2026-11-14": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "對 5 位不同玩家發出叫聲",
+            "在雲野村莊捕捉四散的光",
+            "乘坐光鰩"
+        ],
+        "candles_tw": [
+            "雲野季蠟a組-2",
+            "雨林大蠟燭-3"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "呼唤5位不同玩家",
+            "在云野村庄中捕捉四散的光",
+            "乘着光鳐兜风"
+        ],
+        "candles_cn": [
+            "云野季蜡a组-2",
+            "雨林大蜡烛-3"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Call to 5 different players",
+            "Catch the wandering lights in Prairie Village",
+            "Ride with a Manta"
+        ],
+        "candles_en": [
+            "Daylight Prairie Season Candle group:a-2",
+            "Hidden Forest Treasure Candle-3"
+        ]
     }
 }
