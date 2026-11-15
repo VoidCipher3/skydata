@@ -443,5 +443,37 @@
             "Daylight Prairie Season Candle group:a-2",
             "Hidden Forest Treasure Candle-3"
         ]
+    },
+    "2026-11-15": {
+        "tw": [
+            "重溫發抖開拓者在雨林的記憶",
+            "欣賞一下雨林小樹苗",
+            "向一位玩家鞠躬",
+            "抓住雨林之光"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1",
+            "雨林季蠟a組-2"
+        ],
+        "cn": [
+            "在雨林重温发抖开拓者的记忆",
+            "坐赏雨林小树苗",
+            "向一位玩家鞠躬",
+            "抓住雨林之光"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1",
+            "雨林季蜡a组-2"
+        ],
+        "en": [
+            "Relive Shivering Trailblazer's memory from Hidden Forest",
+            "Admire the sapling in the Hidden Forest for a short while",
+            "Bow at a player",
+            "Catch the light in Hidden Forest"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1",
+            "Hidden Forest Season Candle group:a-2"
+        ]
     }
 }
