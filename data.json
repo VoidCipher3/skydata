@@ -1,78 +1,69 @@
 {
-    "updated_at": "2026-11-16 15:30:57 (GMT+8)",
+    "updated_at": "2026-11-16 16:01:07 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-15",
-        "date_tomorrow": "2026-11-16",
+        "date_today": "2026-11-16",
+        "date_tomorrow": "2026-11-17",
         "quests_today": [
-            "重溫發抖開拓者在雨林的記憶",
-            "欣賞一下雨林小樹苗",
-            "向一位玩家鞠躬",
-            "抓住雨林之光"
-        ],
-        "quests_tomorrow": [
             "點亮一位陌生玩家",
             "對其他玩家使用表情",
             "重溫一位霞谷先靈的記憶",
             "在霞谷城堡捕捉四散的光"
         ],
-        "candles_today": [
-            "霞谷大蠟燭-1",
-            "雨林季蠟a組-2"
+        "quests_tomorrow": [
+            "在寶礁中欣賞一下彩虹",
+            "用燭光凝聚成一根蠟燭",
+            "與笨拙的水手長欣賞共享空間",
+            "在寶礁海底捕捉四散的光"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "霞谷季蠟a組-2",
             "暮土大蠟燭-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-15",
-        "date_tomorrow": "2026-11-16",
+        "date_today": "2026-11-16",
+        "date_tomorrow": "2026-11-17",
         "quests_today": [
-            "在雨林重温发抖开拓者的记忆",
-            "坐赏雨林小树苗",
-            "向一位玩家鞠躬",
-            "抓住雨林之光"
-        ],
-        "quests_tomorrow": [
             "交一个新朋友",
             "对玩家使用表情",
             "在霞谷中重温一位先灵的记忆",
             "在霞谷城堡捕捉四散的光"
         ],
-        "candles_today": [
-            "霞谷大蜡烛-1",
-            "雨林季蜡a组-2"
+        "quests_tomorrow": [
+            "在宝藏暗礁欣赏一下彩虹",
+            "用烛光凝聚成一根蜡烛",
+            "与笨拙水手一起欣赏共享空间",
+            "在宝礁海底捕捉四散的光"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "霞谷季蜡a组-2",
             "暮土大蜡烛-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-15",
-        "date_tomorrow": "2026-11-16",
+        "date_today": "2026-11-16",
+        "date_tomorrow": "2026-11-17",
         "quests_today": [
-            "Relive Shivering Trailblazer's memory from Hidden Forest",
-            "Admire the sapling in the Hidden Forest for a short while",
-            "Bow at a player",
-            "Catch the light in Hidden Forest"
-        ],
-        "quests_tomorrow": [
             "Make a new acquaintance",
             "Use expressions with players",
             "Relive a Spirit's memories in Valley of Triumph",
             "Catch the wandering lights in The Citadel"
         ],
-        "candles_today": [
-            "Valley of Triumph Treasure Candle-1",
-            "Hidden Forest Season Candle group:a-2"
+        "quests_tomorrow": [
+            "Admire the rainbow in Treasure Reef for a short while",
+            "Forge a candle",
+            "Admire Shared Spaces with Bumbling Boatswain",
+            "Catch the wandering lights under the sea in Treasure Reef"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "Valley of Triumph Season Candle group:a-2",
             "Golden Wasteland Treasure Candle-1"
-        ]
+        ],
+        "candles_tomorrow": []
     }
 }

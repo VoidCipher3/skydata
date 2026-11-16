@@ -475,5 +475,37 @@
             "Valley of Triumph Treasure Candle-1",
             "Hidden Forest Season Candle group:a-2"
         ]
+    },
+    "2026-11-16": {
+        "tw": [
+            "點亮一位陌生玩家",
+            "對其他玩家使用表情",
+            "重溫一位霞谷先靈的記憶",
+            "在霞谷城堡捕捉四散的光"
+        ],
+        "candles_tw": [
+            "霞谷季蠟a組-2",
+            "暮土大蠟燭-1"
+        ],
+        "cn": [
+            "交一个新朋友",
+            "对玩家使用表情",
+            "在霞谷中重温一位先灵的记忆",
+            "在霞谷城堡捕捉四散的光"
+        ],
+        "candles_cn": [
+            "霞谷季蜡a组-2",
+            "暮土大蜡烛-1"
+        ],
+        "en": [
+            "Make a new acquaintance",
+            "Use expressions with players",
+            "Relive a Spirit's memories in Valley of Triumph",
+            "Catch the wandering lights in The Citadel"
+        ],
+        "candles_en": [
+            "Valley of Triumph Season Candle group:a-2",
+            "Golden Wasteland Treasure Candle-1"
+        ]
     }
 }
