@@ -1,78 +1,69 @@
 {
-    "updated_at": "2026-11-19 15:30:59 (GMT+8)",
+    "updated_at": "2026-11-19 16:01:00 (GMT+8)",
     "tw": {
         "title": "繁體中文",
-        "date_today": "2026-11-18",
-        "date_tomorrow": "2026-11-19",
+        "date_today": "2026-11-19",
+        "date_tomorrow": "2026-11-20",
         "quests_today": [
-            "重溫一位先靈的記憶",
-            "向一位玩家揮手",
-            "點亮 20 根蠟燭",
-            "重溫沉思編導在禁閣的記憶"
-        ],
-        "quests_tomorrow": [
             "在聖域群島乘坐一隻大光鰩",
             "收集 30 道燭光",
             "重溫水母語者在雲野的記憶",
             "拜訪聖域群島上遭受汙染的間歇泉"
         ],
-        "candles_today": [
-            "禁閣季蠟a組-2",
-            "雲野大蠟燭-1"
+        "quests_tomorrow": [
+            "在樹林高處冥想",
+            "找到雨林的彩虹蠟燭",
+            "對 5 位不同玩家發出叫聲",
+            "整理樹林高處的先祖團聚長桌"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "雲野季蠟a組-1",
             "雨林大蠟燭-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "cn": {
         "title": "简体中文",
-        "date_today": "2026-11-18",
-        "date_tomorrow": "2026-11-19",
+        "date_today": "2026-11-19",
+        "date_tomorrow": "2026-11-20",
         "quests_today": [
-            "重温一位先灵的记忆",
-            "向一位玩家挥手",
-            "点亮 20 根蜡烛",
-            "在禁阁重温沉思编导的记忆"
-        ],
-        "quests_tomorrow": [
             "在圣域群岛乘坐一只大光鳐",
             "收集 30 道烛光",
             "在云野重温水母语者的记忆",
             "拜访圣域群岛上遭受污染的间歇泉"
         ],
-        "candles_today": [
-            "禁阁季蜡a组-2",
-            "云野大蜡烛-1"
+        "quests_tomorrow": [
+            "在树林高处冥想",
+            "在雨林找到彩虹蜡烛",
+            "呼唤5位不同玩家",
+            "整理树林高处的先祖团聚长桌"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "云野季蜡a组-1",
             "雨林大蜡烛-1"
-        ]
+        ],
+        "candles_tomorrow": []
     },
     "en": {
         "title": "English",
-        "date_today": "2026-11-18",
-        "date_tomorrow": "2026-11-19",
+        "date_today": "2026-11-19",
+        "date_tomorrow": "2026-11-20",
         "quests_today": [
-            "Relive a Spirit's memories",
-            "Wave to a player",
-            "Light 20 candles",
-            "Relive Thoughtful Director's memory from Vault of Knowledge"
-        ],
-        "quests_tomorrow": [
             "Ride a giant manta in Sanctuary Islands",
             "Collect 30 pieces of light",
             "Relive Jelly Whisperer's memory from Daylight Prairie",
             "Visit the polluted geyser in Sanctuary Islands"
         ],
-        "candles_today": [
-            "Vault of Knowledge Season Candle group:a-2",
-            "Daylight Prairie Treasure Candle-1"
+        "quests_tomorrow": [
+            "Meditate in the Elevated Clearing",
+            "Find the candles at the end of the rainbow in the Hidden Forest",
+            "Call to 5 different players",
+            "Tidy up the Ancestor's table in the Elevated Clearing"
         ],
-        "candles_tomorrow": [
+        "candles_today": [
             "Daylight Prairie Season Candle group:a-1",
             "Hidden Forest Treasure Candle-1"
-        ]
+        ],
+        "candles_tomorrow": []
     }
 }
