@@ -635,5 +635,37 @@
             "Hidden Forest Season Candle group:a-1",
             "Valley of Triumph Treasure Candle-2"
         ]
+    },
+    "2026-11-21": {
+        "tw": [
+            "和朋友擊掌",
+            "欣賞一下霞谷小樹苗",
+            "沿著霞谷下層賽道捕捉四散的光",
+            "在霞谷神廟冥想"
+        ],
+        "candles_tw": [
+            "暮土大蠟燭-2",
+            "霞谷季蠟a組-1"
+        ],
+        "cn": [
+            "和朋友击掌",
+            "坐赏霞谷小树苗",
+            "在下层霞谷赛道捕捉漫游之光",
+            "在霞谷神庙冥想"
+        ],
+        "candles_cn": [
+            "暮土大蜡烛-2",
+            "霞谷季蜡a组-1"
+        ],
+        "en": [
+            "High-Five a friend",
+            "Admire the sapling in Valley of Triumph for a short while",
+            "Catch the wandering lights along the Lower Valley Track",
+            "Meditate at the Temple of the Valley"
+        ],
+        "candles_en": [
+            "Golden Wasteland Treasure Candle-2",
+            "Valley of Triumph Season Candle group:a-1"
+        ]
     }
 }
