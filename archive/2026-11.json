@@ -30,5 +30,37 @@
             "Daylight Prairie Season Candle group:a-2",
             "Hidden Forest Treasure Candle-2"
         ]
+    },
+    "2026-11-25": {
+        "tw": [
+            "抱起一隻暗蟹",
+            "點亮 20 根蠟燭",
+            "拯救一隻被黑暗腐植困住的光鰩",
+            "收集 橙色光芒"
+        ],
+        "candles_tw": [
+            "霞谷大蠟燭-1",
+            "雨林季蠟a組-2"
+        ],
+        "cn": [
+            "抱起一只暗蟹",
+            "点亮 20 根蜡烛",
+            "拯救一只被黑暗腐植困住的光鳐",
+            "收集 橙色光芒"
+        ],
+        "candles_cn": [
+            "霞谷大蜡烛-1",
+            "雨林季蜡a组-2"
+        ],
+        "en": [
+            "Pick up a Crab",
+            "Light 20 candles",
+            "Rescue a manta from darkness",
+            "Collect Orange Light"
+        ],
+        "candles_en": [
+            "Valley of Triumph Treasure Candle-1",
+            "Hidden Forest Season Candle group:a-2"
+        ]
     }
 }
