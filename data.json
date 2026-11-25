@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-11-25 06:30:09 (GMT+8)",
+    "updated_at": "2026-11-25 15:30:59 (GMT+8)",
     "tw": {
         "title": "繁體中文",
         "date_today": "2026-11-24",
@@ -20,7 +20,10 @@
             "雲野季蠟a組-2",
             "雨林大蠟燭-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "霞谷大蠟燭-1",
+            "雨林季蠟a組-2"
+        ]
     },
     "cn": {
         "title": "简体中文",
@@ -42,7 +45,10 @@
             "云野季蜡a组-2",
             "雨林大蜡烛-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "霞谷大蜡烛-1",
+            "雨林季蜡a组-2"
+        ]
     },
     "en": {
         "title": "English",
@@ -64,6 +70,9 @@
             "Daylight Prairie Season Candle group:a-2",
             "Hidden Forest Treasure Candle-2"
         ],
-        "candles_tomorrow": []
+        "candles_tomorrow": [
+            "Valley of Triumph Treasure Candle-1",
+            "Hidden Forest Season Candle group:a-2"
+        ]
     }
 }
