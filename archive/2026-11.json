@@ -94,5 +94,37 @@
             "Valley of Triumph Season Candle group:a-2",
             "Golden Wasteland Treasure Candle-3"
         ]
+    },
+    "2026-11-27": {
+        "tw": [
+            "淨化 10 處黑暗腐植",
+            "對 5 位不同玩家發出叫聲",
+            "在暮土墓園捕捉四散的光",
+            "前往暮土的墓園找到篝火"
+        ],
+        "candles_tw": [
+            "禁閣大蠟燭-2",
+            "暮土季蠟a組-2"
+        ],
+        "cn": [
+            "净化 10 处黑暗腐植",
+            "呼唤5位不同玩家",
+            "在暮土墓园中捕捉四散的光",
+            "前往暮土的墓园找到篝火"
+        ],
+        "candles_cn": [
+            "禁阁大蜡烛-2",
+            "暮土季蜡a组-2"
+        ],
+        "en": [
+            "Melt 10 darkness",
+            "Call to 5 different players",
+            "Catch the wandering lights in the Graveyard",
+            "Visit the bonfire at the Wasteland's Graveyard"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Treasure Candle-2",
+            "Golden Wasteland Season Candle group:a-2"
+        ]
     }
 }
