@@ -126,5 +126,37 @@
             "Vault of Knowledge Treasure Candle-2",
             "Golden Wasteland Season Candle group:a-2"
         ]
+    },
+    "2026-11-28": {
+        "tw": [
+            "對其他玩家使用表情",
+            "欣賞一下禁閣小樹苗",
+            "向一位玩家鞠躬",
+            "在知識庫避難所捕捉四散的光"
+        ],
+        "candles_tw": [
+            "禁閣季蠟a組-2",
+            "雲野大蠟燭-3"
+        ],
+        "cn": [
+            "对玩家使用表情",
+            "坐赏禁阁小树苗",
+            "向一位玩家鞠躬",
+            "在禁阁的知识库避难所捕捉四散的光"
+        ],
+        "candles_cn": [
+            "禁阁季蜡a组-2",
+            "云野大蜡烛-3"
+        ],
+        "en": [
+            "Use expressions with players",
+            "Admire the sapling in the Vault of Knowledge for a short while",
+            "Bow at a player",
+            "Catch the wandering lights in the Vault's Repository"
+        ],
+        "candles_en": [
+            "Vault of Knowledge Season Candle group:a-2",
+            "Daylight Prairie Treasure Candle-3"
+        ]
     }
 }
